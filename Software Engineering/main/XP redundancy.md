@@ -1,0 +1,1 @@
+difficult problems should be solved in several different ways - if one failed, another will help.

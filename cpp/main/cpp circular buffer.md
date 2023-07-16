@@ -1,0 +1,14 @@
+https://gist.github.com/edwintcloud/d547a4f9ccaf7245b06f0e8782acefaa
+https://gist.github.com/victusfate/982762
+https://cdeblog.ru/simple-ring-buffer
+https://embeddedartistry.com/blog/2017/05/17/creating-a-circular-buffer-in-c-and-c/
+https://www.youtube.com/watch?v=xQBftd7WNY8
+https://accu.org/journals/overload/10/50/goodliffe_389/
+https://stackoverflow.com/questions/62892744/efficient-circular-buffer-in-c-which-will-be-passed-to-c-style-array-function
+https://codereview.stackexchange.com/questions/208293/ring-buffer-implementation-in-c14
+https://www.etlcpp.com/circular_buffer.html
+https://libs.garden/cpp/search?q=circular%20buffer&page=2
+https://github.com/wizard97/Embedded_RingBuf_CPP/blob/master/RingBufCPP.h
+https://github.com/bmharper/ring/blob/master/ring.h
+https://github.com/tonton81/Circular_Buffer
+https://github.com/jnk0le/Ring-Buffer

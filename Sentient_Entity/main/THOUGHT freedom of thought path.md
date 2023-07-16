@@ -1,0 +1,1 @@
+does freedomg of the path which thought takes in our mind is necassary?

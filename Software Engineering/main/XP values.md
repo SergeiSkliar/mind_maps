@@ -1,0 +1,5 @@
+[[Software Engineering/main/XP communication]]
+[[Software Engineering/main/XP simplicity]]
+[[Software Engineering/main/XP feedback]]
+[[Software Engineering/main/XP courage]]
+[[Software Engineering/main/XP respect]]

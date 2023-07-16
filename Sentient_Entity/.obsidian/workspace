@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "07564a42f4c81d5a",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ece3dedd4098367",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "main/itinerary.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f7eaa4f02f1cef73",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecdb7ab95393d037",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "569b54dc19de0a6b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "419d8652fbf7fc48",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "543e5015072c2fed",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8defa0fd00076202",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a2e8c1b6c5df5b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "005fe0139c90e902",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "main/itinerary.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e827a85d018e754",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ac124d021d0079ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "main/itinerary.md"
+              }
+            }
+          },
+          {
+            "id": "dc9c737af4fed367",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "main/itinerary.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5ece3dedd4098367",
+  "lastOpenFiles": [
+    "main/itinerary.md",
+    "main/MECHANISMS OF MIND.md",
+    "main/000 Artificial Minds.md",
+    "main/what is mind.md",
+    "main/mind children.md",
+    "main/stubb's great leaps.md",
+    "main/life itself.md",
+    "main/000 AI the Very Idea.md",
+    "main/phase transitions and fascinating questions.md",
+    "main/Коллективный разум. Верно ли, что нейронауке пора сменить курс.md"
+  ]
+}

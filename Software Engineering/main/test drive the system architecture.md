@@ -1,0 +1,1 @@
+we can start a "naively simple" but decoupled architecture, adding more infrastructure and scaling in the future.

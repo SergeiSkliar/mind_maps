@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "e301e2fab8c65828",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ac97f6eab00ebc7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "main/portraits.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4cf6f73cf9fab72",
+    "type": "split",
+    "children": [
+      {
+        "id": "502bb53de9a7a95f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79ab51ee895e6a99",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f6b04fc875e98ecd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "30dd2989f201d2b5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3795f161492a95c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "191cbda01f56a935",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4afecdc4a36735b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "main/portraits.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "316f3f2792efcb69",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "main/portraits.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a5cf0b4213f7725a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "360f45ae19315f01",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "main/portraits.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4ac97f6eab00ebc7",
+  "lastOpenFiles": [
+    "main/portraits.md",
+    "main/drawing.md",
+    "main/music.md",
+    "main/Morse code.md",
+    "main/историки.md",
+    "main/Николай Эппле, resentment и resentiment.md",
+    "main/Дата планируемого достижения углеродной нейтральности уже есть  у всех ведущих стран мира, без этого сейчас просто не пускают  в приличное общество.md",
+    "main/мыслители.md",
+    "main/Зомби-равновесие.md",
+    "main/Само устройство мозга делает нас коммуникабельными.md"
+  ]
+}

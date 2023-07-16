@@ -1,0 +1,16 @@
+[[Software Engineering/main/XP humanity]]
+[[Software Engineering/main/XP economics]]
+[[Software Engineering/main/XP mutual benefit]]
+[[Software Engineering/main/XP self-similarity]]
+[[Software Engineering/main/XP improvement]]
+[[Software Engineering/main/XP diversity]]
+[[Software Engineering/main/XP reflection]]
+[[Software Engineering/main/XP flow]]
+[[Software Engineering/main/XP opportunity]]
+[[Software Engineering/main/XP redundancy]]
+[[Software Engineering/main/XP failure]]
+[[Software Engineering/main/XP quality]]
+[[Software Engineering/main/XP baby steps]]
+[[Software Engineering/main/XP accepted responsibility]]
+
+

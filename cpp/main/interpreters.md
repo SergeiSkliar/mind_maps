@@ -1,0 +1,1 @@
+the interpreter must always be in memeory to execute the code.

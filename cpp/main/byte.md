@@ -1,0 +1,1 @@
+in C++ byte consists of at least enough adjacent bits to accomodate the basic character set (e.g., ASCII or Unicode) for the implementation

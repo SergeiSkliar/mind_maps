@@ -1,0 +1,4 @@
+- time your code perfomance
+- adjustable number of threads
+- consider allowing to change while the system is running
+- allowing self-tuning

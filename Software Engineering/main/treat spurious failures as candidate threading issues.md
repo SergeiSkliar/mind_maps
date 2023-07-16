@@ -1,0 +1,1 @@
+do not ignore system failures as solitary case

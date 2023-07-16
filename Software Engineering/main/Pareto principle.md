@@ -1,0 +1,1 @@
+80% of the effects are the results of 20% of the causes.

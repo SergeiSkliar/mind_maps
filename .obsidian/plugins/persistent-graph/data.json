@@ -1,0 +1,5865 @@
+{
+  "nodePositions": [
+    {
+      "id": "AI/cheatsheets.md",
+      "x": -1854.0364990234375,
+      "y": -2228.743408203125
+    },
+    {
+      "id": "AI/links.md",
+      "x": 2245.59033203125,
+      "y": 699.0845336914062
+    },
+    {
+      "id": "AI/main/RL lections.md",
+      "x": -1612.185546875,
+      "y": -2875.807373046875
+    },
+    {
+      "id": "AI/names.md",
+      "x": 754.7919921875,
+      "y": 3306.29248046875
+    },
+    {
+      "id": "AI/papers.md",
+      "x": 2898.390380859375,
+      "y": 1656.02099609375
+    },
+    {
+      "id": "AI/templates/templ.md",
+      "x": -1213.837646484375,
+      "y": 2850.042724609375
+    },
+    {
+      "id": "AI/tf.md",
+      "x": -2611.884765625,
+      "y": 2228.986083984375
+    },
+    {
+      "id": "AI/videos.md",
+      "x": 2233.74169921875,
+      "y": -2404.6708984375
+    },
+    {
+      "id": "Android/Android Development.md",
+      "x": 347.01434326171875,
+      "y": -3237.396728515625
+    },
+    {
+      "id": "Android/Android Paltform.md",
+      "x": 565.7670288085938,
+      "y": -3118.8427734375
+    },
+    {
+      "id": "Android/android apps activities and layouts.md",
+      "x": 153.64816284179688,
+      "y": -3412.212890625
+    },
+    {
+      "id": "Android/android compile, package, deploy and run.md",
+      "x": 99.06350708007812,
+      "y": -3305.351318359375
+    },
+    {
+      "id": "Computer Science/main/CS Algorithms.md",
+      "x": 2045.3692626953125,
+      "y": -1117.5692138671875
+    },
+    {
+      "id": "Computer Science/main/CS Big O notation.md",
+      "x": 1621.73291015625,
+      "y": -1446.076904296875
+    },
+    {
+      "id": "Computer Science/main/CS Computer Science.md",
+      "x": 2582.809326171875,
+      "y": -795.8759155273438
+    },
+    {
+      "id": "Computer Science/main/CS Data Structures.md",
+      "x": 3008.908935546875,
+      "y": -536.560791015625
+    },
+    {
+      "id": "Computer Science/main/CS algo bubble sort.md",
+      "x": 1359.9932861328125,
+      "y": -1210.9073486328125
+    },
+    {
+      "id": "Computer Science/main/CS algo insertion sort.md",
+      "x": 1761.38134765625,
+      "y": -1178.3035888671875
+    },
+    {
+      "id": "Computer Science/main/CS algo quicksort.md",
+      "x": 1244.0828857421875,
+      "y": -1479.10498046875
+    },
+    {
+      "id": "Computer Science/main/CS algo selection sort.md",
+      "x": 1362.1256103515625,
+      "y": -1500.674072265625
+    },
+    {
+      "id": "Computer Science/main/CS algo simple search.md",
+      "x": 1016.6508178710938,
+      "y": -1688.049072265625
+    },
+    {
+      "id": "Computer Science/main/CS common Big Os.md",
+      "x": 1277.96728515625,
+      "y": -1706.918701171875
+    },
+    {
+      "id": "CS algo traveling salesperson",
+      "x": 1046.6004638671875,
+      "y": -1810.723876953125
+    },
+    {
+      "id": "Computer Science/main/CS data structure Judy.md",
+      "x": 3270.89501953125,
+      "y": -478.1214599609375
+    },
+    {
+      "id": "Computer Science/main/CS graph algorithms.md",
+      "x": 2478.4033203125,
+      "y": -1105.4539794921875
+    },
+    {
+      "id": "Computer Science/main/CS graph.md",
+      "x": 2782.385498046875,
+      "y": -953.0371704101562
+    },
+    {
+      "id": "Computer Science/main/CS hash table.md",
+      "x": 3101.3544921875,
+      "y": -288.862548828125
+    },
+    {
+      "id": "Computer Science/main/CS queue.md",
+      "x": 3216.476806640625,
+      "y": -371.1918029785156
+    },
+    {
+      "id": "Computer Science/main/CS stack.md",
+      "x": 3260.125732421875,
+      "y": -597.626953125
+    },
+    {
+      "id": "Computer Science/main/Two goals of Computer Science.md",
+      "x": 2552.84521484375,
+      "y": -614.4337158203125
+    },
+    {
+      "id": "Computer Science/main/asymptotic analysis.md",
+      "x": 2422.040283203125,
+      "y": -968.7681884765625
+    },
+    {
+      "id": "Computer Science/main/cs algo Dijkstra algorithm.md",
+      "x": 1618.8485107421875,
+      "y": -1726.6053466796875
+    },
+    {
+      "id": "Computer Science/main/cs algo binary search.md",
+      "x": 1521.3646240234375,
+      "y": -1797.13916015625
+    },
+    {
+      "id": "Computer Science/main/cs algo breadth first.md",
+      "x": 2284.266845703125,
+      "y": -1218.97119140625
+    },
+    {
+      "id": "Computer Science/main/cs algo divide and conquer.md",
+      "x": 983.4893798828125,
+      "y": -1486.656982421875
+    },
+    {
+      "id": "Computer Science/main/cs algo linear search.md",
+      "x": 1656.91943359375,
+      "y": -1840.3017578125
+    },
+    {
+      "id": "Computer Science/main/cs algo search.md",
+      "x": 1813.6539306640625,
+      "y": -1541.62109375
+    },
+    {
+      "id": "Computer Science/main/cs algo sort.md",
+      "x": 1575.5157470703125,
+      "y": -1335.3704833984375
+    },
+    {
+      "id": "Computer Science/main/data structure tree.md",
+      "x": 3144.073486328125,
+      "y": -14.717229843139648
+    },
+    {
+      "id": "data structure b-tree",
+      "x": 3351.419189453125,
+      "y": 155.43707275390625
+    },
+    {
+      "id": "data structure red-black tree",
+      "x": 3159.28564453125,
+      "y": 285.0282897949219
+    },
+    {
+      "id": "data structure heap",
+      "x": 3051.756591796875,
+      "y": 231.8587646484375
+    },
+    {
+      "id": "data structure spaly tree",
+      "x": 3272.682373046875,
+      "y": 245.93128967285156
+    },
+    {
+      "id": "Computer Science/main/steps for selecting a data structure.md",
+      "x": 3215.27978515625,
+      "y": -251.2076873779297
+    },
+    {
+      "id": "Computer Science/main/three questions to ask yourself when choosing a data structure.md",
+      "x": 3289.385986328125,
+      "y": 9.334721565246582
+    },
+    {
+      "id": "Embedded/main/ES Embedded systems.md",
+      "x": 2275.669189453125,
+      "y": -1065.2540283203125
+    },
+    {
+      "id": "Embedded/main/ES Microcontrollers.md",
+      "x": 2374.387939453125,
+      "y": -1553.4617919921875
+    },
+    {
+      "id": "Embedded/main/ES SoC-SBC.md",
+      "x": 2500.50048828125,
+      "y": -1315.0001220703125
+    },
+    {
+      "id": "Embedded/main/ES books and links.md",
+      "x": 2169.678955078125,
+      "y": -1429.281494140625
+    },
+    {
+      "id": "Embedded/main/Electrically Erasable Programmable Read-Only Memory.md",
+      "x": 2472.332275390625,
+      "y": -1860.4661865234375
+    },
+    {
+      "id": "Game Development/C++ libraries for graphics.md",
+      "x": -1939.7706298828125,
+      "y": 1632.9141845703125
+    },
+    {
+      "id": "OpenGL",
+      "x": -2117.34912109375,
+      "y": 1447.7974853515625
+    },
+    {
+      "id": "Game Development/Completeness and Uniqueness.md",
+      "x": -2510.077392578125,
+      "y": 1091.318359375
+    },
+    {
+      "id": "Game Development/Design Document.md",
+      "x": -2419.930908203125,
+      "y": 1170.4805908203125
+    },
+    {
+      "id": "Game Development/Game Development.md",
+      "x": -2221.977783203125,
+      "y": 1389.1029052734375
+    },
+    {
+      "id": "Game Development/Game Engine.md",
+      "x": -2309.8193359375,
+      "y": 1123.0382080078125
+    },
+    {
+      "id": "Game Development/Game class.md",
+      "x": 279.8609313964844,
+      "y": 2239.75341796875
+    },
+    {
+      "id": "basic input processing",
+      "x": 446.5001220703125,
+      "y": 2490.422119140625
+    },
+    {
+      "id": "Game Development/Game loop and Game class.md",
+      "x": -1300.580322265625,
+      "y": 1559.6861572265625
+    },
+    {
+      "id": "Game Development/Game loop.md",
+      "x": -1946.7926025390625,
+      "y": 965.9548950195312
+    },
+    {
+      "id": "Game Development/Game object.md",
+      "x": -2558.764404296875,
+      "y": 1570.247802734375
+    },
+    {
+      "id": "Game Development/Gamedev Time Management.md",
+      "x": -2438.78564453125,
+      "y": 1373.3974609375
+    },
+    {
+      "id": "Game Development/Minimum Viable Product MVP.md",
+      "x": -2791.994384765625,
+      "y": 1009.827392578125
+    },
+    {
+      "id": "Game Development/Phases of production.md",
+      "x": -2492.233642578125,
+      "y": 1266.0697021484375
+    },
+    {
+      "id": "Game Development/Real Time.md",
+      "x": -2578.56884765625,
+      "y": -2078.623046875
+    },
+    {
+      "id": "Game Development/SDL.md",
+      "x": -1733.19482421875,
+      "y": 1819.302734375
+    },
+    {
+      "id": "Game Development/SFML.md",
+      "x": -2220.959716796875,
+      "y": 1599.4842529296875
+    },
+    {
+      "id": "Game Development/anatomy of frame.md",
+      "x": -2632.032470703125,
+      "y": -480.5224609375
+    },
+    {
+      "id": "Game Development/basic 2D graphics.md",
+      "x": 1434.03466796875,
+      "y": 2429.416748046875
+    },
+    {
+      "id": "raster graphics",
+      "x": 1648.5528564453125,
+      "y": 2419.42431640625
+    },
+    {
+      "id": "pixel",
+      "x": 1738.71044921875,
+      "y": 2340.323486328125
+    },
+    {
+      "id": "resolution",
+      "x": 1753.3055419921875,
+      "y": 2477.9072265625
+    },
+    {
+      "id": "Game Development/basic drawing setup.md",
+      "x": 1650.26123046875,
+      "y": 2539.371826171875
+    },
+    {
+      "id": "Game Development/collisions.md",
+      "x": -2894.3154296875,
+      "y": -1159.6314697265625
+    },
+    {
+      "id": "Game Development/color buffer.md",
+      "x": 1644.0589599609375,
+      "y": 2866.5556640625
+    },
+    {
+      "id": "Game Development/color.md",
+      "x": 1714.566650390625,
+      "y": 2640.63134765625
+    },
+    {
+      "id": "Game Development/delta time.md",
+      "x": -2819.217529296875,
+      "y": -1066.071533203125
+    },
+    {
+      "id": "Game Development/double buffering.md",
+      "x": 2042.3665771484375,
+      "y": 2360.689453125
+    },
+    {
+      "id": "Game Development/framebuffer.md",
+      "x": 1583.367919921875,
+      "y": 2645.8271484375
+    },
+    {
+      "id": "Game Development/game frame.md",
+      "x": -2394.16162109375,
+      "y": 119.2724380493164
+    },
+    {
+      "id": "Game Development/game time.md",
+      "x": -2830.47119140625,
+      "y": -793.5846557617188
+    },
+    {
+      "id": "Game Development/generates outputs.md",
+      "x": -2820.644287109375,
+      "y": -674.0045776367188
+    },
+    {
+      "id": "Game Development/offline rendering.md",
+      "x": -2716.356201171875,
+      "y": -1868.9427490234375
+    },
+    {
+      "id": "Game Development/processes any inputs.md",
+      "x": -2713.188720703125,
+      "y": -738.4429931640625
+    },
+    {
+      "id": "Game Development/refresh rate.md",
+      "x": 2251.065185546875,
+      "y": 2161.002685546875
+    },
+    {
+      "id": "Game Development/screen tearing.md",
+      "x": 2321.23193359375,
+      "y": 2375.734619140625
+    },
+    {
+      "id": "Game Development/skeleton game class.md",
+      "x": 333.87640380859375,
+      "y": 2531.839111328125
+    },
+    {
+      "id": "Game Development/static game object.md",
+      "x": -2572.873291015625,
+      "y": 1822.2911376953125
+    },
+    {
+      "id": "Game Development/trigger object.md",
+      "x": -2799.966064453125,
+      "y": 1428.80810546875
+    },
+    {
+      "id": "Game Development/updates game world.md",
+      "x": -2745.498779296875,
+      "y": -878.2891845703125
+    },
+    {
+      "id": "Game Development/vertical synchronization.md",
+      "x": 2324.58935546875,
+      "y": 2255.800048828125
+    },
+    {
+      "id": "General/main/Morse code.md",
+      "x": -3077.084716796875,
+      "y": 806.0927124023438
+    },
+    {
+      "id": "Pasted image 20220423222351.png",
+      "x": -3092.42626953125,
+      "y": 1046.162109375
+    },
+    {
+      "id": "General/main/drawing.md",
+      "x": -1893.7730712890625,
+      "y": 2653.152099609375
+    },
+    {
+      "id": "General/main/hotkeys.md",
+      "x": 1018.423583984375,
+      "y": -3148.882568359375
+    },
+    {
+      "id": "General/main/krita.md",
+      "x": 787.781005859375,
+      "y": -3116.0732421875
+    },
+    {
+      "id": "General/main/music.md",
+      "x": -1363.584716796875,
+      "y": 3070.051025390625
+    },
+    {
+      "id": "General/main/portraits.md",
+      "x": -2123.857666015625,
+      "y": 2564.929931640625
+    },
+    {
+      "id": "General/main/Аббас Галлямов.md",
+      "x": -2583.251708984375,
+      "y": 2083.235595703125
+    },
+    {
+      "id": "General/main/Виктор Франкл.md",
+      "x": -661.6721801757812,
+      "y": 2521.7138671875
+    },
+    {
+      "id": "General/main/Дата планируемого достижения углеродной нейтральности уже есть  у всех ведущих стран мира, без этого сейчас просто не пускают  в приличное общество.md",
+      "x": -2371.146728515625,
+      "y": -2315.741943359375
+    },
+    {
+      "id": "General/main/Дмитрий Травин.md",
+      "x": 2826.53515625,
+      "y": 229.29747009277344
+    },
+    {
+      "id": "General/main/Единство.md",
+      "x": -2349.395751953125,
+      "y": 2183.4775390625
+    },
+    {
+      "id": "General/main/Николай Эппле, resentment и resentiment.md",
+      "x": -1820.510498046875,
+      "y": -2812.115966796875
+    },
+    {
+      "id": "насилие в детстве",
+      "x": -1639.5225830078125,
+      "y": -2992.65087890625
+    },
+    {
+      "id": "General/main/ПОИСК РАБОТЫ.md",
+      "x": 1811.4766845703125,
+      "y": 2888.285888671875
+    },
+    {
+      "id": "General/main/Поиск работы переговоры. Причины и приемы..md",
+      "x": 2032.41064453125,
+      "y": 2714.375732421875
+    },
+    {
+      "id": "General/main/Поиск работы собеседования.md",
+      "x": 1551.0936279296875,
+      "y": 2942.42041015625
+    },
+    {
+      "id": "General/main/Само устройство мозга делает нас коммуникабельными.md",
+      "x": -1365.4996337890625,
+      "y": 2931.258544921875
+    },
+    {
+      "id": "General/main/Сказать жизни да.md",
+      "x": -195.67897033691406,
+      "y": 2817.322998046875
+    },
+    {
+      "id": "General/main/Смысл.md",
+      "x": -1494.426513671875,
+      "y": 1536.3966064453125
+    },
+    {
+      "id": "General/main/Сохраниться не получится. Андрей Перцев.md",
+      "x": -3263.95263671875,
+      "y": 565.7276000976562
+    },
+    {
+      "id": "General/main/Чувства верующих.md",
+      "x": 3009.693115234375,
+      "y": 387.6590881347656
+    },
+    {
+      "id": "General/main/единственность и уникальность каждого человека определяют и смысл каждой отдельной жизни.md",
+      "x": 28.168481826782227,
+      "y": 3058.898681640625
+    },
+    {
+      "id": "General/main/жизнь человека утратившего внутреннюю опору приобретает характер ретроспективного существования.md",
+      "x": 72.11656951904297,
+      "y": 2838.193115234375
+    },
+    {
+      "id": "General/main/историки.md",
+      "x": 1179.2913818359375,
+      "y": -2107.0224609375
+    },
+    {
+      "id": "General/main/мыслители.md",
+      "x": 3209.46240234375,
+      "y": -984.0853881835938
+    },
+    {
+      "id": "General/main/ответственность за войну.md",
+      "x": -2194.02783203125,
+      "y": 1091.5919189453125
+    },
+    {
+      "id": "General/main/ответственность.md",
+      "x": -1979.3319091796875,
+      "y": 1293.5579833984375
+    },
+    {
+      "id": "General/main/поиск работы переговоры. теория игр.md",
+      "x": 1932.2078857421875,
+      "y": 2648.38330078125
+    },
+    {
+      "id": "General/main/поиск работы самые трудные переговоры в жизни.md",
+      "x": 1605.39501953125,
+      "y": 3049.429443359375
+    },
+    {
+      "id": "General/main/поиск работы торгуйтесь.md",
+      "x": 2061.32373046875,
+      "y": 2830.822021484375
+    },
+    {
+      "id": "General/main/постановка вопроса о смысле жизни.md",
+      "x": 90.84175109863281,
+      "y": 2956.682861328125
+    },
+    {
+      "id": "General/main/про войну.md",
+      "x": 1312.298828125,
+      "y": 1628.1259765625
+    },
+    {
+      "id": "General/main/психология смысла.md",
+      "x": -1058.858154296875,
+      "y": 1948.26708984375
+    },
+    {
+      "id": "Linux and UNIX/main/0 Zero Note.md",
+      "x": -1452.6036376953125,
+      "y": 749.9683227539062
+    },
+    {
+      "id": "Linux and UNIX/main/Linux system administration.md",
+      "x": -703.1771240234375,
+      "y": -1748.6568603515625
+    },
+    {
+      "id": "Linux and UNIX/main/Linux.md",
+      "x": -1180.5283203125,
+      "y": -23.688730239868164
+    },
+    {
+      "id": "Linux and UNIX/main/Terminal and Shell.md",
+      "x": -249.88140869140625,
+      "y": -584.17626953125
+    },
+    {
+      "id": "Linux and UNIX/main/UNIX.md",
+      "x": -1612.541015625,
+      "y": 1481.5570068359375
+    },
+    {
+      "id": "Linux and UNIX/main/apt-get.md",
+      "x": -691.2540283203125,
+      "y": -2083.653076171875
+    },
+    {
+      "id": "Linux and UNIX/main/archivation.md",
+      "x": 767.6304931640625,
+      "y": 921.2151489257812
+    },
+    {
+      "id": "Linux and UNIX/main/cat.md",
+      "x": 684.443359375,
+      "y": -2457.990478515625
+    },
+    {
+      "id": "Linux and UNIX/main/cd.md",
+      "x": 1052.83642578125,
+      "y": -2581.55126953125
+    },
+    {
+      "id": "Linux and UNIX/main/chmod attributes.md",
+      "x": 2709.22119140625,
+      "y": 428.0915832519531
+    },
+    {
+      "id": "Linux and UNIX/main/chmod.md",
+      "x": 2421.581787109375,
+      "y": 271.87994384765625
+    },
+    {
+      "id": "Linux and UNIX/main/clear.md",
+      "x": 2116.505615234375,
+      "y": 204.81497192382812
+    },
+    {
+      "id": "Linux and UNIX/main/command options.md",
+      "x": 1705.07080078125,
+      "y": -2502.6669921875
+    },
+    {
+      "id": "Linux and UNIX/main/creation in vim.md",
+      "x": -2264.4296875,
+      "y": -522.6104736328125
+    },
+    {
+      "id": "Linux and UNIX/main/csharp.md",
+      "x": 242.05294799804688,
+      "y": -2058.416748046875
+    },
+    {
+      "id": "Linux and UNIX/main/daemon process.md",
+      "x": -1621.123291015625,
+      "y": 2111.960693359375
+    },
+    {
+      "id": "Linux and UNIX/main/deletion in vim.md",
+      "x": -2481.81298828125,
+      "y": -332.9715881347656
+    },
+    {
+      "id": "Linux and UNIX/main/exit.md",
+      "x": 2082.582275390625,
+      "y": 319.6811218261719
+    },
+    {
+      "id": "Linux and UNIX/main/file commands.md",
+      "x": 471.5588073730469,
+      "y": -2191.34521484375
+    },
+    {
+      "id": "Linux and UNIX/main/find.md",
+      "x": 987.6412963867188,
+      "y": -2934.497802734375
+    },
+    {
+      "id": "Linux and UNIX/main/free.md",
+      "x": -809.2952880859375,
+      "y": -2062.10986328125
+    },
+    {
+      "id": "Linux and UNIX/main/grep.md",
+      "x": 1205.01611328125,
+      "y": -2958.26513671875
+    },
+    {
+      "id": "Linux and UNIX/main/gunzip.md",
+      "x": 700.41748046875,
+      "y": 1245.8212890625
+    },
+    {
+      "id": "Linux and UNIX/main/gzip.md",
+      "x": 670.4459228515625,
+      "y": 1366.6357421875
+    },
+    {
+      "id": "Linux and UNIX/main/jobs.md",
+      "x": -971.4390869140625,
+      "y": -1901.2130126953125
+    },
+    {
+      "id": "Linux and UNIX/main/kill.md",
+      "x": -864.61865234375,
+      "y": -1955.6055908203125
+    },
+    {
+      "id": "Linux and UNIX/main/less.md",
+      "x": 479.82049560546875,
+      "y": -2494.1796875
+    },
+    {
+      "id": "Linux and UNIX/main/ls.md",
+      "x": 1424.907470703125,
+      "y": -2450.57470703125
+    },
+    {
+      "id": "Linux and UNIX/main/lscpu.md",
+      "x": -1010.73974609375,
+      "y": -1787.87841796875
+    },
+    {
+      "id": "Linux and UNIX/main/man.md",
+      "x": 694.5064697265625,
+      "y": -3191.568603515625
+    },
+    {
+      "id": "Linux and UNIX/main/mkdir.md",
+      "x": 1270.332763671875,
+      "y": -2499.71240234375
+    },
+    {
+      "id": "Linux and UNIX/main/moving in vim.md",
+      "x": -2404.279296875,
+      "y": -460.796142578125
+    },
+    {
+      "id": "Linux and UNIX/main/mv.md",
+      "x": 369.2354431152344,
+      "y": -2447.779296875
+    },
+    {
+      "id": "Linux and UNIX/main/nano.md",
+      "x": 713.1221313476562,
+      "y": -2341.530029296875
+    },
+    {
+      "id": "Linux and UNIX/main/navigation commands.md",
+      "x": 1071.6634521484375,
+      "y": -2300.650390625
+    },
+    {
+      "id": "Linux and UNIX/main/network commands and work on remote server.md",
+      "x": 514.4542236328125,
+      "y": -1406.9287109375
+    },
+    {
+      "id": "Linux and UNIX/main/nproc.md",
+      "x": -959.1605224609375,
+      "y": -2029.1922607421875
+    },
+    {
+      "id": "Linux and UNIX/main/paths.md",
+      "x": 1320.83447265625,
+      "y": -2390.873779296875
+    },
+    {
+      "id": "Linux and UNIX/main/pipe.md",
+      "x": 2282.109130859375,
+      "y": 117.18985748291016
+    },
+    {
+      "id": "Linux and UNIX/main/programs.md",
+      "x": -1788.2100830078125,
+      "y": -135.69117736816406
+    },
+    {
+      "id": "Linux and UNIX/main/ps.md",
+      "x": -768.802001953125,
+      "y": -2175.16064453125
+    },
+    {
+      "id": "Linux and UNIX/main/pws.md",
+      "x": 1172.114013671875,
+      "y": -2568.615234375
+    },
+    {
+      "id": "Linux and UNIX/main/rm.md",
+      "x": 571.6846313476562,
+      "y": -2416.981201171875
+    },
+    {
+      "id": "Linux and UNIX/main/scp.md",
+      "x": 308.4162292480469,
+      "y": -1543.4156494140625
+    },
+    {
+      "id": "Linux and UNIX/main/search commands.md",
+      "x": 1108.8948974609375,
+      "y": -2708.767578125
+    },
+    {
+      "id": "Linux and UNIX/main/search in vim.md",
+      "x": -2126.015869140625,
+      "y": -489.78656005859375
+    },
+    {
+      "id": "Linux and UNIX/main/ssh.md",
+      "x": 644.110595703125,
+      "y": -1664.6943359375
+    },
+    {
+      "id": "Linux and UNIX/main/tar.md",
+      "x": 772.0172729492188,
+      "y": 1503.716064453125
+    },
+    {
+      "id": "Linux and UNIX/main/terminal and system manipulations.md",
+      "x": 1944.2940673828125,
+      "y": -14.551568984985352
+    },
+    {
+      "id": "Linux and UNIX/main/terminal commands.md",
+      "x": 522.8670043945312,
+      "y": -1065.9749755859375
+    },
+    {
+      "id": "Linux and UNIX/main/top.md",
+      "x": -803.0540771484375,
+      "y": -2454.66455078125
+    },
+    {
+      "id": "Linux and UNIX/main/touch.md",
+      "x": 592.5662231445312,
+      "y": -2535.1044921875
+    },
+    {
+      "id": "Linux and UNIX/main/unzip.md",
+      "x": 935.8045043945312,
+      "y": 1261.16357421875
+    },
+    {
+      "id": "Linux and UNIX/main/vim.md",
+      "x": -2233.307861328125,
+      "y": -264.2200927734375
+    },
+    {
+      "id": "Linux and UNIX/main/wget.md",
+      "x": 2234.34130859375,
+      "y": 227.25027465820312
+    },
+    {
+      "id": "Linux and UNIX/main/zip.md",
+      "x": 827.5601806640625,
+      "y": 1312.9190673828125
+    },
+    {
+      "id": "ML/books.md",
+      "x": -2461.94677734375,
+      "y": -2194.6552734375
+    },
+    {
+      "id": "ML/cheatsheets.md",
+      "x": 544.3790893554688,
+      "y": -3292.304931640625
+    },
+    {
+      "id": "ML/courses.md",
+      "x": -3326.554443359375,
+      "y": 214.49746704101562
+    },
+    {
+      "id": "ML/links.md",
+      "x": -3150.030029296875,
+      "y": 1223.098876953125
+    },
+    {
+      "id": "ML/papers.md",
+      "x": 3143.270263671875,
+      "y": -1293.546142578125
+    },
+    {
+      "id": "ML/tf.md",
+      "x": 310.3790283203125,
+      "y": -3369.742431640625
+    },
+    {
+      "id": "Sentient_Entity/main/000 AI the Very Idea.md",
+      "x": -291.3966369628906,
+      "y": -2251.9765625
+    },
+    {
+      "id": "Sentient_Entity/main/000 Artificial Minds.md",
+      "x": 1409.4664306640625,
+      "y": -739.6905517578125
+    },
+    {
+      "id": "Sentient_Entity/main/000000 Books.md",
+      "x": 551.306396484375,
+      "y": -1573.645751953125
+    },
+    {
+      "id": "Sentient_Entity/main/1 MECHANISMS OF MIND.md",
+      "x": 2560.4755859375,
+      "y": 505.9630126953125
+    },
+    {
+      "id": "Sentient_Entity/main/1 THE SAGA OF THE MODERN MIND.md",
+      "x": -1063.759033203125,
+      "y": -2548.616943359375
+    },
+    {
+      "id": "Galileo and the New Science",
+      "x": -1378.18212890625,
+      "y": -2712.4423828125
+    },
+    {
+      "id": "Hobbes- The Grandfather of AI",
+      "x": -1284.815185546875,
+      "y": -2510.641357421875
+    },
+    {
+      "id": "Descartes",
+      "x": -1290.6583251953125,
+      "y": -2630.46435546875
+    },
+    {
+      "id": "The Paradox of Mechanical Reason",
+      "x": -1391.50537109375,
+      "y": -2565.454833984375
+    },
+    {
+      "id": "Hume - The Mental Mechanic",
+      "x": -1310.970703125,
+      "y": -2393.6025390625
+    },
+    {
+      "id": "Sentient_Entity/main/2 AUTOMATED FORMAL SYSTEMS.md",
+      "x": -1465.5855712890625,
+      "y": -2337.403076171875
+    },
+    {
+      "id": "Digital Systems",
+      "x": -1639.7120361328125,
+      "y": -2114.332275390625
+    },
+    {
+      "id": "Medium Independence and Formal Equivalence",
+      "x": -1663.446533203125,
+      "y": -2542.72021484375
+    },
+    {
+      "id": "Finite Playability and Algorithms",
+      "x": -1754.2310791015625,
+      "y": -2150.2548828125
+    },
+    {
+      "id": "Complex Tokens",
+      "x": -1814.449951171875,
+      "y": -2357.211181640625
+    },
+    {
+      "id": "Automatic Systems",
+      "x": -1746.4896240234375,
+      "y": -2456.136474609375
+    },
+    {
+      "id": "Sentient_Entity/main/2 THE NATURE OF MIND AND THE MIND-BODY PROBLEM.md",
+      "x": 1687.52734375,
+      "y": -458.3267517089844
+    },
+    {
+      "id": "Sentient_Entity/main/3 ANIMAL MINDS.md",
+      "x": 1775.1890869140625,
+      "y": -1820.3896484375
+    },
+    {
+      "id": "Tool Use",
+      "x": 1601.2301025390625,
+      "y": -2133.916748046875
+    },
+    {
+      "id": "Sentient_Entity/main/3 SEMANTICS.md",
+      "x": -692.1741943359375,
+      "y": -2874.59326171875
+    },
+    {
+      "id": "Meaningfulness",
+      "x": -654.4929809570312,
+      "y": -3163.535888671875
+    },
+    {
+      "id": "Interpretation",
+      "x": -864.2290649414062,
+      "y": -3020.490234375
+    },
+    {
+      "id": "Reasonable Sense",
+      "x": -892.0490112304688,
+      "y": -3137.163818359375
+    },
+    {
+      "id": "Interpreted Formal Systems",
+      "x": -984.1815795898438,
+      "y": -3020.968994140625
+    },
+    {
+      "id": "Computers",
+      "x": -774.4581909179688,
+      "y": -3160.957763671875
+    },
+    {
+      "id": "Paradox and Mystery Dispelled",
+      "x": -970.0012817382812,
+      "y": -2901.8447265625
+    },
+    {
+      "id": "Sentient_Entity/main/4 COMPUTER ARCHITECTURE.md",
+      "x": -615.4330444335938,
+      "y": -1654.503173828125
+    },
+    {
+      "id": "Babbage and His Analytical Engine",
+      "x": -745.0410766601562,
+      "y": -1960.8486328125
+    },
+    {
+      "id": "The Ubiquitous von Neumann Machine",
+      "x": -627.2958374023438,
+      "y": -1982.272705078125
+    },
+    {
+      "id": "McCarthy's LISP",
+      "x": -439.5979309082031,
+      "y": -1918.56982421875
+    },
+    {
+      "id": "Newell's Production Systems",
+      "x": -511.8492431640625,
+      "y": -2014.2763671875
+    },
+    {
+      "id": "Sentient_Entity/main/4 SYMBOLIC AI.md",
+      "x": -465.1847229003906,
+      "y": 910.337890625
+    },
+    {
+      "id": "Sentient_Entity/main/5 REAL MACHINES.md",
+      "x": -113.47171783447266,
+      "y": -2795.16015625
+    },
+    {
+      "id": "Pre-AI",
+      "x": -229.23976135253906,
+      "y": -3044.640380859375
+    },
+    {
+      "id": "Sentient_Entity/main/5 THE FIRST AI DEBATE.md",
+      "x": 1817.9056396484375,
+      "y": -1662.317626953125
+    },
+    {
+      "id": "Sentient_Entity/main/6 CONNECTIONISM.md",
+      "x": 2005.2833251953125,
+      "y": -158.83792114257812
+    },
+    {
+      "id": "Sentient_Entity/main/6 REAL PEOPLE.md",
+      "x": -186.5261993408203,
+      "y": -2932.3984375
+    },
+    {
+      "id": "Sentient_Entity/main/AM Self-Awareness.md",
+      "x": 1839.85888671875,
+      "y": -2147.84716796875
+    },
+    {
+      "id": "Sentient_Entity/main/Animal Architecture.md",
+      "x": 1925.5001220703125,
+      "y": -1819.783447265625
+    },
+    {
+      "id": "Sentient_Entity/main/Animal Humor problem.md",
+      "x": 1959.894775390625,
+      "y": -2144.08642578125
+    },
+    {
+      "id": "Sentient_Entity/main/Animal Language.md",
+      "x": 1953.0379638671875,
+      "y": -1936.4776611328125
+    },
+    {
+      "id": "Sentient_Entity/main/Animal Minds conclusion.md",
+      "x": 1618.81494140625,
+      "y": -1606.674072265625
+    },
+    {
+      "id": "Sentient_Entity/main/Animal Minds sub.md",
+      "x": 2016.6082763671875,
+      "y": -2038.2974853515625
+    },
+    {
+      "id": "Sentient_Entity/main/Applications of SOAR.md",
+      "x": -2341.996826171875,
+      "y": 1510.3438720703125
+    },
+    {
+      "id": "Sentient_Entity/main/Brain and Consciousness.md",
+      "x": 1658.357177734375,
+      "y": -2028.4505615234375
+    },
+    {
+      "id": "Sentient_Entity/main/CONNECTIONISM the basic ideas.md",
+      "x": 2346.34619140625,
+      "y": -112.84286499023438
+    },
+    {
+      "id": "Sentient_Entity/main/Commonsense Stereotypes.md",
+      "x": 15.974376678466797,
+      "y": -3050.201416015625
+    },
+    {
+      "id": "Sentient_Entity/main/Communication Among Animals.md",
+      "x": 1776.953857421875,
+      "y": -2045.6341552734375
+    },
+    {
+      "id": "Sentient_Entity/main/Copernicus and the End of the Middle Ages.md",
+      "x": -1268.0626220703125,
+      "y": -2760.060791015625
+    },
+    {
+      "id": "Sentient_Entity/main/Dreyfus's 5 stages of learning.md",
+      "x": 2491.273681640625,
+      "y": -1526.952880859375
+    },
+    {
+      "id": "Sentient_Entity/main/Ego Involvement.md",
+      "x": -462.9639892578125,
+      "y": -2988.487060546875
+    },
+    {
+      "id": "Sentient_Entity/main/Feelings.md",
+      "x": -286.717529296875,
+      "y": -3201.43408203125
+    },
+    {
+      "id": "Sentient_Entity/main/Formal Games.md",
+      "x": -1694.9039306640625,
+      "y": -2347.829833984375
+    },
+    {
+      "id": "Sentient_Entity/main/Godel Incompleteness Theorem.md",
+      "x": 1969.7623291015625,
+      "y": -1340.2119140625
+    },
+    {
+      "id": "Sentient_Entity/main/Griffin Criteria for Animal Consciousness.md",
+      "x": 1896.7623291015625,
+      "y": -2042.2637939453125
+    },
+    {
+      "id": "Sentient_Entity/main/Heuristic search.md",
+      "x": -102.22344207763672,
+      "y": -3070.768310546875
+    },
+    {
+      "id": "Sentient_Entity/main/Inherited Templates.md",
+      "x": 1506.3419189453125,
+      "y": -1916.1141357421875
+    },
+    {
+      "id": "Sentient_Entity/main/Lawrence Kohlberg's stages of moral development.md",
+      "x": -2203.33642578125,
+      "y": -2531.622802734375
+    },
+    {
+      "id": "Sentient_Entity/main/MIMD.md",
+      "x": -525.493408203125,
+      "y": 1668.079345703125
+    },
+    {
+      "id": "Sentient_Entity/main/Mental Images.md",
+      "x": -59.154727935791016,
+      "y": -3193.794677734375
+    },
+    {
+      "id": "Sentient_Entity/main/Micro-Worlds.md",
+      "x": -387.5736083984375,
+      "y": -2863.386474609375
+    },
+    {
+      "id": "Sentient_Entity/main/Neural effects of antidepressant medication and psychological treatments.md",
+      "x": -3201.84375,
+      "y": -872.216064453125
+    },
+    {
+      "id": "Sentient_Entity/main/On the measure of mind.md",
+      "x": -2972.296142578125,
+      "y": -634.2407836914062
+    },
+    {
+      "id": "Sentient_Entity/main/Opening Statements.md",
+      "x": 2131.892822265625,
+      "y": -1728.6448974609375
+    },
+    {
+      "id": "Sentient_Entity/main/Other Minds.md",
+      "x": 1509.236328125,
+      "y": -1677.8221435546875
+    },
+    {
+      "id": "Sentient_Entity/main/Parallel Production System.md",
+      "x": -557.8766479492188,
+      "y": 1362.7047119140625
+    },
+    {
+      "id": "Sentient_Entity/main/Pragmatic Sense.md",
+      "x": -405.5594482421875,
+      "y": -3185.20263671875
+    },
+    {
+      "id": "Sentient_Entity/main/Production Systems vs Turing Machines.md",
+      "x": -437.8996276855469,
+      "y": 1237.9827880859375
+    },
+    {
+      "id": "Sentient_Entity/main/Production Systems.md",
+      "x": -588.2490844726562,
+      "y": 1203.80859375
+    },
+    {
+      "id": "Sentient_Entity/main/Quadratic Understanding.md",
+      "x": 2159.77783203125,
+      "y": -1845.358154296875
+    },
+    {
+      "id": "Sentient_Entity/main/Rational Animals problem.md",
+      "x": 1719.915771484375,
+      "y": -2151.075927734375
+    },
+    {
+      "id": "Sentient_Entity/main/Robot Sex.md",
+      "x": -3328.5546875,
+      "y": -625.5673828125
+    },
+    {
+      "id": "Sentient_Entity/main/SOAR Hypotheses.md",
+      "x": -2806.85302734375,
+      "y": 716.8054809570312
+    },
+    {
+      "id": "Sentient_Entity/main/SOAR Mechanisms.md",
+      "x": -2277.439453125,
+      "y": 1238.5777587890625
+    },
+    {
+      "id": "means-ends analysis",
+      "x": -2586.326904296875,
+      "y": 1183.90869140625
+    },
+    {
+      "id": "Sentient_Entity/main/SOAR context.md",
+      "x": -2553.173095703125,
+      "y": 1409.5439453125
+    },
+    {
+      "id": "Sentient_Entity/main/SOAR decision cycle.md",
+      "x": -2606.635009765625,
+      "y": 1302.13818359375
+    },
+    {
+      "id": "Sentient_Entity/main/SOAR.md",
+      "x": -1297.2735595703125,
+      "y": 1226.3951416015625
+    },
+    {
+      "id": "Sentient_Entity/main/Scripts a la Schank.md",
+      "x": 2044.8739013671875,
+      "y": -1811.0819091796875
+    },
+    {
+      "id": "Sentient_Entity/main/Setting the stage.md",
+      "x": 764.928955078125,
+      "y": -1928.8602294921875
+    },
+    {
+      "id": "Sentient_Entity/main/Symbolic AI General note.md",
+      "x": -819.0424194335938,
+      "y": 1450.017333984375
+    },
+    {
+      "id": "Anderson Act",
+      "x": -668.1428833007812,
+      "y": 1708.4766845703125
+    },
+    {
+      "id": "CAPS",
+      "x": -788.1282958984375,
+      "y": 1707.4462890625
+    },
+    {
+      "id": "Sentient_Entity/main/THOUGHT freedom of thought path.md",
+      "x": 2627.094482421875,
+      "y": -1391.0352783203125
+    },
+    {
+      "id": "Sentient_Entity/main/The Chinese Room.md",
+      "x": 2072.5615234375,
+      "y": -1927.782958984375
+    },
+    {
+      "id": "Sentient_Entity/main/The Dreyfus Attack.md",
+      "x": 2251.264404296875,
+      "y": -1717.429443359375
+    },
+    {
+      "id": "Sentient_Entity/main/The Frame Problem.md",
+      "x": 128.55813598632812,
+      "y": -3008.734619140625
+    },
+    {
+      "id": "Sentient_Entity/main/The Horgan-Tierson Attack.md",
+      "x": 2087.470458984375,
+      "y": -1617.2852783203125
+    },
+    {
+      "id": "Sentient_Entity/main/The Mechanistic Alternative.md",
+      "x": 1538.516845703125,
+      "y": -2031.6605224609375
+    },
+    {
+      "id": "Sentient_Entity/main/The Nature of Mental States.md",
+      "x": -3297.743408203125,
+      "y": 406.43341064453125
+    },
+    {
+      "id": "Sentient_Entity/main/The Penrose Attack.md",
+      "x": 1840.3126220703125,
+      "y": -1377.3001708984375
+    },
+    {
+      "id": "Sentient_Entity/main/The Pro Position.md",
+      "x": 2329.205810546875,
+      "y": -1391.4739990234375
+    },
+    {
+      "id": "Sentient_Entity/main/The Turing Test.md",
+      "x": 1741.6494140625,
+      "y": -1445.5203857421875
+    },
+    {
+      "id": "Sentient_Entity/main/The Very Idea.md",
+      "x": -171.69259643554688,
+      "y": -3235.393798828125
+    },
+    {
+      "id": "Sentient_Entity/main/Turing Machines and Universality.md",
+      "x": -778.3917846679688,
+      "y": -826.632568359375
+    },
+    {
+      "id": "Sentient_Entity/main/Turing Machines.md",
+      "x": -547.7615356445312,
+      "y": 151.74330139160156
+    },
+    {
+      "id": "Sentient_Entity/main/deliberate thinking paradigm.md",
+      "x": -2726.189697265625,
+      "y": 156.23060607910156
+    },
+    {
+      "id": "Sentient_Entity/main/domains of AGI.md",
+      "x": -2383.822265625,
+      "y": -2037.251220703125
+    },
+    {
+      "id": "Sentient_Entity/main/freedom of thought path.md",
+      "x": 2735.996337890625,
+      "y": 1876.028076171875
+    },
+    {
+      "id": "Sentient_Entity/main/goal structure hypothesis.md",
+      "x": -3063.185302734375,
+      "y": 686.949462890625
+    },
+    {
+      "id": "Sentient_Entity/main/life itself.md",
+      "x": 2829.101318359375,
+      "y": 800.1095581054688
+    },
+    {
+      "id": "smal amount of fundamental data units combined in different ways - connection to deep learning",
+      "x": 2953.56396484375,
+      "y": 1051.7371826171875
+    },
+    {
+      "id": "Sentient_Entity/main/mind and machine resources.md",
+      "x": -2002.033447265625,
+      "y": -2694.057373046875
+    },
+    {
+      "id": "Sentient_Entity/main/mind children.md",
+      "x": 2804.779296875,
+      "y": 681.3054809570312
+    },
+    {
+      "id": "Sentient_Entity/main/modeling a neuron.md",
+      "x": 2301.24462890625,
+      "y": -1.6730446815490723
+    },
+    {
+      "id": "Sentient_Entity/main/non scientific resourses.md",
+      "x": 1455.7457275390625,
+      "y": -2738.309814453125
+    },
+    {
+      "id": "Sentient_Entity/main/phase transitions and fascinating questions.md",
+      "x": 2712.630859375,
+      "y": 758.0648803710938
+    },
+    {
+      "id": "Sentient_Entity/main/positions of book.md",
+      "x": 2844.75244140625,
+      "y": 568.2112426757812
+    },
+    {
+      "id": "Sentient_Entity/main/problem space hypothesis.md",
+      "x": -2846.178466796875,
+      "y": 479.37200927734375
+    },
+    {
+      "id": "Sentient_Entity/main/production system hypothesis.md",
+      "x": -2786.6943359375,
+      "y": 375.1566467285156
+    },
+    {
+      "id": "Sentient_Entity/main/review.md",
+      "x": -233.77301025390625,
+      "y": -2575.3828125
+    },
+    {
+      "id": "Sentient_Entity/main/scientific resources.md",
+      "x": 2623.788330078125,
+      "y": 2076.83349609375
+    },
+    {
+      "id": "Sentient_Entity/main/stubb's great leaps.md",
+      "x": 2732.27880859375,
+      "y": 884.3255615234375
+    },
+    {
+      "id": "if a human stops adapting then he stops evolving",
+      "x": 2826.852783203125,
+      "y": 1158.701416015625
+    },
+    {
+      "id": "Sentient_Entity/main/system rule describable vs rule governed.md",
+      "x": -2460.4609375,
+      "y": 1491.3477783203125
+    },
+    {
+      "id": "Sentient_Entity/main/the nature of mind.md",
+      "x": 1868.9493408203125,
+      "y": -196.06854248046875
+    },
+    {
+      "id": "Sentient_Entity/main/the physical symbol system hypothesis.md",
+      "x": -2906.638671875,
+      "y": 374.48394775390625
+    },
+    {
+      "id": "Sentient_Entity/main/uniform learning hypothesis.md",
+      "x": -3045.783935546875,
+      "y": 568.293701171875
+    },
+    {
+      "id": "Sentient_Entity/main/video.md",
+      "x": -469.3070983886719,
+      "y": 3418.648193359375
+    },
+    {
+      "id": "Sentient_Entity/main/weak-methor hypothesis.md",
+      "x": -2966.12744140625,
+      "y": 478.6308288574219
+    },
+    {
+      "id": "Sentient_Entity/main/what is mind, and why study it.md",
+      "x": 2601.956298828125,
+      "y": 804.357421875
+    },
+    {
+      "id": "Sentient_Entity/main/Коллективный разум. Верно ли, что нейронауке пора сменить курс.md",
+      "x": -3099.664794921875,
+      "y": -1191.21875
+    },
+    {
+      "id": "Sentient_Entity/templates/0 templ.md",
+      "x": -2797.2705078125,
+      "y": 1639.8436279296875
+    },
+    {
+      "id": "Software Engineering/main/0 Computer Science.md",
+      "x": 626.620361328125,
+      "y": -750.1615600585938
+    },
+    {
+      "id": "Software Engineering/main/1 Computer Programming links.md",
+      "x": -1129.2728271484375,
+      "y": -1155.4039306640625
+    },
+    {
+      "id": "Software Engineering/main/1 Computer Programming.md",
+      "x": -886.5105590820312,
+      "y": -969.380126953125
+    },
+    {
+      "id": "Software Engineering/main/1 Software Engineering.md",
+      "x": 1980.95654296875,
+      "y": -445.93548583984375
+    },
+    {
+      "id": "collaborate with others",
+      "x": 2050.711181640625,
+      "y": -688.0541381835938
+    },
+    {
+      "id": "software development is a marathon, not a sprint",
+      "x": 2081.955322265625,
+      "y": -251.18142700195312
+    },
+    {
+      "id": "don't rush",
+      "x": 2215.216796875,
+      "y": -424.41796875
+    },
+    {
+      "id": "artifacts",
+      "x": 1962.7305908203125,
+      "y": -270.8998718261719
+    },
+    {
+      "id": "design patterns",
+      "x": 1927.6175537109375,
+      "y": -656.0892944335938
+    },
+    {
+      "id": "Software Engineering/main/10 techniques to understand legacy code.md",
+      "x": -1179.3587646484375,
+      "y": -740.541748046875
+    },
+    {
+      "id": "Software Engineering/main/5S philosophy.md",
+      "x": 2277.16357421875,
+      "y": -227.68161010742188
+    },
+    {
+      "id": "Software Engineering/main/Boundaries.md",
+      "x": 570.98388671875,
+      "y": 1957.0450439453125
+    },
+    {
+      "id": "Software Engineering/main/Classes.md",
+      "x": 28.14610481262207,
+      "y": 703.5133666992188
+    },
+    {
+      "id": "Software Engineering/main/Clean Code.md",
+      "x": 542.1615600585938,
+      "y": 1577.8653564453125
+    },
+    {
+      "id": "Software Engineering/main/Code Quality.md",
+      "x": 2155.80419921875,
+      "y": -1070.7960205078125
+    },
+    {
+      "id": "Software Engineering/main/Comments bad smells.md",
+      "x": 151.9695281982422,
+      "y": 2047.888916015625
+    },
+    {
+      "id": "Software Engineering/main/Comments.md",
+      "x": 112.32783508300781,
+      "y": 600.6578369140625
+    },
+    {
+      "id": "Software Engineering/main/Concurrency.md",
+      "x": 1327.0198974609375,
+      "y": 1789.5927734375
+    },
+    {
+      "id": "Software Engineering/main/DEBUGGING.md",
+      "x": 1861.502685546875,
+      "y": 306.1906433105469
+    },
+    {
+      "id": "Software Engineering/main/DIP.md",
+      "x": -153.88922119140625,
+      "y": -118.6260986328125
+    },
+    {
+      "id": "Software Engineering/main/DMA.md",
+      "x": 2840.6162109375,
+      "y": -235.28826904296875
+    },
+    {
+      "id": "Software Engineering/main/DRAM access.md",
+      "x": 2816.125732421875,
+      "y": -117.83319854736328
+    },
+    {
+      "id": "Software Engineering/main/DRY.md",
+      "x": 268.9477844238281,
+      "y": 1339.95703125
+    },
+    {
+      "id": "Software Engineering/main/Defect Cost Decrease.md",
+      "x": -200.43658447265625,
+      "y": -2160.240966796875
+    },
+    {
+      "id": "Software Engineering/main/Emergence.md",
+      "x": 536.27392578125,
+      "y": 1250.501953125
+    },
+    {
+      "id": "Software Engineering/main/Encapsulation.md",
+      "x": 662.1375122070312,
+      "y": 166.86268615722656
+    },
+    {
+      "id": "Software Engineering/main/Environment bad smells.md",
+      "x": 430.9193115234375,
+      "y": 2316.568359375
+    },
+    {
+      "id": "Software Engineering/main/Error Handling.md",
+      "x": 997.0687255859375,
+      "y": 2315.728515625
+    },
+    {
+      "id": "Software Engineering/main/F.I.R.S.T..md",
+      "x": 424.5409851074219,
+      "y": 477.3099365234375
+    },
+    {
+      "id": "Software Engineering/main/Formatting.md",
+      "x": 393.88616943359375,
+      "y": 2156.19140625
+    },
+    {
+      "id": "Software Engineering/main/Functions bad smells.md",
+      "x": 52.22249984741211,
+      "y": 1981.5787353515625
+    },
+    {
+      "id": "Software Engineering/main/Functions.md",
+      "x": -167.53431701660156,
+      "y": 565.3587646484375
+    },
+    {
+      "id": "one level of abstraction per function",
+      "x": -353.8657531738281,
+      "y": 398.2823791503906
+    },
+    {
+      "id": "read code from top to bottom",
+      "x": -263.213134765625,
+      "y": 803.9327392578125
+    },
+    {
+      "id": "Software Engineering/main/General bad smells.md",
+      "x": 678.57763671875,
+      "y": 2010.158935546875
+    },
+    {
+      "id": "Software Engineering/main/HTML comments.md",
+      "x": -601.3973388671875,
+      "y": -1264.4169921875
+    },
+    {
+      "id": "Software Engineering/main/Incremental Design.md",
+      "x": -1194.094970703125,
+      "y": -1490.3980712890625
+    },
+    {
+      "id": "Software Engineering/main/Java bad smells.md",
+      "x": 32.81144332885742,
+      "y": 1863.1976318359375
+    },
+    {
+      "id": "Software Engineering/main/Legacy Code rational approach.md",
+      "x": -2063.63623046875,
+      "y": -215.41558837890625
+    },
+    {
+      "id": "Software Engineering/main/Legacy Code.md",
+      "x": -1430.966796875,
+      "y": -698.9814453125
+    },
+    {
+      "id": "Software Engineering/main/MVC.md",
+      "x": 1702.96044921875,
+      "y": 582.8651733398438
+    },
+    {
+      "id": "Software Engineering/main/Meaningful Names.md",
+      "x": -290.5442810058594,
+      "y": 2890.775634765625
+    },
+    {
+      "id": "avoid name mapping",
+      "x": -502.551513671875,
+      "y": 3145.07861328125
+    },
+    {
+      "id": "use problem domain names if solution domain if there is no \"programmer-eese\" name",
+      "x": -83.68119812011719,
+      "y": 3015.429443359375
+    },
+    {
+      "id": "Software Engineering/main/NUMA.md",
+      "x": 2736.48046875,
+      "y": -28.094284057617188
+    },
+    {
+      "id": "Software Engineering/main/Names bad smells.md",
+      "x": 316.8613586425781,
+      "y": 2353.81591796875
+    },
+    {
+      "id": "Software Engineering/main/OCP.md",
+      "x": -943.4920043945312,
+      "y": -784.5590209960938
+    },
+    {
+      "id": "Software Engineering/main/Objects and Data Structures.md",
+      "x": 1301.010009765625,
+      "y": 1926.8511962890625
+    },
+    {
+      "id": "cpp/main/object anti-symmetry",
+      "x": 1570.4591064453125,
+      "y": 2072.1552734375
+    },
+    {
+      "id": "Software Engineering/main/PATTERNS.md",
+      "x": 1406.8548583984375,
+      "y": 690.5755004882812
+    },
+    {
+      "id": "special case pattern",
+      "x": 1684.2955322265625,
+      "y": 803.6952514648438
+    },
+    {
+      "id": "decorator",
+      "x": 1614.7552490234375,
+      "y": 901.48046875
+    },
+    {
+      "id": "visitor",
+      "x": 1383.5633544921875,
+      "y": 1002.7432250976562
+    },
+    {
+      "id": "command",
+      "x": 1503.14892578125,
+      "y": 1011.741455078125
+    },
+    {
+      "id": "Software Engineering/main/PRACTICE.md",
+      "x": 2171.34033203125,
+      "y": -171.27679443359375
+    },
+    {
+      "id": "Software Engineering/main/Pareto principle.md",
+      "x": -121.94873046875,
+      "y": -1292.8369140625
+    },
+    {
+      "id": "Software Engineering/main/Refactoring.md",
+      "x": 463.6220397949219,
+      "y": 1834.141357421875
+    },
+    {
+      "id": "Software Engineering/main/Semantic Commit Messages.md",
+      "x": 1195.9910888671875,
+      "y": 1272.4857177734375
+    },
+    {
+      "id": "Software Engineering/main/Smells and Heuristics.md",
+      "x": 368.3546447753906,
+      "y": 2032.442138671875
+    },
+    {
+      "id": "Software Engineering/main/Successive Refinement.md",
+      "x": 808.8515014648438,
+      "y": 1194.512939453125
+    },
+    {
+      "id": "Software Engineering/main/Systems.md",
+      "x": -464.0564270019531,
+      "y": 2131.88134765625
+    },
+    {
+      "id": "Software Engineering/main/TDD.md",
+      "x": 1251.6448974609375,
+      "y": 231.63888549804688
+    },
+    {
+      "id": "Software Engineering/main/TODO comments.md",
+      "x": 1062.592529296875,
+      "y": 1844.3404541015625
+    },
+    {
+      "id": "Software Engineering/main/Tests bad smells.md",
+      "x": 128.6748046875,
+      "y": 2165.409423828125
+    },
+    {
+      "id": "Software Engineering/main/The Single Responsibility Principle.md",
+      "x": 394.78985595703125,
+      "y": 361.1781921386719
+    },
+    {
+      "id": "Software Engineering/main/The Three Laws of TDD.md",
+      "x": 1010.5035400390625,
+      "y": 392.25067138671875
+    },
+    {
+      "id": "Software Engineering/main/Types of RAM.md",
+      "x": 2126.0390625,
+      "y": -504.4224853515625
+    },
+    {
+      "id": "Software Engineering/main/WTFs.md",
+      "x": 2109.369384765625,
+      "y": -1325.50732421875
+    },
+    {
+      "id": "Software Engineering/main/XP accepted responsibility.md",
+      "x": -3082.979248046875,
+      "y": -293.9707946777344
+    },
+    {
+      "id": "Software Engineering/main/XP baby steps.md",
+      "x": -2698.32958984375,
+      "y": -67.83848571777344
+    },
+    {
+      "id": "Software Engineering/main/XP code and tests.md",
+      "x": -1725.1370849609375,
+      "y": -1604.5869140625
+    },
+    {
+      "id": "Software Engineering/main/XP communication.md",
+      "x": -2358.17236328125,
+      "y": -977.9078979492188
+    },
+    {
+      "id": "Software Engineering/main/XP corollary practices.md",
+      "x": -1407.7442626953125,
+      "y": -1608.4324951171875
+    },
+    {
+      "id": "Software Engineering/main/XP courage.md",
+      "x": -2178.749755859375,
+      "y": -858.9855346679688
+    },
+    {
+      "id": "Software Engineering/main/XP daily deployment.md",
+      "x": -1601.6939697265625,
+      "y": -1430.205322265625
+    },
+    {
+      "id": "Software Engineering/main/XP diversity.md",
+      "x": -2790.615478515625,
+      "y": 8.762914657592773
+    },
+    {
+      "id": "Software Engineering/main/XP economics.md",
+      "x": -2966.78662109375,
+      "y": -263.8061828613281
+    },
+    {
+      "id": "Software Engineering/main/XP energized work.md",
+      "x": -414.19476318359375,
+      "y": -1602.3214111328125
+    },
+    {
+      "id": "Software Engineering/main/XP failure.md",
+      "x": -2854.561279296875,
+      "y": -536.1976928710938
+    },
+    {
+      "id": "Software Engineering/main/XP feedback.md",
+      "x": -2409.39404296875,
+      "y": -1212.6163330078125
+    },
+    {
+      "id": "Software Engineering/main/XP flow.md",
+      "x": -2998.832763671875,
+      "y": -379.3750305175781
+    },
+    {
+      "id": "Software Engineering/main/XP getting started.md",
+      "x": -2451.146484375,
+      "y": -790.6998291015625
+    },
+    {
+      "id": "Software Engineering/main/XP humanity.md",
+      "x": -2811.405517578125,
+      "y": -109.41244506835938
+    },
+    {
+      "id": "Software Engineering/main/XP improvement.md",
+      "x": -2934.82080078125,
+      "y": -148.1492462158203
+    },
+    {
+      "id": "Software Engineering/main/XP informative workspace.md",
+      "x": -501.6482238769531,
+      "y": -1520.2698974609375
+    },
+    {
+      "id": "Software Engineering/main/XP mutual benefit.md",
+      "x": -2590.103271484375,
+      "y": -119.56287384033203
+    },
+    {
+      "id": "Software Engineering/main/XP negotiated scope contract.md",
+      "x": -1708.05078125,
+      "y": -1485.8192138671875
+    },
+    {
+      "id": "Software Engineering/main/XP opportunity.md",
+      "x": -2736.29345703125,
+      "y": -556.3969116210938
+    },
+    {
+      "id": "Software Engineering/main/XP pair programming.md",
+      "x": -384.1614685058594,
+      "y": -1718.4129638671875
+    },
+    {
+      "id": "Software Engineering/main/XP pay per use.md",
+      "x": -1682.6334228515625,
+      "y": -1773.603271484375
+    },
+    {
+      "id": "Software Engineering/main/XP planning.md",
+      "x": -2505.810302734375,
+      "y": -897.5115356445312
+    },
+    {
+      "id": "Software Engineering/main/XP practices.md",
+      "x": -1500.860595703125,
+      "y": -1350.83203125
+    },
+    {
+      "id": "Software Engineering/main/XP primary practices.md",
+      "x": -727.4570922851562,
+      "y": -1605.9200439453125
+    },
+    {
+      "id": "Software Engineering/main/XP principles.md",
+      "x": -2755.829833984375,
+      "y": -315.0028381347656
+    },
+    {
+      "id": "Software Engineering/main/XP quality.md",
+      "x": -3019.218505859375,
+      "y": -62.82783126831055
+    },
+    {
+      "id": "Software Engineering/main/XP quarterly cycle.md",
+      "x": -673.1542358398438,
+      "y": -1864.783203125
+    },
+    {
+      "id": "Software Engineering/main/XP real customer involvement.md",
+      "x": -1606.9334716796875,
+      "y": -1550.25
+    },
+    {
+      "id": "Software Engineering/main/XP redundancy.md",
+      "x": -2967.2421875,
+      "y": -495.0768737792969
+    },
+    {
+      "id": "Software Engineering/main/XP reflection.md",
+      "x": -3050.965087890625,
+      "y": -178.43133544921875
+    },
+    {
+      "id": "Software Engineering/main/XP respect.md",
+      "x": -2399.819091796875,
+      "y": -1090.4398193359375
+    },
+    {
+      "id": "Software Engineering/main/XP root-cause analysis.md",
+      "x": -1623.9957275390625,
+      "y": -1668.9815673828125
+    },
+    {
+      "id": "Software Engineering/main/XP scaling.md",
+      "x": -2511.378662109375,
+      "y": -1017.3753051757812
+    },
+    {
+      "id": "Software Engineering/main/XP self-similarity.md",
+      "x": -2903.272705078125,
+      "y": -32.34684371948242
+    },
+    {
+      "id": "Software Engineering/main/XP shared code.md",
+      "x": -1497.7178955078125,
+      "y": -1872.96630859375
+    },
+    {
+      "id": "Software Engineering/main/XP shrinking teams.md",
+      "x": -1272.6431884765625,
+      "y": -1393.1480712890625
+    },
+    {
+      "id": "Software Engineering/main/XP simplicity.md",
+      "x": -1714.5291748046875,
+      "y": -1310.7393798828125
+    },
+    {
+      "id": "Software Engineering/main/XP single code base.md",
+      "x": -1381.2313232421875,
+      "y": -1342.12841796875
+    },
+    {
+      "id": "Software Engineering/main/XP sit together.md",
+      "x": -800.1655883789062,
+      "y": -1854.4058837890625
+    },
+    {
+      "id": "Software Engineering/main/XP slack.md",
+      "x": -469.620849609375,
+      "y": -1802.4921875
+    },
+    {
+      "id": "Software Engineering/main/XP stories.md",
+      "x": -585.2843017578125,
+      "y": -1770.5462646484375
+    },
+    {
+      "id": "Software Engineering/main/XP team continuity.md",
+      "x": -1562.602294921875,
+      "y": -1771.9964599609375
+    },
+    {
+      "id": "Software Engineering/main/XP team.md",
+      "x": -2353.616943359375,
+      "y": -720.8004760742188
+    },
+    {
+      "id": "Software Engineering/main/XP ten-minute build.md",
+      "x": -555.1799926757812,
+      "y": -1886.58056640625
+    },
+    {
+      "id": "Software Engineering/main/XP test-first programming.md",
+      "x": -332.1164245605469,
+      "y": -1865.455322265625
+    },
+    {
+      "id": "Software Engineering/main/XP values.md",
+      "x": -2138.1015625,
+      "y": -1149.5504150390625
+    },
+    {
+      "id": "Software Engineering/main/XP weekly cycle.md",
+      "x": -891.3766479492188,
+      "y": -1776.5081787109375
+    },
+    {
+      "id": "Software Engineering/main/XP whole team.md",
+      "x": -499.794921875,
+      "y": -1686.392578125
+    },
+    {
+      "id": "Software Engineering/main/XP.md",
+      "x": -2239.191162109375,
+      "y": -962.591064453125
+    },
+    {
+      "id": "Software Engineering/main/a dual standard.md",
+      "x": -169.98370361328125,
+      "y": 125.70925903320312
+    },
+    {
+      "id": "Software Engineering/main/abstract factory.md",
+      "x": 613.2071533203125,
+      "y": 1158.4683837890625
+    },
+    {
+      "id": "Software Engineering/main/acceptance testing.md",
+      "x": 1697.5128173828125,
+      "y": -577.8663330078125
+    },
+    {
+      "id": "Software Engineering/main/active record (1).md",
+      "x": -1685.65771484375,
+      "y": 2797.6728515625
+    },
+    {
+      "id": "Software Engineering/main/active record.md",
+      "x": 2173.80322265625,
+      "y": 1998.404296875
+    },
+    {
+      "id": "Software Engineering/main/add meaningful context.md",
+      "x": -65.34062957763672,
+      "y": 3133.944091796875
+    },
+    {
+      "id": "Software Engineering/main/always practice.md",
+      "x": 2432.8857421875,
+      "y": -522.1327514648438
+    },
+    {
+      "id": "Software Engineering/main/amplification.md",
+      "x": 1151.62939453125,
+      "y": 1627.9644775390625
+    },
+    {
+      "id": "Software Engineering/main/analysing well-chosen stacks.md",
+      "x": -1689.7821044921875,
+      "y": -485.5272521972656
+    },
+    {
+      "id": "Software Engineering/main/analysis and design.md",
+      "x": 1393.611083984375,
+      "y": -2566.411865234375
+    },
+    {
+      "id": "Software Engineering/main/argument list.md",
+      "x": -1545.8580322265625,
+      "y": -664.4369506835938
+    },
+    {
+      "id": "Software Engineering/main/argument objects.md",
+      "x": -1699.075439453125,
+      "y": -605.0474243164062
+    },
+    {
+      "id": "Software Engineering/main/attributions and bylines.md",
+      "x": -593.83349609375,
+      "y": -1056.896484375
+    },
+    {
+      "id": "Software Engineering/main/automated QA.md",
+      "x": 1932.577392578125,
+      "y": -1453.9337158203125
+    },
+    {
+      "id": "Software Engineering/main/automated.md",
+      "x": 2762.596923828125,
+      "y": 1502.7021484375
+    },
+    {
+      "id": "Software Engineering/main/avoid disinformation.md",
+      "x": -538.3793334960938,
+      "y": 2790.35205078125
+    },
+    {
+      "id": "Software Engineering/main/avoid encodings.md",
+      "x": -728.698974609375,
+      "y": 2873.51611328125
+    },
+    {
+      "id": "member prefixes are redundant",
+      "x": -999.0315551757812,
+      "y": 2858.238525390625
+    },
+    {
+      "id": "Software Engineering/main/avoid negative conditionals.md",
+      "x": 884.5406494140625,
+      "y": 2199.82568359375
+    },
+    {
+      "id": "Software Engineering/main/avoid synonyms.md",
+      "x": -389.2072448730469,
+      "y": 3184.291259765625
+    },
+    {
+      "id": "Software Engineering/main/avoid transitive navigation.md",
+      "x": 1180.0855712890625,
+      "y": 2126.888916015625
+    },
+    {
+      "id": "Software Engineering/main/bad comments.md",
+      "x": -441.6572265625,
+      "y": -844.3150024414062
+    },
+    {
+      "id": "Software Engineering/main/better then yesterday.md",
+      "x": 2150.67626953125,
+      "y": -621.7454833984375
+    },
+    {
+      "id": "Software Engineering/main/beware dependencies between synchronized methods.md",
+      "x": 1465.04833984375,
+      "y": 2014.8507080078125
+    },
+    {
+      "id": "Software Engineering/main/bound resources.md",
+      "x": 1033.621826171875,
+      "y": 3120.454345703125
+    },
+    {
+      "id": "Software Engineering/main/bug reporting.md",
+      "x": 2076.398681640625,
+      "y": 492.98736572265625
+    },
+    {
+      "id": "Software Engineering/main/catch blocks.md",
+      "x": -1290.3377685546875,
+      "y": -2183.256103515625
+    },
+    {
+      "id": "Software Engineering/main/challenges.md",
+      "x": 1354.240966796875,
+      "y": 2060.889892578125
+    },
+    {
+      "id": "Software Engineering/main/change the code you don't like.md",
+      "x": -2713.577880859375,
+      "y": 470.1999816894531
+    },
+    {
+      "id": "Software Engineering/main/choosing a stronghold.md",
+      "x": -1510.3885498046875,
+      "y": -353.1627502441406
+    },
+    {
+      "id": "Software Engineering/main/clarification.md",
+      "x": 1082.602783203125,
+      "y": 1726.08251953125
+    },
+    {
+      "id": "Software Engineering/main/class names.md",
+      "x": -177.22476196289062,
+      "y": 3090.54833984375
+    },
+    {
+      "id": "Software Engineering/main/class organization.md",
+      "x": 544.0966796875,
+      "y": 468.4152526855469
+    },
+    {
+      "id": "Software Engineering/main/classes should be small.md",
+      "x": -365.74737548828125,
+      "y": -129.25437927246094
+    },
+    {
+      "id": "Software Engineering/main/clean tests.md",
+      "x": 143.4235076904297,
+      "y": 122.21649169921875
+    },
+    {
+      "id": "Software Engineering/main/closing brace comments.md",
+      "x": -298.1181945800781,
+      "y": -1171.5018310546875
+    },
+    {
+      "id": "Software Engineering/main/coding is about details not about code itself.md",
+      "x": 1501.4141845703125,
+      "y": 1145.8359375
+    },
+    {
+      "id": "Software Engineering/main/coding.md",
+      "x": 1794.756591796875,
+      "y": 1042.448486328125
+    },
+    {
+      "id": "get enough sleep",
+      "x": 1997.853271484375,
+      "y": 1375.7999267578125
+    },
+    {
+      "id": "walk",
+      "x": 2029.810546875,
+      "y": 1260.3863525390625
+    },
+    {
+      "id": "take a shower",
+      "x": 2135.56982421875,
+      "y": 1204.0626220703125
+    },
+    {
+      "id": "it is the job of a programmers to defend code",
+      "x": 1889.03125,
+      "y": 1425.9215087890625
+    },
+    {
+      "id": "Software Engineering/main/cohesion.md",
+      "x": -550.789794921875,
+      "y": -472.31292724609375
+    },
+    {
+      "id": "Software Engineering/main/command query separation.md",
+      "x": 11.50090217590332,
+      "y": 391.9338073730469
+    },
+    {
+      "id": "Software Engineering/main/commented-out code.md",
+      "x": -481.5777587890625,
+      "y": -1268.896484375
+    },
+    {
+      "id": "Software Engineering/main/comments do not make up for bad code.md",
+      "x": -90.40949249267578,
+      "y": 757.1869506835938
+    },
+    {
+      "id": "Software Engineering/main/common monadic forms.md",
+      "x": -1590.8741455078125,
+      "y": -553.2559814453125
+    },
+    {
+      "id": "Software Engineering/main/component tests.md",
+      "x": 1334.754150390625,
+      "y": -395.9226989746094
+    },
+    {
+      "id": "Software Engineering/main/concurrency defense principles.md",
+      "x": 874.9178466796875,
+      "y": 867.6449584960938
+    },
+    {
+      "id": "Software Engineering/main/continuous build.md",
+      "x": 1612.4228515625,
+      "y": -200.02708435058594
+    },
+    {
+      "id": "Software Engineering/main/continuous integration.md",
+      "x": 138.32522583007812,
+      "y": -1173.8170166015625
+    },
+    {
+      "id": "Software Engineering/main/creativity.md",
+      "x": 1684.6817626953125,
+      "y": 1411.5538330078125
+    },
+    {
+      "id": "Software Engineering/main/cross-cutting concerns.md",
+      "x": -1116.271728515625,
+      "y": 2579.119873046875
+    },
+    {
+      "id": "Software Engineering/main/data abstraction.md",
+      "x": 1482.369873046875,
+      "y": 2155.086181640625
+    },
+    {
+      "id": "Software Engineering/main/data transfer objects.md",
+      "x": 1848.5731201171875,
+      "y": 1991.76416015625
+    },
+    {
+      "id": "Software Engineering/main/deadlock.md",
+      "x": 1302.8782958984375,
+      "y": 3010.78369140625
+    },
+    {
+      "id": "Software Engineering/main/decoupling the code.md",
+      "x": -1285.4434814453125,
+      "y": -223.78219604492188
+    },
+    {
+      "id": "Software Engineering/main/define exception classes in terms of a caller's needs.md",
+      "x": 877.6927490234375,
+      "y": 2580.91455078125
+    },
+    {
+      "id": "Software Engineering/main/define the normal flow.md",
+      "x": 1264.36474609375,
+      "y": 2307.3466796875
+    },
+    {
+      "id": "Software Engineering/main/dependency injection.md",
+      "x": -746.3009643554688,
+      "y": 1937.73388671875
+    },
+    {
+      "id": "Software Engineering/main/dependency magnet.md",
+      "x": -648.51708984375,
+      "y": 86.60098266601562
+    },
+    {
+      "id": "Software Engineering/main/design principles.md",
+      "x": 2408.444580078125,
+      "y": -284.7848815917969
+    },
+    {
+      "id": "SOLID",
+      "x": 2708.584716796875,
+      "y": -223.32318115234375
+    },
+    {
+      "id": "Software Engineering/main/design.md",
+      "x": 1801.740966796875,
+      "y": 1237.446533203125
+    },
+    {
+      "id": "Software Engineering/main/dining philosophers.md",
+      "x": 1373.739990234375,
+      "y": 2912.6962890625
+    },
+    {
+      "id": "Software Engineering/main/disciplines.md",
+      "x": 1071.4512939453125,
+      "y": -491.4622802734375
+    },
+    {
+      "id": "object-oriented design",
+      "x": 1205.910400390625,
+      "y": -748.9736938476562
+    },
+    {
+      "id": "Software Engineering/main/distinguishing the main action of the function.md",
+      "x": -291.5004577636719,
+      "y": -963.7687377929688
+    },
+    {
+      "id": "Software Engineering/main/do no harm.md",
+      "x": 2049.977783203125,
+      "y": -1429.5626220703125
+    },
+    {
+      "id": "Software Engineering/main/do one thing.md",
+      "x": -285.7095642089844,
+      "y": 299.52630615234375
+    },
+    {
+      "id": "Software Engineering/main/documentation.md",
+      "x": 2050.469970703125,
+      "y": 1013.8795166015625
+    },
+    {
+      "id": "Software Engineering/main/domain-specific testing language.md",
+      "x": -259.6693420410156,
+      "y": -62.60747528076172
+    },
+    {
+      "id": "Software Engineering/main/don't add gratious context.md",
+      "x": -277.31842041015625,
+      "y": 3227.426513671875
+    },
+    {
+      "id": "Software Engineering/main/don't pass null.md",
+      "x": 1304.8165283203125,
+      "y": 2420.330078125
+    },
+    {
+      "id": "Software Engineering/main/don't return null.md",
+      "x": 1163.1405029296875,
+      "y": 2614.195068359375
+    },
+    {
+      "id": "Software Engineering/main/don't use a comment when you can use a function or a variable.md",
+      "x": -417.9511413574219,
+      "y": -1167.37060546875
+    },
+    {
+      "id": "Software Engineering/main/dyadic functions.md",
+      "x": -1626.099853515625,
+      "y": -171.92550659179688
+    },
+    {
+      "id": "Software Engineering/main/dynamic RAM.md",
+      "x": 2289.2861328125,
+      "y": -777.72509765625
+    },
+    {
+      "id": "Software Engineering/main/encapsulate boundary conditions.md",
+      "x": 792.5987548828125,
+      "y": 2276.861328125
+    },
+    {
+      "id": "Software Engineering/main/encapsulate conditionals.md",
+      "x": 682.3521728515625,
+      "y": 2324.1904296875
+    },
+    {
+      "id": "Software Engineering/main/error handling is one thing.md",
+      "x": -428.0487060546875,
+      "y": 69.97317504882812
+    },
+    {
+      "id": "Software Engineering/main/estimation.md",
+      "x": 1844.765380859375,
+      "y": -742.9481811523438
+    },
+    {
+      "id": "Software Engineering/main/explain yourself in code.md",
+      "x": -185.36859130859375,
+      "y": 683.9999389648438
+    },
+    {
+      "id": "Software Engineering/main/explanation of intent.md",
+      "x": 850.879638671875,
+      "y": 1832.7962646484375
+    },
+    {
+      "id": "Software Engineering/main/exploring and learning boundaries.md",
+      "x": 563.6597900390625,
+      "y": 2254.13720703125
+    },
+    {
+      "id": "Software Engineering/main/expressive.md",
+      "x": 1141.332763671875,
+      "y": 1114.3485107421875
+    },
+    {
+      "id": "Software Engineering/main/factories.md",
+      "x": -4.157259941101074,
+      "y": 1557.127197265625
+    },
+    {
+      "id": "Software Engineering/main/filtering on control flow.md",
+      "x": -474.3054504394531,
+      "y": -1061.4854736328125
+    },
+    {
+      "id": "Software Engineering/main/flag arguments.md",
+      "x": -1682.3037109375,
+      "y": -277.8787536621094
+    },
+    {
+      "id": "Software Engineering/main/focus-manna.md",
+      "x": 1589.7696533203125,
+      "y": 1226.86328125
+    },
+    {
+      "id": "Software Engineering/main/four p's from marketing.md",
+      "x": 2187.78564453125,
+      "y": -307.6966857910156
+    },
+    {
+      "id": "Software Engineering/main/function arguments.md",
+      "x": -1390.792236328125,
+      "y": -362.18145751953125
+    },
+    {
+      "id": "Software Engineering/main/function headers.md",
+      "x": -713.387939453125,
+      "y": -1052.3834228515625
+    },
+    {
+      "id": "Software Engineering/main/functions should do one thing.md",
+      "x": 938.0718994140625,
+      "y": 2092.4638671875
+    },
+    {
+      "id": "Software Engineering/main/fundamentals change very slowly.md",
+      "x": 2264.853271484375,
+      "y": -658.9058837890625
+    },
+    {
+      "id": "Software Engineering/main/git.md",
+      "x": 1286.927978515625,
+      "y": 931.6757202148438
+    },
+    {
+      "id": "Software Engineering/main/good comments.md",
+      "x": 873.7540283203125,
+      "y": 1567.2896728515625
+    },
+    {
+      "id": "Software Engineering/main/hand coded.md",
+      "x": 2782.81689453125,
+      "y": 1688.3018798828125
+    },
+    {
+      "id": "Software Engineering/main/have no side effects.md",
+      "x": 216.7670135498047,
+      "y": 508.6824645996094
+    },
+    {
+      "id": "Software Engineering/main/hiding structure.md",
+      "x": 1962.9619140625,
+      "y": 2096.083251953125
+    },
+    {
+      "id": "Software Engineering/main/horizontal alignment.md",
+      "x": -417.20782470703125,
+      "y": 2304.70458984375
+    },
+    {
+      "id": "Software Engineering/main/horizontal opennes and density.md",
+      "x": -427.4131774902344,
+      "y": 2424.2626953125
+    },
+    {
+      "id": "Software Engineering/main/horizontal.md",
+      "x": -133.5623779296875,
+      "y": 2385.259033203125
+    },
+    {
+      "id": "Software Engineering/main/how to design a program.md",
+      "x": 2239.9755859375,
+      "y": -541.7222290039062
+    },
+    {
+      "id": "Software Engineering/main/hungarian notation.md",
+      "x": -1015.347900390625,
+      "y": 2977.11474609375
+    },
+    {
+      "id": "Software Engineering/main/hybrids.md",
+      "x": 1978.4932861328125,
+      "y": 2215.0419921875
+    },
+    {
+      "id": "Software Engineering/main/identifying the terms that occur frequently.md",
+      "x": -410.6775207519531,
+      "y": -959.8766479492188
+    },
+    {
+      "id": "Software Engineering/main/if it takes you longer to solve a problem.md",
+      "x": 1932.20263671875,
+      "y": 1190.8511962890625
+    },
+    {
+      "id": "Software Engineering/main/if you don't like the code, elaborate please.md",
+      "x": -2606.42041015625,
+      "y": 524.0936279296875
+    },
+    {
+      "id": "Software Engineering/main/if you want your software to be flexible, you have to flex it.md",
+      "x": 2433.369384765625,
+      "y": -402.15966796875
+    },
+    {
+      "id": "merciless refactoring",
+      "x": 2743.679931640625,
+      "y": -448.5814514160156
+    },
+    {
+      "id": "Software Engineering/main/incremental deployment.md",
+      "x": -1621.11181640625,
+      "y": -1876.6387939453125
+    },
+    {
+      "id": "Software Engineering/main/incremental design of databases.md",
+      "x": -1118.2696533203125,
+      "y": -1715.097900390625
+    },
+    {
+      "id": "Software Engineering/main/indentation.md",
+      "x": -359.4633483886719,
+      "y": 2523.17626953125
+    },
+    {
+      "id": "Software Engineering/main/informative comments.md",
+      "x": 964.5535278320312,
+      "y": 1775.169921875
+    },
+    {
+      "id": "Software Engineering/main/inobvious connection.md",
+      "x": -52.502418518066406,
+      "y": -970.4735717773438
+    },
+    {
+      "id": "Software Engineering/main/instrument your code to try and force failures.md",
+      "x": 2548.6875,
+      "y": 1651.92919921875
+    },
+    {
+      "id": "Software Engineering/main/integration tests.md",
+      "x": 1285.9815673828125,
+      "y": -264.8098449707031
+    },
+    {
+      "id": "Software Engineering/main/isolating from change.md",
+      "x": -561.8430786132812,
+      "y": -352.8464660644531
+    },
+    {
+      "id": "Software Engineering/main/issue tracking.md",
+      "x": 1631.416748046875,
+      "y": 143.22988891601562
+    },
+    {
+      "id": "Software Engineering/main/journal comments.md",
+      "x": -159.68679809570312,
+      "y": -848.2088623046875
+    },
+    {
+      "id": "Software Engineering/main/kata.md",
+      "x": 2735.72998046875,
+      "y": -632.3236694335938
+    },
+    {
+      "id": "Software Engineering/main/keep synchronized sections small.md",
+      "x": 1650.377197265625,
+      "y": 1864.095703125
+    },
+    {
+      "id": "Software Engineering/main/keeping tests clean.md",
+      "x": 478.98040771484375,
+      "y": 584.1512451171875
+    },
+    {
+      "id": "Software Engineering/main/know when to walk away.md",
+      "x": 1900.0125732421875,
+      "y": 1306.3853759765625
+    },
+    {
+      "id": "Software Engineering/main/know your execution methods.md",
+      "x": 1151.0125732421875,
+      "y": 2798.03857421875
+    },
+    {
+      "id": "Software Engineering/main/know your library.md",
+      "x": 1533.6746826171875,
+      "y": 1836.451904296875
+    },
+    {
+      "id": "Software Engineering/main/learn to say no.md",
+      "x": 1805.5262451171875,
+      "y": -297.9011535644531
+    },
+    {
+      "id": "Software Engineering/main/legal comments.md",
+      "x": 734.239501953125,
+      "y": 1804.828857421875
+    },
+    {
+      "id": "Software Engineering/main/limit the scope of data.md",
+      "x": 1141.27099609375,
+      "y": 734.700439453125
+    },
+    {
+      "id": "Software Engineering/main/livelock.md",
+      "x": 1188.0533447265625,
+      "y": 3045.591064453125
+    },
+    {
+      "id": "Software Engineering/main/maintaining cohesion results in many small classes.md",
+      "x": -723.925537109375,
+      "y": -334.5265197753906
+    },
+    {
+      "id": "Software Engineering/main/make meaningful distinctions.md",
+      "x": -411.86688232421875,
+      "y": 3066.510986328125
+    },
+    {
+      "id": "Software Engineering/main/make your threaded code pluggable.md",
+      "x": 2352.218505859375,
+      "y": 1577.9071044921875
+    },
+    {
+      "id": "Software Engineering/main/make your threaded code tunable.md",
+      "x": 2255.397705078125,
+      "y": 1507.182373046875
+    },
+    {
+      "id": "Software Engineering/main/make.md",
+      "x": 1279.33154296875,
+      "y": -654.0690307617188
+    },
+    {
+      "id": "Software Engineering/main/mandated comments.md",
+      "x": -235.02297973632812,
+      "y": -1069.5426025390625
+    },
+    {
+      "id": "Software Engineering/main/manual exploratory tests.md",
+      "x": 1197.551513671875,
+      "y": -345.8802795410156
+    },
+    {
+      "id": "Software Engineering/main/meaningful name.md",
+      "x": 2269.607421875,
+      "y": -1495.2979736328125
+    },
+    {
+      "id": "Software Engineering/main/meetings.md",
+      "x": 2654.379150390625,
+      "y": -892.0928955078125
+    },
+    {
+      "id": "Software Engineering/main/mentoring.md",
+      "x": 2076.0537109375,
+      "y": -805.370361328125
+    },
+    {
+      "id": "Software Engineering/main/method names.md",
+      "x": -549.291015625,
+      "y": 2909.79150390625
+    },
+    {
+      "id": "Software Engineering/main/methods.md",
+      "x": 2597.989990234375,
+      "y": -1238.5885009765625
+    },
+    {
+      "id": "eXtreme Programming",
+      "x": 2666.744384765625,
+      "y": -1504.2138671875
+    },
+    {
+      "id": "Scrum",
+      "x": 2791.02734375,
+      "y": -1535.15185546875
+    },
+    {
+      "id": "Lean",
+      "x": 2753.441650390625,
+      "y": -1421.2742919921875
+    },
+    {
+      "id": "Kanban",
+      "x": 2873.06982421875,
+      "y": -1430.03125
+    },
+    {
+      "id": "waterfall",
+      "x": 2704.435302734375,
+      "y": -1618.089599609375
+    },
+    {
+      "id": "structured analysis",
+      "x": 2585.796875,
+      "y": -1600.633544921875
+    },
+    {
+      "id": "structured design",
+      "x": 2876.174560546875,
+      "y": -1310.0860595703125
+    },
+    {
+      "id": "Software Engineering/main/minimal classes and methods.md",
+      "x": 173.7455596923828,
+      "y": 396.8502197265625
+    },
+    {
+      "id": "Software Engineering/main/misleading comments.md",
+      "x": -649.6414184570312,
+      "y": -950.76806640625
+    },
+    {
+      "id": "Software Engineering/main/mumbling.md",
+      "x": -172.1970977783203,
+      "y": -967.4337768554688
+    },
+    {
+      "id": "Software Engineering/main/mutual exclusion.md",
+      "x": 933.2402954101562,
+      "y": 2948.430419921875
+    },
+    {
+      "id": "Software Engineering/main/myths and misconceptions.md",
+      "x": 1567.0662841796875,
+      "y": 1951.6842041015625
+    },
+    {
+      "id": "Software Engineering/main/names.md",
+      "x": 1882.6527099609375,
+      "y": 2773.45751953125
+    },
+    {
+      "id": "Software Engineering/main/no duplication.md",
+      "x": 917.0985107421875,
+      "y": 1142.73095703125
+    },
+    {
+      "id": "Software Engineering/main/noise comments.md",
+      "x": -537.7159423828125,
+      "y": -1162.9344482421875
+    },
+    {
+      "id": "Software Engineering/main/nonlocal information.md",
+      "x": -178.2940673828125,
+      "y": -1175.106201171875
+    },
+    {
+      "id": "Software Engineering/main/object anti-symmetry.md",
+      "x": -2571.341064453125,
+      "y": -1922.260986328125
+    },
+    {
+      "id": "Software Engineering/main/on incrementalism.md",
+      "x": 1025.0887451171875,
+      "y": 764.6468505859375
+    },
+    {
+      "id": "Software Engineering/main/one assert per test.md",
+      "x": 319.6519470214844,
+      "y": 135.79116821289062
+    },
+    {
+      "id": "Software Engineering/main/optimize decision making.md",
+      "x": -719.258056640625,
+      "y": 2381.38818359375
+    },
+    {
+      "id": "Software Engineering/main/organizing for change.md",
+      "x": -789.8268432617188,
+      "y": -513.1575927734375
+    },
+    {
+      "id": "Software Engineering/main/output arguments.md",
+      "x": 598.5428466796875,
+      "y": 575.3514404296875
+    },
+    {
+      "id": "Software Engineering/main/overtime.md",
+      "x": 1961.2264404296875,
+      "y": -771.1787719726562
+    },
+    {
+      "id": "Software Engineering/main/pair programming.md",
+      "x": -392.8457946777344,
+      "y": -2029.06884765625
+    },
+    {
+      "id": "pairing and personal space",
+      "x": -206.95703125,
+      "y": -2337.123779296875
+    },
+    {
+      "id": "Software Engineering/main/position markers.md",
+      "x": -769.1406860351562,
+      "y": -946.0872802734375
+    },
+    {
+      "id": "Software Engineering/main/prefer exceptions to returning error codes.md",
+      "x": -443.75909423828125,
+      "y": 318.9217224121094
+    },
+    {
+      "id": "cpp/Alpha map/extract try/catch blocks",
+      "x": -541.8186645507812,
+      "y": 31.889789581298828
+    },
+    {
+      "id": "Software Engineering/main/preparedness.md",
+      "x": 2037.985107421875,
+      "y": 1134.2574462890625
+    },
+    {
+      "id": "Software Engineering/main/pressure.md",
+      "x": 2329.24267578125,
+      "y": -461.762939453125
+    },
+    {
+      "id": "Software Engineering/main/producer-consumer.md",
+      "x": 853.6458129882812,
+      "y": 3038.193359375
+    },
+    {
+      "id": "Software Engineering/main/provide context with exceptions.md",
+      "x": 1234.0150146484375,
+      "y": 2517.375
+    },
+    {
+      "id": "Software Engineering/main/read the good code.md",
+      "x": -2603.1484375,
+      "y": 644.0335693359375
+    },
+    {
+      "id": "Software Engineering/main/readers-writers.md",
+      "x": 1147.42724609375,
+      "y": 3158.4775390625
+    },
+    {
+      "id": "Software Engineering/main/redundant comments.md",
+      "x": -115.25772094726562,
+      "y": -1073.00244140625
+    },
+    {
+      "id": "Software Engineering/main/run on different platforms.md",
+      "x": 2058.553955078125,
+      "y": 1965.100830078125
+    },
+    {
+      "id": "Software Engineering/main/runs all the tests.md",
+      "x": 422.43634033203125,
+      "y": 1569.990234375
+    },
+    {
+      "id": "Software Engineering/main/scaling up.md",
+      "x": -844.3789672851562,
+      "y": 2419.98291015625
+    },
+    {
+      "id": "Software Engineering/main/scary noise.md",
+      "x": -354.6272888183594,
+      "y": -1065.740478515625
+    },
+    {
+      "id": "Software Engineering/main/separating constructing a system from using it.md",
+      "x": -489.1107482910156,
+      "y": 1843.3472900390625
+    },
+    {
+      "id": "Software Engineering/main/separation of main.md",
+      "x": -795.4611206054688,
+      "y": 1828.2750244140625
+    },
+    {
+      "id": "Software Engineering/main/single concept per test.md",
+      "x": 95.35509490966797,
+      "y": -137.1619110107422
+    },
+    {
+      "id": "Software Engineering/main/small!!!.md",
+      "x": -156.14039611816406,
+      "y": 857.595947265625
+    },
+    {
+      "id": "Software Engineering/main/software professionalism.md",
+      "x": 1810.02392578125,
+      "y": -628.1636962890625
+    },
+    {
+      "id": "Software Engineering/main/source control system.md",
+      "x": 1333.470703125,
+      "y": 385.3970031738281
+    },
+    {
+      "id": "Software Engineering/main/sources to read good code.md",
+      "x": -2647.835205078125,
+      "y": 909.118408203125
+    },
+    {
+      "id": "Software Engineering/main/starting from the inputs and outputs of the program and how to find them.md",
+      "x": -1626.211669921875,
+      "y": -383.9752197265625
+    },
+    {
+      "id": "Software Engineering/main/starvation.md",
+      "x": 1041.2183837890625,
+      "y": 3000.721435546875
+    },
+    {
+      "id": "Software Engineering/main/statements and expressions.md",
+      "x": 2304.375,
+      "y": -344.4302673339844
+    },
+    {
+      "id": "Software Engineering/main/static RAM.md",
+      "x": 2405.4853515625,
+      "y": -747.8919067382812
+    },
+    {
+      "id": "Software Engineering/main/structured programming.md",
+      "x": 542.5797119140625,
+      "y": 47.979312896728516
+    },
+    {
+      "id": "Software Engineering/main/switch statements.md",
+      "x": 1.0785419940948486,
+      "y": 1091.9461669921875
+    },
+    {
+      "id": "Software Engineering/main/system tests.md",
+      "x": 1077.6907958984375,
+      "y": -340.4311218261719
+    },
+    {
+      "id": "Software Engineering/main/systems need domain-specific language.md",
+      "x": -599.8718872070312,
+      "y": 2393.507568359375
+    },
+    {
+      "id": "Software Engineering/main/teaming up with other humans.md",
+      "x": -1206.0548095703125,
+      "y": -313.73773193359375
+    },
+    {
+      "id": "Software Engineering/main/techniques to become a code speed-reader.md",
+      "x": -666.8204345703125,
+      "y": -782.8763427734375
+    },
+    {
+      "id": "Software Engineering/main/techniques to get an overview of the code.md",
+      "x": -1458.522216796875,
+      "y": -582.1817626953125
+    },
+    {
+      "id": "Software Engineering/main/techniques to understand code in detail.md",
+      "x": -1357.2352294921875,
+      "y": -495.07684326171875
+    },
+    {
+      "id": "Software Engineering/main/techology-centric vs solution-centric.md",
+      "x": 2175.7666015625,
+      "y": -738.9569702148438
+    },
+    {
+      "id": "Software Engineering/main/template method.md",
+      "x": 1277.80908203125,
+      "y": 1059.3729248046875
+    },
+    {
+      "id": "Software Engineering/main/test drive the system architecture.md",
+      "x": -649.0988159179688,
+      "y": 2284.09326171875
+    },
+    {
+      "id": "Software Engineering/main/testing strategies.md",
+      "x": 1103.7476806640625,
+      "y": -85.67619323730469
+    },
+    {
+      "id": "Software Engineering/main/testing threaded code.md",
+      "x": 2105.80908203125,
+      "y": 1727.44189453125
+    },
+    {
+      "id": "Software Engineering/main/the Law of Demeter.md",
+      "x": 1681.145263671875,
+      "y": 2171.185546875
+    },
+    {
+      "id": "Software Engineering/main/the flow zone.md",
+      "x": 1584.0074462890625,
+      "y": 1346.563720703125
+    },
+    {
+      "id": "Software Engineering/main/threads should be as independent as possible.md",
+      "x": 1083.972412109375,
+      "y": 629.2853393554688
+    },
+    {
+      "id": "Software Engineering/main/three techniques to imporve programming skills through legacy code.md",
+      "x": -2495.358154296875,
+      "y": 265.59637451171875
+    },
+    {
+      "id": "Software Engineering/main/time management.md",
+      "x": 2381.34130859375,
+      "y": -630.4058227539062
+    },
+    {
+      "id": "Software Engineering/main/tips and tricks.md",
+      "x": -1992.615234375,
+      "y": -1426.867431640625
+    },
+    {
+      "id": "Software Engineering/main/too much information.md",
+      "x": -361.64599609375,
+      "y": -1273.11572265625
+    },
+    {
+      "id": "Software Engineering/main/tooling.md",
+      "x": 1399.93994140625,
+      "y": -5.740139961242676
+    },
+    {
+      "id": "IDE/editor",
+      "x": 1400.5677490234375,
+      "y": -229.31124877929688
+    },
+    {
+      "id": "Software Engineering/main/train wrecks.md",
+      "x": 1921.415283203125,
+      "y": 2320.575439453125
+    },
+    {
+      "id": "Software Engineering/main/treat spurious failures as candidate threading issues.md",
+      "x": 1893.0789794921875,
+      "y": 1792.3358154296875
+    },
+    {
+      "id": "Software Engineering/main/triads.md",
+      "x": -1746.0152587890625,
+      "y": -379.52166748046875
+    },
+    {
+      "id": "Software Engineering/main/unit tests.md",
+      "x": 726.14111328125,
+      "y": 429.54925537109375
+    },
+    {
+      "id": "Software Engineering/main/use copies of data.md",
+      "x": 936.055419921875,
+      "y": 543.8494873046875
+    },
+    {
+      "id": "Software Engineering/main/use descriptive names.md",
+      "x": 147.3076934814453,
+      "y": 715.3814697265625
+    },
+    {
+      "id": "Software Engineering/main/use exceptions rather than return codes.md",
+      "x": 1114.7064208984375,
+      "y": 2504.47998046875
+    },
+    {
+      "id": "Software Engineering/main/use intention-revealing names.md",
+      "x": -158.8106231689453,
+      "y": 3209.0634765625
+    },
+    {
+      "id": "Software Engineering/main/use pronouncable names.md",
+      "x": -295.79888916015625,
+      "y": 3108.929443359375
+    },
+    {
+      "id": "Software Engineering/main/use searchable names (ctrl+f).md",
+      "x": -22.903881072998047,
+      "y": 2912.027587890625
+    },
+    {
+      "id": "Software Engineering/main/use solution domain names.md",
+      "x": -525.25927734375,
+      "y": 3027.3154296875
+    },
+    {
+      "id": "Software Engineering/main/use standards wisely, when they add demonstrable value.md",
+      "x": -765.3270874023438,
+      "y": 2254.427490234375
+    },
+    {
+      "id": "Software Engineering/main/use unchecked exceptions.md",
+      "x": 1043.373779296875,
+      "y": 2621.268798828125
+    },
+    {
+      "id": "Software Engineering/main/using _practice_ functions to improve your code reading skills.md",
+      "x": -1523.439697265625,
+      "y": -233.94117736816406
+    },
+    {
+      "id": "Software Engineering/main/using third-party code.md",
+      "x": 672.9412231445312,
+      "y": 2204.575439453125
+    },
+    {
+      "id": "Software Engineering/main/verbs and keywords.md",
+      "x": -1809.5140380859375,
+      "y": -481.2594909667969
+    },
+    {
+      "id": "Software Engineering/main/vertical density.md",
+      "x": 663.3489379882812,
+      "y": 2871.629150390625
+    },
+    {
+      "id": "Software Engineering/main/vertical distance.md",
+      "x": 757.0318603515625,
+      "y": 2771.40478515625
+    },
+    {
+      "id": "Software Engineering/main/vertical opennes between concepts.md",
+      "x": 555.7381591796875,
+      "y": 2924.699951171875
+    },
+    {
+      "id": "Software Engineering/main/vertical ordering.md",
+      "x": 437.6580810546875,
+      "y": 2903.39794921875
+    },
+    {
+      "id": "Software Engineering/main/vertical.md",
+      "x": 536.8983764648438,
+      "y": 2646.50634765625
+    },
+    {
+      "id": "Software Engineering/main/warning of consequences.md",
+      "x": 953.6625366210938,
+      "y": 1894.6275634765625
+    },
+    {
+      "id": "Software Engineering/main/weariness.md",
+      "x": 1791.2523193359375,
+      "y": 1356.888916015625
+    },
+    {
+      "id": "Software Engineering/main/what every programmer should know about memory.md",
+      "x": 2538.642333984375,
+      "y": -256.95538330078125
+    },
+    {
+      "id": "Software Engineering/main/working backwards from the function's outputs.md",
+      "x": -322.4543151855469,
+      "y": -832.1329345703125
+    },
+    {
+      "id": "Software Engineering/main/worry code.md",
+      "x": 1690.662353515625,
+      "y": 1291.638671875
+    },
+    {
+      "id": "Software Engineering/main/write try-catch statement first.md",
+      "x": 1185.5556640625,
+      "y": 2407.631591796875
+    },
+    {
+      "id": "Software Engineering/main/writing correct shutdown code is hard.md",
+      "x": 1609.10400390625,
+      "y": 1743.156494140625
+    },
+    {
+      "id": "Software Engineering/templates/0 templ.md",
+      "x": 3402.71630859375,
+      "y": -68.83917999267578
+    },
+    {
+      "id": "XCOM FtA/main/FtA.md",
+      "x": -2923.209228515625,
+      "y": 1650.950439453125
+    },
+    {
+      "id": "XCOM FtA/main/Game.md",
+      "x": -2717.034912109375,
+      "y": 1815.37646484375
+    },
+    {
+      "id": "XCOM FtA/main/classes.md",
+      "x": -2451.196533203125,
+      "y": 2061.501953125
+    },
+    {
+      "id": "fta BaseFacility",
+      "x": -2200.4091796875,
+      "y": 2152.376708984375
+    },
+    {
+      "id": "fta RuleBaseFacility",
+      "x": -2357.95458984375,
+      "y": 2318.7431640625
+    },
+    {
+      "id": "fta BaseInfoState",
+      "x": -2694.8974609375,
+      "y": 1987.7767333984375
+    },
+    {
+      "id": "XCOM FtA/main/energy supply.md",
+      "x": -1563.9998779296875,
+      "y": 2920.2158203125
+    },
+    {
+      "id": "XCOM FtA/main/fta Base.md",
+      "x": -2477.9404296875,
+      "y": 2319.676513671875
+    },
+    {
+      "id": "XCOM FtA/main/hierarchy.md",
+      "x": 3119.429443359375,
+      "y": 1142.7569580078125
+    },
+    {
+      "id": "XCOM FtA/main/save.md",
+      "x": -2253.281982421875,
+      "y": 2260.087158203125
+    },
+    {
+      "id": "XCOM FtA/main/super important.md",
+      "x": -2939.340087890625,
+      "y": 1522.4918212890625
+    },
+    {
+      "id": "_save",
+      "x": -3006.899169921875,
+      "y": 1271.6978759765625
+    },
+    {
+      "id": "_mod",
+      "x": -2928.587890625,
+      "y": 1774.5228271484375
+    },
+    {
+      "id": "XCOM FtA/main/tasks.md",
+      "x": 3216.26806640625,
+      "y": 731.7303466796875
+    },
+    {
+      "id": "XCOM FtA/templates/0 template.md",
+      "x": -2097.655029296875,
+      "y": -1998.0672607421875
+    },
+    {
+      "id": "blog/first post.md",
+      "x": -3273.3466796875,
+      "y": -461.6786804199219
+    },
+    {
+      "id": "blog/guide.md",
+      "x": -3250.75244140625,
+      "y": -732.348388671875
+    },
+    {
+      "id": "plugins_obs.jpg",
+      "x": -3159.14453125,
+      "y": -498.4800720214844
+    },
+    {
+      "id": "struct_folders.jpg",
+      "x": -3011.08349609375,
+      "y": -773.8829345703125
+    },
+    {
+      "id": "help_vault.jpg",
+      "x": -3091.541748046875,
+      "y": -943.5444946289062
+    },
+    {
+      "id": "folders.jpg",
+      "x": -3386.02685546875,
+      "y": -502.9057312011719
+    },
+    {
+      "id": "theme.jpg",
+      "x": -3237.341796875,
+      "y": -994.1162719726562
+    },
+    {
+      "id": "blog/inner_file.md",
+      "x": 972.1223754882812,
+      "y": 2803.186767578125
+    },
+    {
+      "id": "blog/zettelkasten.md",
+      "x": 980.5185546875,
+      "y": 2519.112548828125
+    },
+    {
+      "id": "computer_vision/links.md",
+      "x": -3361.91943359375,
+      "y": -30.746633529663086
+    },
+    {
+      "id": "computer_vision/main/проблема с CV моделями нейронок.md",
+      "x": -1986.4259033203125,
+      "y": 2363.3251953125
+    },
+    {
+      "id": "cpp/Lifetime extension of temporary objects in C++ common recommendations and pitfalls.md",
+      "x": -2603.563232421875,
+      "y": -1251.916259765625
+    },
+    {
+      "id": "cpp/main/C functions.md",
+      "x": -1665.94091796875,
+      "y": -2231.40673828125
+    },
+    {
+      "id": "strcmp",
+      "x": -1937.3038330078125,
+      "y": -2376.738037109375
+    },
+    {
+      "id": "cpp/main/C language.md",
+      "x": -1347.29833984375,
+      "y": -1912.837646484375
+    },
+    {
+      "id": "cpp/main/C++ QuickSort.md",
+      "x": 109.48130798339844,
+      "y": -828.7796630859375
+    },
+    {
+      "id": "cpp/main/C++ abstraction concept.md",
+      "x": 858.2296142578125,
+      "y": -1780.5367431640625
+    },
+    {
+      "id": "cpp/main/C++ most vexing parse.md",
+      "x": -948.6510620117188,
+      "y": 2219.415283203125
+    },
+    {
+      "id": "cpp/main/C++ multithreading.md",
+      "x": -693.9923706054688,
+      "y": 717.3712768554688
+    },
+    {
+      "id": "cpp/main/C++ package managers.md",
+      "x": -1918.8658447265625,
+      "y": -1004.8980102539062
+    },
+    {
+      "id": "cpp/main/C++ perfomance.md",
+      "x": -1822.7611083984375,
+      "y": -860.5018920898438
+    },
+    {
+      "id": "cpp/main/C++ projects.md",
+      "x": -1831.56689453125,
+      "y": -740.8622436523438
+    },
+    {
+      "id": "cpp/main/C++ standards.md",
+      "x": 18.995527267456055,
+      "y": 165.4442138671875
+    },
+    {
+      "id": "cpp/main/C++.md",
+      "x": -1533.8011474609375,
+      "y": -784.3467407226562
+    },
+    {
+      "id": "cpp/main/C++11.md",
+      "x": -72.53624725341797,
+      "y": 638.58154296875
+    },
+    {
+      "id": "unordered_map",
+      "x": -63.50901794433594,
+      "y": 1192.8568115234375
+    },
+    {
+      "id": "unordered_multimap",
+      "x": -332.3562927246094,
+      "y": 902.0297241210938
+    },
+    {
+      "id": "unordered_set",
+      "x": 98.08039093017578,
+      "y": 1162.359619140625
+    },
+    {
+      "id": "unordered_multiset",
+      "x": -36.4190788269043,
+      "y": 864.0650634765625
+    },
+    {
+      "id": "chrono header",
+      "x": -382.5458068847656,
+      "y": 793.200439453125
+    },
+    {
+      "id": "tuple header",
+      "x": 229.18771362304688,
+      "y": 627.7415771484375
+    },
+    {
+      "id": "random header",
+      "x": -332.350341796875,
+      "y": 684.2755126953125
+    },
+    {
+      "id": "regex header",
+      "x": -106.06349182128906,
+      "y": 966.6146850585938
+    },
+    {
+      "id": "cpp/main/C++14.md",
+      "x": 221.22923278808594,
+      "y": -262.1374816894531
+    },
+    {
+      "id": "cpp/main/C++17.md",
+      "x": 159.72879028320312,
+      "y": -35.92866516113281
+    },
+    {
+      "id": "cpp/main/C++20.md",
+      "x": 20.01473617553711,
+      "y": -43.75065994262695
+    },
+    {
+      "id": "cpp/main/CS algorithms.md",
+      "x": 2858.823486328125,
+      "y": -414.802734375
+    },
+    {
+      "id": "cpp/main/CS papers.md",
+      "x": 647.8599853515625,
+      "y": -1066.0404052734375
+    },
+    {
+      "id": "cpp/main/CS some links.md",
+      "x": 762.4193725585938,
+      "y": -1030.358154296875
+    },
+    {
+      "id": "cpp/main/Game Development.md",
+      "x": -1168.9158935546875,
+      "y": -1010.97998046875
+    },
+    {
+      "id": "cpp/main/IO redirection.md",
+      "x": -1513.1082763671875,
+      "y": 1865.1370849609375
+    },
+    {
+      "id": "cpp/main/IO.md",
+      "x": -1196.091064453125,
+      "y": 1780.701904296875
+    },
+    {
+      "id": "streambuf",
+      "x": -1077.5692138671875,
+      "y": 2066.714111328125
+    },
+    {
+      "id": "ios_base",
+      "x": -1294.83056640625,
+      "y": 1964.7242431640625
+    },
+    {
+      "id": "ios",
+      "x": -1175.9581298828125,
+      "y": 2135.074951171875
+    },
+    {
+      "id": "cin",
+      "x": -1457.15380859375,
+      "y": 1682.5035400390625
+    },
+    {
+      "id": "cout",
+      "x": -1186.150634765625,
+      "y": 2015.6380615234375
+    },
+    {
+      "id": "cerr",
+      "x": -1383.0087890625,
+      "y": 2152.86376953125
+    },
+    {
+      "id": "clog",
+      "x": -1403.7032470703125,
+      "y": 1914.2537841796875
+    },
+    {
+      "id": "cpp/main/Memory Exhaustion.md",
+      "x": -657.5275268554688,
+      "y": -1158.4735107421875
+    },
+    {
+      "id": "cpp/main/NDEBUG.md",
+      "x": -802.9371337890625,
+      "y": 3196.608154296875
+    },
+    {
+      "id": "cpp/main/OOP some links.md",
+      "x": -1961.1639404296875,
+      "y": -1165.9708251953125
+    },
+    {
+      "id": "cpp/main/Object Oriented Programming.md",
+      "x": -1676.4063720703125,
+      "y": -1134.1728515625
+    },
+    {
+      "id": "cpp/main/Programming Languages.md",
+      "x": -1003.5790405273438,
+      "y": -1554.3494873046875
+    },
+    {
+      "id": "Python",
+      "x": -1124.3751220703125,
+      "y": -1834.9285888671875
+    },
+    {
+      "id": "Erlang",
+      "x": -1257.7027587890625,
+      "y": -1651.6279296875
+    },
+    {
+      "id": "Haskell",
+      "x": -1226.23876953125,
+      "y": -1767.420654296875
+    },
+    {
+      "id": "cpp/main/Programming Paradigms.md",
+      "x": -1273.9703369140625,
+      "y": -1068.9580078125
+    },
+    {
+      "id": "cpp/main/Rust.md",
+      "x": -1214.8614501953125,
+      "y": -1933.797607421875
+    },
+    {
+      "id": "cpp/main/STL.md",
+      "x": 226.26036071777344,
+      "y": 210.9691925048828
+    },
+    {
+      "id": "cpp/main/The Definitive C++ Book Guide and List.md",
+      "x": -3203.422119140625,
+      "y": 933.0115356445312
+    },
+    {
+      "id": "cpp/main/Visual Studio configs.md",
+      "x": -1754.438232421875,
+      "y": -959.112548828125
+    },
+    {
+      "id": "cpp/main/a gentle introduction to rust.md",
+      "x": -1572.25146484375,
+      "y": -2461.91015625
+    },
+    {
+      "id": "cpp/main/abstract base class.md",
+      "x": 31.721704483032227,
+      "y": 2339.12255859375
+    },
+    {
+      "id": "cpp/main/abstract data types.md",
+      "x": -2937.658203125,
+      "y": -1539.98486328125
+    },
+    {
+      "id": "cpp/main/acces control.md",
+      "x": -2130.225830078125,
+      "y": 841.7725219726562
+    },
+    {
+      "id": "public",
+      "x": -2432.221923828125,
+      "y": 661.6060791015625
+    },
+    {
+      "id": "private",
+      "x": -2360.090576171875,
+      "y": 565.7372436523438
+    },
+    {
+      "id": "cpp/main/access redefiniton with using.md",
+      "x": -149.9479217529297,
+      "y": 1939.4073486328125
+    },
+    {
+      "id": "cpp/main/aggregate class.md",
+      "x": -1230.70361328125,
+      "y": 1330.3857421875
+    },
+    {
+      "id": "cpp/main/algorithm parameter patterns.md",
+      "x": 386.8321228027344,
+      "y": -984.954833984375
+    },
+    {
+      "id": "cpp/main/algorithm.md",
+      "x": 587.3543090820312,
+      "y": -946.3334350585938
+    },
+    {
+      "id": "cpp/main/an object has inheritance.md",
+      "x": 933.2337646484375,
+      "y": -2099.463623046875
+    },
+    {
+      "id": "cpp/main/array.md",
+      "x": 503.61529541015625,
+      "y": 310.72467041015625
+    },
+    {
+      "id": "cpp/main/assert.md",
+      "x": -897.6001586914062,
+      "y": 3000.070556640625
+    },
+    {
+      "id": "cpp/main/assignment.md",
+      "x": -1061.5447998046875,
+      "y": -763.22900390625
+    },
+    {
+      "id": "cpp/main/associative containers.md",
+      "x": 184.8883056640625,
+      "y": 1442.095458984375
+    },
+    {
+      "id": "cpp/main/atomic header.md",
+      "x": -1940.7540283203125,
+      "y": 165.813232421875
+    },
+    {
+      "id": "cpp/main/auto.md",
+      "x": 447.6712341308594,
+      "y": 759.4659423828125
+    },
+    {
+      "id": "cpp/main/auto_ptr.md",
+      "x": -564.7074584960938,
+      "y": -90.82403564453125
+    },
+    {
+      "id": "cpp/main/automatic.md",
+      "x": 1441.845947265625,
+      "y": -341.8710021972656
+    },
+    {
+      "id": "cpp/main/bad_alloc.md",
+      "x": 2382.345703125,
+      "y": 1779.169921875
+    },
+    {
+      "id": "cpp/main/bad_cast.md",
+      "x": 2147.260498046875,
+      "y": 1084.7125244140625
+    },
+    {
+      "id": "cpp/main/bind.md",
+      "x": 918.0751953125,
+      "y": -845.84130859375
+    },
+    {
+      "id": "cpp/main/binding.md",
+      "x": -3247.5263671875,
+      "y": 740.911865234375
+    },
+    {
+      "id": "cpp/main/bit shift.md",
+      "x": -2188.20654296875,
+      "y": -1905.8931884765625
+    },
+    {
+      "id": "cpp/main/bitwise.md",
+      "x": -2025.9354248046875,
+      "y": -1668.2078857421875
+    },
+    {
+      "id": "cpp/main/books.md",
+      "x": 2105.511474609375,
+      "y": -2503.37841796875
+    },
+    {
+      "id": "cpp/main/buffer.md",
+      "x": -1415.7786865234375,
+      "y": 1795.029541015625
+    },
+    {
+      "id": "cpp/main/built-in arrays.md",
+      "x": 2154.846923828125,
+      "y": 583.74853515625
+    },
+    {
+      "id": "cpp/main/built-in features.md",
+      "x": 967.8762817382812,
+      "y": 659.4219360351562
+    },
+    {
+      "id": "cpp/main/byte.md",
+      "x": 1481.26220703125,
+      "y": 82.39258575439453
+    },
+    {
+      "id": "cpp/main/c++ aggreagate initialization.md",
+      "x": 909.4921875,
+      "y": -1075.8387451171875
+    },
+    {
+      "id": "cpp/main/c++ async computations.md",
+      "x": -709.7168579101562,
+      "y": 407.3807067871094
+    },
+    {
+      "id": "cpp/main/c++ atomic variables.md",
+      "x": -962.0038452148438,
+      "y": 625.0814208984375
+    },
+    {
+      "id": "cpp/main/c++ cheat sheet for beginners.md",
+      "x": 1119.337158203125,
+      "y": -3076.46630859375
+    },
+    {
+      "id": "cpp/main/c++ concurrency.md",
+      "x": -1673.8470458984375,
+      "y": 60.3882942199707
+    },
+    {
+      "id": "thread header",
+      "x": -1927.436767578125,
+      "y": 45.960723876953125
+    },
+    {
+      "id": "mutex header",
+      "x": -1924.5074462890625,
+      "y": -91.43772888183594
+    },
+    {
+      "id": "condition_variable header",
+      "x": -2037.1785888671875,
+      "y": 94.43032836914062
+    },
+    {
+      "id": "future header",
+      "x": -2024.2879638671875,
+      "y": -24.854354858398438
+    },
+    {
+      "id": "cpp/main/c++ features.md",
+      "x": -1802.233642578125,
+      "y": -273.5546875
+    },
+    {
+      "id": "cpp/main/c++ mechanizms of synchronization.md",
+      "x": -1002.3057250976562,
+      "y": 392.9032287597656
+    },
+    {
+      "id": "std mutex",
+      "x": -1195.0931396484375,
+      "y": 158.5392303466797
+    },
+    {
+      "id": "cpp/main/c++ models and barriers of memory.md",
+      "x": -1003.7166137695312,
+      "y": 512.8563232421875
+    },
+    {
+      "id": "cpp/main/c++ placement new.md",
+      "x": -908.9881591796875,
+      "y": -1343.1453857421875
+    },
+    {
+      "id": "cpp/main/c++ thread of execution.md",
+      "x": -811.621826171875,
+      "y": 1330.2738037109375
+    },
+    {
+      "id": "cpp/main/c++ user defined literals.md",
+      "x": 122.52062225341797,
+      "y": 923.85595703125
+    },
+    {
+      "id": "cpp/main/c++ wrappers.md",
+      "x": 598.4650268554688,
+      "y": -247.17466735839844
+    },
+    {
+      "id": "bind1st",
+      "x": 878.4806518554688,
+      "y": -247.0982208251953
+    },
+    {
+      "id": "bind2nd",
+      "x": 766.32177734375,
+      "y": -456.6640930175781
+    },
+    {
+      "id": "cpp/main/char.md",
+      "x": 1817.9600830078125,
+      "y": -25.013818740844727
+    },
+    {
+      "id": "cpp/main/circular buffer.md",
+      "x": 3147.48876953125,
+      "y": -737.2760620117188
+    },
+    {
+      "id": "cpp/main/citation about multiple threads in word processor.md",
+      "x": -1533.2274169921875,
+      "y": 2599.810546875
+    },
+    {
+      "id": "cpp/main/class memeber function.md",
+      "x": -492.6918029785156,
+      "y": 1131.251953125
+    },
+    {
+      "id": "cpp/main/class templates.md",
+      "x": -1344.0113525390625,
+      "y": 543.0147094726562
+    },
+    {
+      "id": "cpp/main/class.md",
+      "x": -1250.5877685546875,
+      "y": 1050.0333251953125
+    },
+    {
+      "id": "cpp/main/climits.md",
+      "x": 308.01055908203125,
+      "y": -66.26884460449219
+    },
+    {
+      "id": "cpp/main/cmake cpp.md",
+      "x": -2357.0849609375,
+      "y": -1481.0113525390625
+    },
+    {
+      "id": "cpp/main/combinations of types.md",
+      "x": 2276.747314453125,
+      "y": 420.06646728515625
+    },
+    {
+      "id": "cpp/main/command-line arguments.md",
+      "x": -600.15380859375,
+      "y": 851.274169921875
+    },
+    {
+      "id": "cpp/main/compilation process.md",
+      "x": -266.38348388671875,
+      "y": 2402.802978515625
+    },
+    {
+      "id": "cpp/main/compilers.md",
+      "x": 155.2431640625,
+      "y": 1301.6986083984375
+    },
+    {
+      "id": "cpp/main/composition.md",
+      "x": -126.74380493164062,
+      "y": 1090.9090576171875
+    },
+    {
+      "id": "cpp/main/compound types.md",
+      "x": 1945.7137451171875,
+      "y": 431.2166442871094
+    },
+    {
+      "id": "cpp/main/conan package manager.md",
+      "x": -2242.15478515625,
+      "y": -1318.9251708984375
+    },
+    {
+      "id": "cpp/main/conan steps to install.md",
+      "x": -2438.910400390625,
+      "y": -1568.786376953125
+    },
+    {
+      "id": "cpp/main/conditional statement.md",
+      "x": 1569.9244384765625,
+      "y": -434.52032470703125
+    },
+    {
+      "id": "cpp/main/conditional.md",
+      "x": -2108.869140625,
+      "y": -1456.5433349609375
+    },
+    {
+      "id": "cpp/main/const exercises.md",
+      "x": 735.3211059570312,
+      "y": 71.76599884033203
+    },
+    {
+      "id": "cpp/main/constructor.md",
+      "x": -1472.93115234375,
+      "y": 1352.454345703125
+    },
+    {
+      "id": "cpp/main/constructors - access of derived class.md",
+      "x": 28.19812774658203,
+      "y": 2099.948974609375
+    },
+    {
+      "id": "cpp/main/container adaptors.md",
+      "x": 1638.45263671875,
+      "y": 683.9760131835938
+    },
+    {
+      "id": "queue",
+      "x": 1864.544189453125,
+      "y": 902.4671630859375
+    },
+    {
+      "id": "priority_queue",
+      "x": 1957.903564453125,
+      "y": 827.131591796875
+    },
+    {
+      "id": "cpp/main/container-specific algorithms.md",
+      "x": -78.84208679199219,
+      "y": -737.2745971679688
+    },
+    {
+      "id": "Pasted image 20220406213501.png",
+      "x": -392.8460388183594,
+      "y": -734.9505004882812
+    },
+    {
+      "id": "Pasted image 20220406213757.png",
+      "x": -364.9422607421875,
+      "y": -618.2642211914062
+    },
+    {
+      "id": "cpp/main/containers.md",
+      "x": 493.2944641113281,
+      "y": 873.3300170898438
+    },
+    {
+      "id": "cpp/main/copy constructor.md",
+      "x": -1575.505859375,
+      "y": 1624.8111572265625
+    },
+    {
+      "id": "cpp/main/core.md",
+      "x": -92.45536041259766,
+      "y": 451.78173828125
+    },
+    {
+      "id": "cpp/main/cpp algorithms.md",
+      "x": 297.2940673828125,
+      "y": -696.5271606445312
+    },
+    {
+      "id": "cpp/main/cpp circular buffer.md",
+      "x": 3377.1220703125,
+      "y": -789.8602294921875
+    },
+    {
+      "id": "cpp/main/cpp const.md",
+      "x": 427.33941650390625,
+      "y": 212.40794372558594
+    },
+    {
+      "id": "cpp/main/cpp const_cast.md",
+      "x": 553.03369140625,
+      "y": -71.5204849243164
+    },
+    {
+      "id": "cpp/main/cpp constexpr.md",
+      "x": 52.27956008911133,
+      "y": -464.6839904785156
+    },
+    {
+      "id": "cpp/main/cpp delete.md",
+      "x": -277.87347412109375,
+      "y": -700.8301391601562
+    },
+    {
+      "id": "undefined behavior",
+      "x": -581.4633178710938,
+      "y": -675.7800903320312
+    },
+    {
+      "id": "cpp/main/cpp dynamic_cast.md",
+      "x": 1149.412841796875,
+      "y": 443.76629638671875
+    },
+    {
+      "id": "cpp/main/cpp extern.md",
+      "x": 132.26229858398438,
+      "y": -375.2807922363281
+    },
+    {
+      "id": "cpp/main/cpp final.md",
+      "x": -68.51704406738281,
+      "y": -264.4967041015625
+    },
+    {
+      "id": "cpp/main/cpp function return type deduction.md",
+      "x": 296.7464294433594,
+      "y": -558.229736328125
+    },
+    {
+      "id": "cpp/main/cpp keywords.md",
+      "x": 215.20880126953125,
+      "y": -142.33261108398438
+    },
+    {
+      "id": "cpp override",
+      "x": 203.97755432128906,
+      "y": -471.4117431640625
+    },
+    {
+      "id": "cpp default",
+      "x": 14.870787620544434,
+      "y": -350.7104187011719
+    },
+    {
+      "id": "cpp/main/cpp map.md",
+      "x": 14.984414100646973,
+      "y": 1708.530517578125
+    },
+    {
+      "id": "cpp/main/cpp pair.md",
+      "x": -206.47879028320312,
+      "y": 1833.6214599609375
+    },
+    {
+      "id": "cpp/main/cpp register.md",
+      "x": 304.1991882324219,
+      "y": -405.4487609863281
+    },
+    {
+      "id": "cpp/main/cpp reinterpret_cast.md",
+      "x": 441.75384521484375,
+      "y": -26.91825294494629
+    },
+    {
+      "id": "cpp/main/cpp set.md",
+      "x": 232.43133544921875,
+      "y": 1712.7152099609375
+    },
+    {
+      "id": "cpp/main/cpp specifiers and qualifiers.md",
+      "x": -730.5399169921875,
+      "y": -109.43647003173828
+    },
+    {
+      "id": "cpp/main/cpp static.md",
+      "x": 595.098388671875,
+      "y": -453.98675537109375
+    },
+    {
+      "id": "cpp/main/cpp static_cast.md",
+      "x": 431.31494140625,
+      "y": 92.5267105102539
+    },
+    {
+      "id": "cpp/main/cpp std thread_local.md",
+      "x": -654.574462890625,
+      "y": 206.3691864013672
+    },
+    {
+      "id": "cpp/main/cpp volatile.md",
+      "x": -105.66935729980469,
+      "y": -378.4554138183594
+    },
+    {
+      "id": "cpp/main/cppstories.com.md",
+      "x": -2503.689208984375,
+      "y": -1318.367919921875
+    },
+    {
+      "id": "cpp/main/cpufun.substack.com.md",
+      "x": -1404.2296142578125,
+      "y": -1163.5386962890625
+    },
+    {
+      "id": "cpp/main/creating and destroying objects.md",
+      "x": 845.384765625,
+      "y": -2017.7620849609375
+    },
+    {
+      "id": "cpp/main/cref.md",
+      "x": 1302.5457763671875,
+      "y": -857.0809936523438
+    },
+    {
+      "id": "cpp/main/cv-qualifiers.md",
+      "x": -114.87699127197266,
+      "y": -5.158028602600098
+    },
+    {
+      "id": "cpp/main/data structures and algorithms.md",
+      "x": 2557.234375,
+      "y": -465.5563049316406
+    },
+    {
+      "id": "cpp/main/data structures.md",
+      "x": 2910.082275390625,
+      "y": -604.6264038085938
+    },
+    {
+      "id": "cpp/main/declaration.md",
+      "x": 1254.94677734375,
+      "y": 523.666015625
+    },
+    {
+      "id": "cpp/main/decltype.md",
+      "x": 289.78619384765625,
+      "y": 896.0521850585938
+    },
+    {
+      "id": "cpp/main/default arguments.md",
+      "x": -824.45849609375,
+      "y": 372.31390380859375
+    },
+    {
+      "id": "cpp/main/default constructor.md",
+      "x": -1732.3828125,
+      "y": 1435.4256591796875
+    },
+    {
+      "id": "cpp/main/define.md",
+      "x": -895.2868041992188,
+      "y": 3120.029052734375
+    },
+    {
+      "id": "cpp/main/definition.md",
+      "x": 1018.1884155273438,
+      "y": 216.338134765625
+    },
+    {
+      "id": "cpp/main/destructor.md",
+      "x": -1512.351806640625,
+      "y": 1163.6737060546875
+    },
+    {
+      "id": "cpp/main/dev.to.md",
+      "x": -2584.1171875,
+      "y": -1407.3443603515625
+    },
+    {
+      "id": "cpp/main/diamond inheritance.md",
+      "x": -2018.309326171875,
+      "y": 650.975341796875
+    },
+    {
+      "id": "cpp/main/dynamic.md",
+      "x": -13.36355972290039,
+      "y": -837.8079833984375
+    },
+    {
+      "id": "cpp/main/early binding.md",
+      "x": 164.61761474609375,
+      "y": 2720.13330078125
+    },
+    {
+      "id": "cpp/main/ellipsis.md",
+      "x": -478.1277160644531,
+      "y": 664.7112426757812
+    },
+    {
+      "id": "cpp/main/endl.md",
+      "x": -1284.4996337890625,
+      "y": 2084.15869140625
+    },
+    {
+      "id": "cpp/main/enumerations.md",
+      "x": 2266.408447265625,
+      "y": 539.5903930664062
+    },
+    {
+      "id": "cpp/main/escape sequence.md",
+      "x": 2396.08056640625,
+      "y": 154.65304565429688
+    },
+    {
+      "id": "cpp/main/etlcpp.md",
+      "x": -2562.80517578125,
+      "y": -1139.07861328125
+    },
+    {
+      "id": "cpp/main/exception handling - dealing with errors.md",
+      "x": 960.0029296875,
+      "y": -1982.455810546875
+    },
+    {
+      "id": "cpp/main/exception handling.md",
+      "x": 1290.551513671875,
+      "y": 1198.682861328125
+    },
+    {
+      "id": "cpp/main/exception.md",
+      "x": 2438.310546875,
+      "y": 1426.4708251953125
+    },
+    {
+      "id": "cpp/main/exceptions.md",
+      "x": 2106.263427734375,
+      "y": 1525.50048828125
+    },
+    {
+      "id": "cpp/main/explicit.md",
+      "x": -452.6888122558594,
+      "y": 1432.1141357421875
+    },
+    {
+      "id": "cpp/main/exteme programming with c++.md",
+      "x": 909.7747192382812,
+      "y": -2218.419677734375
+    },
+    {
+      "id": "cpp/main/file modes.md",
+      "x": -1823.9161376953125,
+      "y": 1602.0577392578125
+    },
+    {
+      "id": "Pasted image 20220524225602.png",
+      "x": -1873.3829345703125,
+      "y": 1349.7999267578125
+    },
+    {
+      "id": "cpp/main/five stages of object design.md",
+      "x": 1994.8807373046875,
+      "y": -2740.53857421875
+    },
+    {
+      "id": "cpp/main/floating-point.md",
+      "x": 1667.7701416015625,
+      "y": 28.954509735107422
+    },
+    {
+      "id": "cpp/main/flow-of-control.md",
+      "x": 1352.7113037109375,
+      "y": 167.0478515625
+    },
+    {
+      "id": "cpp/main/fluentcpp.md",
+      "x": -2466.833251953125,
+      "y": -1432.584716796875
+    },
+    {
+      "id": "cpp/main/for.md",
+      "x": 542.6161499023438,
+      "y": 686.1223754882812
+    },
+    {
+      "id": "cpp/main/forward_list.md",
+      "x": 384.1861267089844,
+      "y": 657.6483154296875
+    },
+    {
+      "id": "cpp/main/friend function.md",
+      "x": -2036.7254638671875,
+      "y": 1138.947265625
+    },
+    {
+      "id": "cpp/main/friends.md",
+      "x": -1752.1832275390625,
+      "y": 1197.5703125
+    },
+    {
+      "id": "cpp/main/fstream.md",
+      "x": -1563.376953125,
+      "y": 1756.309326171875
+    },
+    {
+      "id": "cpp/main/function matching.md",
+      "x": -844.8135375976562,
+      "y": 254.1326904296875
+    },
+    {
+      "id": "cpp/main/function objects.md",
+      "x": 651.7051391601562,
+      "y": -139.63961791992188
+    },
+    {
+      "id": "function pointer",
+      "x": 936.2299194335938,
+      "y": -141.99583435058594
+    },
+    {
+      "id": "cpp/main/function overloading.md",
+      "x": -913.1243286132812,
+      "y": -146.6316375732422
+    },
+    {
+      "id": "cpp/main/function templates.md",
+      "x": -1057.6485595703125,
+      "y": 177.66209411621094
+    },
+    {
+      "id": "cpp/main/function wrapper.md",
+      "x": 885.687255859375,
+      "y": -468.84881591796875
+    },
+    {
+      "id": "cpp/main/function.md",
+      "x": -553.9112548828125,
+      "y": 271.58917236328125
+    },
+    {
+      "id": "cpp/main/functional.md",
+      "x": 1027.0218505859375,
+      "y": -658.6525268554688
+    },
+    {
+      "id": "cpp/main/functor.md",
+      "x": 898.234619140625,
+      "y": -28.189029693603516
+    },
+    {
+      "id": "cpp/main/game development links.md",
+      "x": -1443.1693115234375,
+      "y": -1011.153564453125
+    },
+    {
+      "id": "cpp/main/generic programming.md",
+      "x": 546.4874877929688,
+      "y": 198.6514892578125
+    },
+    {
+      "id": "cpp/main/guidelines for object development.md",
+      "x": 1984.0174560546875,
+      "y": -2620.618896484375
+    },
+    {
+      "id": "cpp/main/has-a.md",
+      "x": 72.89909362792969,
+      "y": 814.701416015625
+    },
+    {
+      "id": "cpp/main/heap.md",
+      "x": -530.090576171875,
+      "y": -955.3983764648438
+    },
+    {
+      "id": "cpp/main/how Cpp works.md",
+      "x": -1642.07373046875,
+      "y": 783.2060546875
+    },
+    {
+      "id": "cpp/main/if.md",
+      "x": 1684.910400390625,
+      "y": -723.8370971679688
+    },
+    {
+      "id": "cpp/main/include.md",
+      "x": -689.0288696289062,
+      "y": 3234.294921875
+    },
+    {
+      "id": "cpp/main/inheritance - reusing the interface.md",
+      "x": 726.249267578125,
+      "y": -2042.4427490234375
+    },
+    {
+      "id": "cpp/main/inheritance and dynamic memory allocation.md",
+      "x": 243.27542114257812,
+      "y": 2125.6005859375
+    },
+    {
+      "id": "cpp/main/inheritance.md",
+      "x": 149.59417724609375,
+      "y": 1890.0848388671875
+    },
+    {
+      "id": "public inheritance",
+      "x": 21.569297790527344,
+      "y": 2219.6416015625
+    },
+    {
+      "id": "protected inheritance",
+      "x": -175.4986572265625,
+      "y": 2056.688720703125
+    },
+    {
+      "id": "cpp/main/initialization.md",
+      "x": 834.1295776367188,
+      "y": -760.1289672851562
+    },
+    {
+      "id": "cpp/main/inline function.md",
+      "x": -743.245849609375,
+      "y": 522.4935913085938
+    },
+    {
+      "id": "cpp/main/input iterator.md",
+      "x": -2031.985107421875,
+      "y": 1556.2606201171875
+    },
+    {
+      "id": "cpp/main/insert iterator.md",
+      "x": -2058.97998046875,
+      "y": 1818.8802490234375
+    },
+    {
+      "id": "cpp/main/int.md",
+      "x": 1662.20751953125,
+      "y": -90.88932800292969
+    },
+    {
+      "id": "cpp/main/interpreters.md",
+      "x": -24.031709671020508,
+      "y": 277.41131591796875
+    },
+    {
+      "id": "cpp/main/iostream.md",
+      "x": -1393.053466796875,
+      "y": 2033.5753173828125
+    },
+    {
+      "id": "cpp/main/is-a.md",
+      "x": 140.48072814941406,
+      "y": 2284.651123046875
+    },
+    {
+      "id": "cpp/main/istream.md",
+      "x": -1502.3927001953125,
+      "y": 1984.498291015625
+    },
+    {
+      "id": "cpp/main/iterator.md",
+      "x": -1699.519775390625,
+      "y": 1600.197265625
+    },
+    {
+      "id": "move iterator",
+      "x": -1723.6864013671875,
+      "y": 1938.870849609375
+    },
+    {
+      "id": "forward iterator",
+      "x": -1942.1514892578125,
+      "y": 1476.7493896484375
+    },
+    {
+      "id": "bidirectional iterator",
+      "x": -1950.788818359375,
+      "y": 1870.717529296875
+    },
+    {
+      "id": "cpp/main/jump.md",
+      "x": 1934.625244140625,
+      "y": 709.4617919921875
+    },
+    {
+      "id": "break",
+      "x": 2215.2509765625,
+      "y": 934.4720458984375
+    },
+    {
+      "id": "continue",
+      "x": 2247.898681640625,
+      "y": 819.0706787109375
+    },
+    {
+      "id": "goto",
+      "x": 2350.566650390625,
+      "y": 757.0448608398438
+    },
+    {
+      "id": "cpp/main/just links from the internet.md",
+      "x": -1447.34375,
+      "y": -1738.78857421875
+    },
+    {
+      "id": "cpp/main/lambda expressions.md",
+      "x": 477.2754821777344,
+      "y": -431.29388427734375
+    },
+    {
+      "id": "cpp/main/late binding.md",
+      "x": 282.8369140625,
+      "y": 2699.59375
+    },
+    {
+      "id": "cpp/main/linker.md",
+      "x": -394.13677978515625,
+      "y": 2668.47900390625
+    },
+    {
+      "id": "cpp/main/links cpp.md",
+      "x": -2289.292724609375,
+      "y": -1207.4447021484375
+    },
+    {
+      "id": "cpp/main/links.md",
+      "x": -1396.370361328125,
+      "y": -2239.40869140625
+    },
+    {
+      "id": "cpp/main/literal class.md",
+      "x": -1422.7650146484375,
+      "y": 1243.4794921875
+    },
+    {
+      "id": "cpp/main/literals.md",
+      "x": 2045.0335693359375,
+      "y": 108.44645690917969
+    },
+    {
+      "id": "cpp/main/loop.md",
+      "x": 1203.8795166015625,
+      "y": 632.2115478515625
+    },
+    {
+      "id": "cpp/main/main.md",
+      "x": -480.818359375,
+      "y": 544.7587280273438
+    },
+    {
+      "id": "cpp/main/make Cmake.md",
+      "x": 78.13835906982422,
+      "y": -944.5751342773438
+    },
+    {
+      "id": "cpp/main/making and using objects.md",
+      "x": 469.03466796875,
+      "y": -550.9672241210938
+    },
+    {
+      "id": "cpp/main/manipulator.md",
+      "x": -1067.6500244140625,
+      "y": 2186.332763671875
+    },
+    {
+      "id": "cpp/main/mem_fn.md",
+      "x": 679.4107666015625,
+      "y": -539.3468627929688
+    },
+    {
+      "id": "cpp/main/member access.md",
+      "x": -1914.628662109375,
+      "y": -1589.3043212890625
+    },
+    {
+      "id": "cpp/main/member templates.md",
+      "x": -1618.87939453125,
+      "y": 577.4661254882812
+    },
+    {
+      "id": "cpp/main/memory header.md",
+      "x": -306.5093078613281,
+      "y": 47.78805160522461
+    },
+    {
+      "id": "cpp/main/memory leak.md",
+      "x": -561.2418212890625,
+      "y": -839.6093139648438
+    },
+    {
+      "id": "cpp/main/memory model.md",
+      "x": 1443.66162109375,
+      "y": -117.39498901367188
+    },
+    {
+      "id": "cpp/main/memory.md",
+      "x": 1166.4520263671875,
+      "y": 16.602136611938477
+    },
+    {
+      "id": "cpp/main/modulus operator.md",
+      "x": 13.379253387451172,
+      "y": 972.9998779296875
+    },
+    {
+      "id": "cpp/main/most common questions.md",
+      "x": 2995.1884765625,
+      "y": 1395.2332763671875
+    },
+    {
+      "id": "cpp/main/move constructor.md",
+      "x": -1149.79345703125,
+      "y": 1115.10205078125
+    },
+    {
+      "id": "cpp/main/move semantics.md",
+      "x": -859.4539794921875,
+      "y": 687.0941162109375
+    },
+    {
+      "id": "cpp/main/multiple inheritance.md",
+      "x": -261.0833740234375,
+      "y": 2282.9208984375
+    },
+    {
+      "id": "cpp/main/mutable.md",
+      "x": -975.2052001953125,
+      "y": -293.13458251953125
+    },
+    {
+      "id": "cpp/main/namespaces.md",
+      "x": 1231.36181640625,
+      "y": -1341.055419921875
+    },
+    {
+      "id": "cpp/main/new header.md",
+      "x": 2192.45458984375,
+      "y": 1811.7081298828125
+    },
+    {
+      "id": "cpp/main/new.md",
+      "x": -830.9634399414062,
+      "y": -1075.713623046875
+    },
+    {
+      "id": "cpp/main/nullptr.md",
+      "x": 273.8396911621094,
+      "y": 738.930419921875
+    },
+    {
+      "id": "cpp/main/numeric.md",
+      "x": 267.4872741699219,
+      "y": -997.2720947265625
+    },
+    {
+      "id": "cpp/main/object module.md",
+      "x": -273.2445373535156,
+      "y": 2691.477294921875
+    },
+    {
+      "id": "cpp/main/object.md",
+      "x": -832.8472900390625,
+      "y": 1057.710693359375
+    },
+    {
+      "id": "cpp/main/operator overloading.md",
+      "x": -1617.6007080078125,
+      "y": -1013.1183471679688
+    },
+    {
+      "id": "cpp/main/operators.md",
+      "x": -1834.4969482421875,
+      "y": -1308.505615234375
+    },
+    {
+      "id": "arithmetic",
+      "x": -2102.63037109375,
+      "y": -1336.72119140625
+    },
+    {
+      "id": "logical and relational",
+      "x": -2025.05517578125,
+      "y": -1542.3895263671875
+    },
+    {
+      "id": "cpp/main/ostream.md",
+      "x": -965.6498413085938,
+      "y": 2023.8399658203125
+    },
+    {
+      "id": "cpp/main/output iterator.md",
+      "x": -1851.8846435546875,
+      "y": 1802.7791748046875
+    },
+    {
+      "id": "cpp/main/overloading.md",
+      "x": -1274.1767578125,
+      "y": -621.4989624023438
+    },
+    {
+      "id": "cpp/main/phase 0 - make a plan.md",
+      "x": 1659.3525390625,
+      "y": -2613.60546875
+    },
+    {
+      "id": "cpp/main/phase 1 - what are we making.md",
+      "x": 1618.0928955078125,
+      "y": -2726.269775390625
+    },
+    {
+      "id": "cpp/main/phase 2 - how we will built it.md",
+      "x": 1740.638671875,
+      "y": -2710.83642578125
+    },
+    {
+      "id": "cpp/main/phase 3 - build the core.md",
+      "x": 1543.447998046875,
+      "y": -2820.2001953125
+    },
+    {
+      "id": "cpp/main/phase 4 - iterate the use cases.md",
+      "x": 1428.6837158203125,
+      "y": -2855.2138671875
+    },
+    {
+      "id": "cpp/main/phase 5 - evolution.md",
+      "x": 1312.1131591796875,
+      "y": -2826.76708984375
+    },
+    {
+      "id": "cpp/main/placeholders.md",
+      "x": 1096.637939453125,
+      "y": -1085.9786376953125
+    },
+    {
+      "id": "cpp/main/pointer arithmetic.md",
+      "x": 1453.45263671875,
+      "y": 384.4893798828125
+    },
+    {
+      "id": "cpp/main/pointers.md",
+      "x": 1100.6297607421875,
+      "y": 313.0712585449219
+    },
+    {
+      "id": "Pasted image 20210830201030.png",
+      "x": 1398.0040283203125,
+      "y": 278.10955810546875
+    },
+    {
+      "id": "cpp/main/polymorphic public relationships.md",
+      "x": -325.88092041015625,
+      "y": 1845.1474609375
+    },
+    {
+      "id": "cpp/main/polymorphism.md",
+      "x": 249.2797393798828,
+      "y": 1956.8538818359375
+    },
+    {
+      "id": "cpp/main/precedence.md",
+      "x": -2137.742919921875,
+      "y": -1583.63037109375
+    },
+    {
+      "id": "Pasted image 20211012214155.png",
+      "x": -2350.3984375,
+      "y": -1777.6412353515625
+    },
+    {
+      "id": "cpp/main/preprocessor.md",
+      "x": -654.384033203125,
+      "y": 2967.697021484375
+    },
+    {
+      "id": "cpp/main/private inheritance.md",
+      "x": -85.75211334228516,
+      "y": 2137.62158203125
+    },
+    {
+      "id": "cpp/main/profiling.md",
+      "x": -2798.244140625,
+      "y": -1730.0380859375
+    },
+    {
+      "id": "cpp/main/protected.md",
+      "x": -2385.6142578125,
+      "y": 383.6459655761719
+    },
+    {
+      "id": "cpp/main/pure virtual function.md",
+      "x": -18.30147361755371,
+      "y": 2632.908935546875
+    },
+    {
+      "id": "cpp/main/random access iterator.md",
+      "x": -2052.30517578125,
+      "y": 1674.4893798828125
+    },
+    {
+      "id": "cpp/main/ratio header.md",
+      "x": 192.12193298339844,
+      "y": 826.5592651367188
+    },
+    {
+      "id": "cpp/main/ref.md",
+      "x": 1142.0108642578125,
+      "y": -974.8988037109375
+    },
+    {
+      "id": "cpp/main/reference_wrapper.md",
+      "x": 836.6273193359375,
+      "y": -359.4346618652344
+    },
+    {
+      "id": "cpp/main/references.md",
+      "x": 1394.2122802734375,
+      "y": 488.8321228027344
+    },
+    {
+      "id": "cpp/main/relationship between derived and base classes.md",
+      "x": -61.2953987121582,
+      "y": 2020.1676025390625
+    },
+    {
+      "id": "cpp/main/return.md",
+      "x": -860.2958984375,
+      "y": 135.2212677001953
+    },
+    {
+      "id": "cpp/main/reusing the implementation.md",
+      "x": 500.6726379394531,
+      "y": -685.9307861328125
+    },
+    {
+      "id": "cpp/main/reverse iterator.md",
+      "x": -1842.472900390625,
+      "y": 1922.3316650390625
+    },
+    {
+      "id": "cpp/main/runtime type identification.md",
+      "x": 1817.883544921875,
+      "y": 791.9157104492188
+    },
+    {
+      "id": "cpp/main/rvalue reference.md",
+      "x": -501.9764709472656,
+      "y": 782.2960815429688
+    },
+    {
+      "id": "cpp/main/scope.md",
+      "x": 602.4254150390625,
+      "y": 923.2281494140625
+    },
+    {
+      "id": "cpp/main/scoped enumerations.md",
+      "x": 89.93201446533203,
+      "y": 482.6864929199219
+    },
+    {
+      "id": "cpp/main/separate compilation.md",
+      "x": 661.939453125,
+      "y": 698.839599609375
+    },
+    {
+      "id": "cpp/main/sequential containers.md",
+      "x": 831.3671264648438,
+      "y": 602.4738159179688
+    },
+    {
+      "id": "deque",
+      "x": 1108.986083984375,
+      "y": 850.2476806640625
+    },
+    {
+      "id": "list",
+      "x": 993.7578735351562,
+      "y": 883.445556640625
+    },
+    {
+      "id": "cpp/main/shared_ptr.md",
+      "x": -638.0430908203125,
+      "y": -185.80804443359375
+    },
+    {
+      "id": "cpp/main/sizeof.md",
+      "x": 1226.8111572265625,
+      "y": 827.8425903320312
+    },
+    {
+      "id": "cpp/main/smart pointers.md",
+      "x": -765.7389526367188,
+      "y": 61.44799041748047
+    },
+    {
+      "id": "cpp/main/source code.md",
+      "x": -3042.164794921875,
+      "y": -1364.47021484375
+    },
+    {
+      "id": "cpp/main/sstream.md",
+      "x": -1274.3363037109375,
+      "y": 2203.568359375
+    },
+    {
+      "id": "cpp/main/stack.md",
+      "x": 1656.652099609375,
+      "y": 260.4910888671875
+    },
+    {
+      "id": "cpp/main/statements.md",
+      "x": 3160.660888671875,
+      "y": 918.3604125976562
+    },
+    {
+      "id": "cpp/main/static and dynamic binding.md",
+      "x": 158.01991271972656,
+      "y": 2427.301025390625
+    },
+    {
+      "id": "cpp/main/static class members.md",
+      "x": 833.52490234375,
+      "y": -629.42822265625
+    },
+    {
+      "id": "cpp/main/static declarations of class members not bound to specific instances.md",
+      "x": 727.43115234375,
+      "y": -815.0352783203125
+    },
+    {
+      "id": "cpp/main/static declarations of namespace members with static storage duration and internal linkage.md",
+      "x": 733.2158813476562,
+      "y": -695.19921875
+    },
+    {
+      "id": "cpp/main/static definitions of block scope variables with static storage duration and initialized once.md",
+      "x": 519.674072265625,
+      "y": -804.3659057617188
+    },
+    {
+      "id": "cpp/main/static type checking.md",
+      "x": 137.68089294433594,
+      "y": 1584.1536865234375
+    },
+    {
+      "id": "cpp/main/static, inline, explicit.md",
+      "x": -1939.383544921875,
+      "y": 843.1146850585938
+    },
+    {
+      "id": "cpp/main/static_assert.md",
+      "x": -225.3013916015625,
+      "y": 955.6893310546875
+    },
+    {
+      "id": "cpp/main/std back_inserter.md",
+      "x": -2312.819091796875,
+      "y": 1909.6962890625
+    },
+    {
+      "id": "cpp/main/std initializer_list.md",
+      "x": -363.8879089355469,
+      "y": 517.8283081054688
+    },
+    {
+      "id": "cpp/main/std thread.detach().md",
+      "x": -1367.567138671875,
+      "y": 2385.553466796875
+    },
+    {
+      "id": "C++ Runtime Library",
+      "x": -1408.1590576171875,
+      "y": 2653.485595703125
+    },
+    {
+      "id": "cpp/main/std thread.join().md",
+      "x": -1167.3914794921875,
+      "y": 1897.1710205078125
+    },
+    {
+      "id": "cpp/main/std thread.md",
+      "x": -930.8045043945312,
+      "y": 1909.052490234375
+    },
+    {
+      "id": "cpp/main/stdexcept.md",
+      "x": 2430.01220703125,
+      "y": 1669.109375
+    },
+    {
+      "id": "cpp/main/storage.md",
+      "x": 940.6471557617188,
+      "y": -575.410400390625
+    },
+    {
+      "id": "thread",
+      "x": 1052.720947265625,
+      "y": -857.5789184570312
+    },
+    {
+      "id": "cpp/main/strchr.md",
+      "x": -1971.473876953125,
+      "y": -2253.237548828125
+    },
+    {
+      "id": "cpp/main/stream iterator.md",
+      "x": -1960.021728515625,
+      "y": 1751.094970703125
+    },
+    {
+      "id": "cpp/main/string.md",
+      "x": 916.505615234375,
+      "y": 301.6279296875
+    },
+    {
+      "id": "cpp/main/strings.md",
+      "x": 1734.71875,
+      "y": 394.4891662597656
+    },
+    {
+      "id": "cpp/main/structures.md",
+      "x": 1759.99853515625,
+      "y": 199.5492401123047
+    },
+    {
+      "id": "cpp/main/switch.md",
+      "x": 1567.60693359375,
+      "y": -749.040283203125
+    },
+    {
+      "id": "cpp/main/template aliases.md",
+      "x": -655.1160278320312,
+      "y": 603.9113159179688
+    },
+    {
+      "id": "cpp/main/template specialization.md",
+      "x": -1603.6634521484375,
+      "y": 458.436767578125
+    },
+    {
+      "id": "cpp/main/templates.md",
+      "x": -1523.6502685546875,
+      "y": 139.11012268066406
+    },
+    {
+      "id": "variable templates",
+      "x": -1795.8812255859375,
+      "y": 47.26478958129883
+    },
+    {
+      "id": "cpp/main/test.md",
+      "x": -1947.7515869140625,
+      "y": 2520.525146484375
+    },
+    {
+      "id": "cpp/main/the hidden implementation.md",
+      "x": 806.8643798828125,
+      "y": -2131.313720703125
+    },
+    {
+      "id": "cpp/main/the process of language translation.md",
+      "x": 275.6043395996094,
+      "y": 333.4385681152344
+    },
+    {
+      "id": "cpp/main/the progress of abstraction.md",
+      "x": 1047.8720703125,
+      "y": -2064.0908203125
+    },
+    {
+      "id": "cpp/main/thinking in C++.md",
+      "x": 721.4197387695312,
+      "y": -1318.990966796875
+    },
+    {
+      "id": "cpp/main/this.md",
+      "x": -1527.3719482421875,
+      "y": 1044.638916015625
+    },
+    {
+      "id": "cpp/main/throw.md",
+      "x": 415.1955871582031,
+      "y": 1043.4281005859375
+    },
+    {
+      "id": "cpp/main/trailing return type.md",
+      "x": 110.69024658203125,
+      "y": 1043.13427734375
+    },
+    {
+      "id": "cpp/main/try.md",
+      "x": 1615.881103515625,
+      "y": 1109.909912109375
+    },
+    {
+      "id": "cpp/main/type alias.md",
+      "x": 1283.472900390625,
+      "y": 722.0814208984375
+    },
+    {
+      "id": "cpp/main/type casts.md",
+      "x": 780.85205078125,
+      "y": 184.20262145996094
+    },
+    {
+      "id": "cpp/main/type conversions.md",
+      "x": 1430.1180419921875,
+      "y": -468.7576904296875
+    },
+    {
+      "id": "cpp/main/type narrowing.md",
+      "x": 459.4976501464844,
+      "y": 1158.2783203125
+    },
+    {
+      "id": "cpp/main/type_info.md",
+      "x": 2260.668701171875,
+      "y": 1045.5306396484375
+    },
+    {
+      "id": "cpp/main/typeid.md",
+      "x": 2103.6162109375,
+      "y": 890.5186767578125
+    },
+    {
+      "id": "cpp/main/typeinfo.md",
+      "x": 2453.524658203125,
+      "y": 1235.699462890625
+    },
+    {
+      "id": "cpp/main/uniform initialization.md",
+      "x": 219.97674560546875,
+      "y": 993.6248168945312
+    },
+    {
+      "id": "cpp/main/union.md",
+      "x": 2164.244873046875,
+      "y": 94.96142578125
+    },
+    {
+      "id": "cpp/main/unique_ptr.md",
+      "x": -519.1546630859375,
+      "y": -201.827392578125
+    },
+    {
+      "id": "cpp/main/unpacking the packs.md",
+      "x": -1523.20556640625,
+      "y": 323.131591796875
+    },
+    {
+      "id": "cpp/main/valarray.md",
+      "x": 709.041259765625,
+      "y": 1086.290283203125
+    },
+    {
+      "id": "cpp/main/variable.md",
+      "x": -37.957157135009766,
+      "y": -148.6322784423828
+    },
+    {
+      "id": "cpp/main/variadic templates.md",
+      "x": -1247.6358642578125,
+      "y": 400.39202880859375
+    },
+    {
+      "id": "cpp/main/vector.md",
+      "x": 441.1625671386719,
+      "y": -146.8287811279297
+    },
+    {
+      "id": "cpp/main/videos.md",
+      "x": 737.9798583984375,
+      "y": 2990.737060546875
+    },
+    {
+      "id": "cpp/main/virtual base class.md",
+      "x": -477.78533935546875,
+      "y": 2543.033447265625
+    },
+    {
+      "id": "cpp/main/virtual function table.md",
+      "x": -1306.541748046875,
+      "y": 1690.0687255859375
+    },
+    {
+      "id": "cpp/main/virtual.md",
+      "x": -1073.8206787109375,
+      "y": 1580.998779296875
+    },
+    {
+      "id": "cpp/main/weak_ptr.md",
+      "x": -1016.4451293945312,
+      "y": -85.38372802734375
+    },
+    {
+      "id": "cpp/main/while.md",
+      "x": 1523.509521484375,
+      "y": 718.2601928710938
+    },
+    {
+      "id": "cpp/main/write tests first.md",
+      "x": 925.7429809570312,
+      "y": -2530.399658203125
+    },
+    {
+      "id": "cpp/main/Память стек и куча.md",
+      "x": -1835.9725341796875,
+      "y": 302.69775390625
+    },
+    {
+      "id": "cpp/main/виртуальные таблицы классов.md",
+      "x": -2117.004638671875,
+      "y": 457.947021484375
+    },
+    {
+      "id": "cpp/main/вопросы для собесов.md",
+      "x": -1786.454833984375,
+      "y": 569.49267578125
+    },
+    {
+      "id": "контейнеры и их свойства",
+      "x": -2129.220703125,
+      "y": 696.5949096679688
+    },
+    {
+      "id": "сложность О нотация",
+      "x": -2022.064697265625,
+      "y": 531.276123046875
+    },
+    {
+      "id": "rvalue move семантика",
+      "x": -1719.2127685546875,
+      "y": 330.0443115234375
+    },
+    {
+      "id": "присваивание, идиома copy and swap(реалоцирование памяти вектором) raii",
+      "x": -1923.3907470703125,
+      "y": 724.2142944335938
+    },
+    {
+      "id": "thread, mutex, future",
+      "x": -1955.8375244140625,
+      "y": 303.5805358886719
+    },
+    {
+      "id": "раскрутка стека",
+      "x": -1729.406494140625,
+      "y": 865.2757568359375
+    },
+    {
+      "id": "cpp/main/классы.md",
+      "x": -2132.984619140625,
+      "y": 576.7656860351562
+    },
+    {
+      "id": "cpp/main/константы.md",
+      "x": -2034.2965087890625,
+      "y": 769.8377075195312
+    },
+    {
+      "id": "cpp/main/обратная связь с собесов.md",
+      "x": -1971.9381103515625,
+      "y": 422.4476623535156
+    },
+    {
+      "id": "cpp/main/полиморфизм, наследование, friend, virtual, override.md",
+      "x": -2066.838623046875,
+      "y": 349.0960693359375
+    },
+    {
+      "id": "cpp/main/правило 3-5.md",
+      "x": -1840.382568359375,
+      "y": 910.7320556640625
+    },
+    {
+      "id": "cpp/main/типы кастов и для чего.md",
+      "x": -1824.3804931640625,
+      "y": 791.880126953125
+    },
+    {
+      "id": "cpp/main/умные указатели.md",
+      "x": -1348.32666015625,
+      "y": 289.71429443359375
+    },
+    {
+      "id": "csharp and .NET/main/ASP.NET.md",
+      "x": -928.1239013671875,
+      "y": -2789.410400390625
+    },
+    {
+      "id": "csharp and .NET/main/Common Intermediate Language.md",
+      "x": 206.91619873046875,
+      "y": -2729.962890625
+    },
+    {
+      "id": "csharp and .NET/main/Common Language Infrastructure.md",
+      "x": 59.40608215332031,
+      "y": -2910.721923828125
+    },
+    {
+      "id": "csharp and .NET/main/Common Language Runtime.md",
+      "x": 6.066036701202393,
+      "y": -2784.739013671875
+    },
+    {
+      "id": "CLR JIT",
+      "x": 240.9296112060547,
+      "y": -2947.9599609375
+    },
+    {
+      "id": "csharp and .NET/main/Csharp using.md",
+      "x": 589.1734008789062,
+      "y": -2214.9072265625
+    },
+    {
+      "id": "csharp and .NET/main/Framework Class Library.md",
+      "x": -385.53826904296875,
+      "y": -2695.69677734375
+    },
+    {
+      "id": "csharp and .NET/main/NET 5.md",
+      "x": -758.243896484375,
+      "y": -2723.6357421875
+    },
+    {
+      "id": "csharp and .NET/main/NET.md",
+      "x": -546.6196899414062,
+      "y": -2873.114990234375
+    },
+    {
+      "id": "Portable Class Libraries",
+      "x": -811.0595703125,
+      "y": -2890.895751953125
+    },
+    {
+      "id": "NET Framework",
+      "x": -305.1455078125,
+      "y": -2950.592529296875
+    },
+    {
+      "id": "NET Core",
+      "x": -291.98699951171875,
+      "y": -2790.880126953125
+    },
+    {
+      "id": "NET Xamarin",
+      "x": -374.3887939453125,
+      "y": -3069.380126953125
+    },
+    {
+      "id": "csharp and .NET/main/Object-Relational Mapping ORM.md",
+      "x": 329.7839050292969,
+      "y": -1880.2825927734375
+    },
+    {
+      "id": "csharp and .NET/main/Unity.md",
+      "x": -712.2633056640625,
+      "y": -3058.3623046875
+    },
+    {
+      "id": "csharp and .NET/main/asp net endpoints.md",
+      "x": -1198.9208984375,
+      "y": -2859.674072265625
+    },
+    {
+      "id": "csharp and .NET/main/aspnet asax.md",
+      "x": -1151.735107421875,
+      "y": -2969.99658203125
+    },
+    {
+      "id": "csharp and .NET/main/aspnet callback.md",
+      "x": -1159.2752685546875,
+      "y": -2709.48681640625
+    },
+    {
+      "id": "csharp and .NET/main/csharp GetType.md",
+      "x": -61.202842712402344,
+      "y": -2251.651123046875
+    },
+    {
+      "id": "csharp and .NET/main/csharp LINQ.md",
+      "x": -4.178274631500244,
+      "y": -2014.2991943359375
+    },
+    {
+      "id": "csharp and .NET/main/csharp StreamReader.md",
+      "x": 1478.9169921875,
+      "y": -1226.64111328125
+    },
+    {
+      "id": "csharp and .NET/main/csharp System.IO.md",
+      "x": 1155.10107421875,
+      "y": -1248.43505859375
+    },
+    {
+      "id": "csharp File",
+      "x": 1355.4029541015625,
+      "y": -1034.2977294921875
+    },
+    {
+      "id": "csharp StreamWriter",
+      "x": 1447.841552734375,
+      "y": -1110.77001953125
+    },
+    {
+      "id": "csharp and .NET/main/csharp abstract class.md",
+      "x": -1092.867919921875,
+      "y": 939.6434326171875
+    },
+    {
+      "id": "csharp and .NET/main/csharp abstract method.md",
+      "x": -1091.285888671875,
+      "y": 1255.423828125
+    },
+    {
+      "id": "csharp and .NET/main/csharp auto implemented properties.md",
+      "x": -1564.419921875,
+      "y": 691.826171875
+    },
+    {
+      "id": "csharp and .NET/main/csharp calss instantiation.md",
+      "x": -1183.2242431640625,
+      "y": 583.20947265625
+    },
+    {
+      "id": "csharp and .NET/main/csharp child constructor.md",
+      "x": -962.6952514648438,
+      "y": 1298.2252197265625
+    },
+    {
+      "id": "csharp and .NET/main/csharp class fields.md",
+      "x": -1148.7547607421875,
+      "y": 468.2987060546875
+    },
+    {
+      "id": "csharp and .NET/main/csharp class interfaces.md",
+      "x": -1003.1331176757812,
+      "y": 737.4917602539062
+    },
+    {
+      "id": "csharp and .NET/main/csharp class properties.md",
+      "x": -1294.4476318359375,
+      "y": 652.1992797851562
+    },
+    {
+      "id": "csharp and .NET/main/csharp class.md",
+      "x": -884.7206420898438,
+      "y": 497.8291931152344
+    },
+    {
+      "id": "csharp class constants",
+      "x": -1108.19287109375,
+      "y": 795.2327880859375
+    },
+    {
+      "id": "csharp class indexers",
+      "x": -841.1989135742188,
+      "y": 903.68798828125
+    },
+    {
+      "id": "csharp operators",
+      "x": -780.8079833984375,
+      "y": 799.9965209960938
+    },
+    {
+      "id": "csharp class events",
+      "x": -1005.685546875,
+      "y": 857.4140625
+    },
+    {
+      "id": "csharp class delegates",
+      "x": -1186.6444091796875,
+      "y": 704.5475463867188
+    },
+    {
+      "id": "csharp and .NET/main/csharp compilation step 1.md",
+      "x": 437.07696533203125,
+      "y": -2672.174560546875
+    },
+    {
+      "id": "csharp and .NET/main/csharp compilation step 2.md",
+      "x": 361.5169677734375,
+      "y": -2837.75244140625
+    },
+    {
+      "id": "csharp and .NET/main/csharp compilation step 3.md",
+      "x": 328.1446838378906,
+      "y": -2722.487060546875
+    },
+    {
+      "id": "csharp and .NET/main/csharp compilation.md",
+      "x": 236.8616180419922,
+      "y": -2461.653564453125
+    },
+    {
+      "id": "csharp and .NET/main/csharp console output.md",
+      "x": 260.1669921875,
+      "y": -1684.4722900390625
+    },
+    {
+      "id": "csharp and .NET/main/csharp constructors and destructors.md",
+      "x": -958.8766479492188,
+      "y": 967.8859252929688
+    },
+    {
+      "id": "csharp and .NET/main/csharp directives.md",
+      "x": 346.3376770019531,
+      "y": -1999.062744140625
+    },
+    {
+      "id": "csharp and .NET/main/csharp enum.md",
+      "x": 238.5643310546875,
+      "y": -1802.440673828125
+    },
+    {
+      "id": "csharp and .NET/main/csharp file handling.md",
+      "x": 615.1697387695312,
+      "y": -1472.1328125
+    },
+    {
+      "id": "csharp and .NET/main/csharp getters and setters.md",
+      "x": -1433.9534912109375,
+      "y": 25.081645965576172
+    },
+    {
+      "id": "csharp and .NET/main/csharp init only setters.md",
+      "x": -1403.8348388671875,
+      "y": -242.908447265625
+    },
+    {
+      "id": "csharp and .NET/main/csharp links.md",
+      "x": 134.4382781982422,
+      "y": -1861.763671875
+    },
+    {
+      "id": "csharp and .NET/main/csharp methods.md",
+      "x": -1198.171142578125,
+      "y": 291.0718688964844
+    },
+    {
+      "id": "csharp and .NET/main/csharp namespace.md",
+      "x": 351.5375671386719,
+      "y": -1762.34521484375
+    },
+    {
+      "id": "csharp and .NET/main/csharp nested classes.md",
+      "x": -1081.5469970703125,
+      "y": 646.8613891601562
+    },
+    {
+      "id": "csharp and .NET/main/csharp params.md",
+      "x": 19.809497833251953,
+      "y": -1896.8341064453125
+    },
+    {
+      "id": "csharp and .NET/main/csharp readonly and const.md",
+      "x": 373.1923522949219,
+      "y": -1644.374755859375
+    },
+    {
+      "id": "csharp and .NET/main/csharp static.md",
+      "x": -900.6787719726562,
+      "y": 799.5831909179688
+    },
+    {
+      "id": "csharp and .NET/main/csharp struct.md",
+      "x": -97.88253784179688,
+      "y": -1920.0172119140625
+    },
+    {
+      "id": "csharp and .NET/main/csharp typeof.md",
+      "x": 124.77367401123047,
+      "y": -2418.89111328125
+    },
+    {
+      "id": "csharp and .NET/main/csharp types.md",
+      "x": 142.7047882080078,
+      "y": -2125.675537109375
+    },
+    {
+      "id": "csharp and .NET/main/csharp var.md",
+      "x": 225.57225036621094,
+      "y": -1939.6522216796875
+    },
+    {
+      "id": "csharp and .NET/main/csharp.md",
+      "x": 38.20155334472656,
+      "y": -1678.3099365234375
+    },
+    {
+      "id": "csharp and .NET/main/создание библиотек NET.md",
+      "x": 110.63155364990234,
+      "y": -1979.377685546875
+    },
+    {
+      "id": "data_science/books.md",
+      "x": -1362.3267822265625,
+      "y": -3079.546875
+    },
+    {
+      "id": "data_science/cheatsheets.md",
+      "x": -1810.08349609375,
+      "y": 2739.436279296875
+    },
+    {
+      "id": "data_science/resources.md",
+      "x": 375.21173095703125,
+      "y": 3312.0908203125
+    },
+    {
+      "id": "java/3 steps for object declaration, creation and assignment in java.md",
+      "x": -604.8214721679688,
+      "y": -2508.806884765625
+    },
+    {
+      "id": "java/Java.md",
+      "x": 71.9071044921875,
+      "y": -2311.19140625
+    },
+    {
+      "id": "java/java ArrayList.md",
+      "x": 2229.193359375,
+      "y": -1325.3580322265625
+    },
+    {
+      "id": "java/java List.md",
+      "x": 1929.22509765625,
+      "y": -1573.8472900390625
+    },
+    {
+      "id": "java LinkedList",
+      "x": 2029.2869873046875,
+      "y": -1236.333984375
+    },
+    {
+      "id": "java/java Vector.md",
+      "x": 2384.335693359375,
+      "y": -1285.107421875
+    },
+    {
+      "id": "java/java class Stack.md",
+      "x": 2717.680419921875,
+      "y": -1246.8426513671875
+    },
+    {
+      "id": "java/java collections.md",
+      "x": 1084.5958251953125,
+      "y": -1949.8907470703125
+    },
+    {
+      "id": "java Queue",
+      "x": 1316.641357421875,
+      "y": -2062.2822265625
+    },
+    {
+      "id": "java Set",
+      "x": 1166.06396484375,
+      "y": -2226.289306640625
+    },
+    {
+      "id": "java Map",
+      "x": 1277.629638671875,
+      "y": -2175.759765625
+    },
+    {
+      "id": "java/java heap and stack.md",
+      "x": -577.4500122070312,
+      "y": -2390.65478515625
+    },
+    {
+      "id": "java/java heap.md",
+      "x": -922.9142456054688,
+      "y": -2459.1396484375
+    },
+    {
+      "id": "java/java inheritance.md",
+      "x": -224.5433807373047,
+      "y": -2455.825927734375
+    },
+    {
+      "id": "java/java interface.md",
+      "x": -495.1018371582031,
+      "y": -2592.04296875
+    },
+    {
+      "id": "java/java stack.md",
+      "x": -890.6640625,
+      "y": -2343.568359375
+    },
+    {
+      "id": "java/java value and reference type.md",
+      "x": -330.7316589355469,
+      "y": -2399.978271484375
+    },
+    {
+      "id": "python/links.md",
+      "x": 2368.31689453125,
+      "y": -2419.382568359375
+    },
+    {
+      "id": "templates/0 note.md",
+      "x": 2509.55615234375,
+      "y": -2261.049072265625
+    }
+  ],
+  "automaticallyRestoreNodePositions": true
+}

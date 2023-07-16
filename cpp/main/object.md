@@ -1,0 +1,1 @@
+is a region of memory that can contain data and has a type

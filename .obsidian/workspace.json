@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "da1493cef6548a46",
+    "type": "split",
+    "children": [
+      {
+        "id": "405161f8c02493c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccd29c5fb25fcefc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/java web project structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34ca4165d1d4b0dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/main/pet projects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5117d2c11f642e5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/android apps activities and layouts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec2e63e2c4745260",
+    "type": "split",
+    "children": [
+      {
+        "id": "38abe1deddf2f046",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feed4372b19452a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "78ec28b595a55791",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "cpp links",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d43e1aa8be5572bb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "27643b8de3c1c051",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd28cfe41c0bdc1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "01c12ea27e2b45af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b9ea524a73e2b5f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "java/java web project structure.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "034e87d10f5ec82d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "java/java web project structure.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "019fec81e6059e66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "86b544e900be5b67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "java/java web project structure.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 215
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "ccd29c5fb25fcefc",
+  "lastOpenFiles": [
+    "XCOM FtA/templates/0 template.md",
+    "XCOM FtA/main/tasks.md",
+    "XCOM FtA/main/super important.md",
+    "XCOM FtA/main/save.md",
+    "XCOM FtA/main/hierarchy.md",
+    "XCOM FtA/main/fta Base.md",
+    "XCOM FtA/main/FtA.md",
+    "XCOM FtA/main/energy supply.md",
+    "XCOM FtA/main/classes.md",
+    "cpp/main/cpp links.md",
+    "cpp/main/Rust.md",
+    "cpp/main/cpp tutorials.md",
+    "cpp/main/C++.md",
+    "java/java web project structure.md",
+    "java/Java.md",
+    "java/java links.md",
+    "java/java tutorials.md",
+    "csharp and .NET/main/csharp tutorials.md",
+    "csharp and .NET/main/csharp links.md",
+    "csharp and .NET/main/csharp.md",
+    "csharp and .NET/main/csharp mind map.md",
+    "csharp and .NET/main/files/Pasted image 20220813181327.png",
+    "cpp/main/Programming Languages.md",
+    "Software Engineering/main/1 Software Engineering.md"
+  ]
+}

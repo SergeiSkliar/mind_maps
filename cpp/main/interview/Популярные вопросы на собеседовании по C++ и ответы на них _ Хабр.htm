@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover,maximum-scale=1,user-scalable=0">
+  <meta name="referrer" content="unsafe-url">
+  <title>Популярные вопросы на собеседовании по C++ и ответы на них / Хабр</title>
+  <style>
+    /* cyrillic-ext */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSxf6TF0.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    /* cyrillic */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveQhf6TF0.woff2) format('woff2');
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    /* latin-ext */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSBf6TF0.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    /* latin */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    /* non-breaking hyphen */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/l/font?kit=KFOlCnqEu92Fr1MmEU9vBh0_IsHAlmrO6g&skey=ee881451c540fdec&v=v29) format('woff2');
+      unicode-range: U+02011;
+    }
+  </style>
+  <link rel="preload" href="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/chunk-vendors.76652d4b.css" as="style"><link rel="preload" href="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/chunk-vendors.64bb3caa.js" as="script"><link rel="preload" href="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/app.5241b8c5.css" as="style"><link rel="preload" href="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/app.963a86d3.js" as="script">
+  <link rel="stylesheet" href="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/chunk-vendors.76652d4b.css"><link rel="stylesheet" href="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/app.5241b8c5.css">
+  <script async="" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/tag.js"></script><script>window.i18nFetch = new Promise((res, rej) => {
+          const xhr = new XMLHttpRequest();
+          xhr.open('GET', '/js/i18n/ru-compiled.6aa513a2e8a86335c6bf81d4cfd55980.json');
+          xhr.responseType = 'json';
+          xhr.onload = function(e) {
+            if (this.status === 200) {
+              res({ru: xhr.response});
+            } else {
+              rej(e);
+            }
+          };
+          xhr.send();
+        });</script>
+  
+  <script data-vue-meta="ssr" type="application/ld+json" data-vmid="ldjson-schema">{"@context":"http:\/\/schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/habr.com\/ru\/post\/117996\/"},"headline":"Популярные вопросы на собеседовании по C++ и ответы на них","datePublished":"2011-04-22T19:32:44+04:00","dateModified":"2011-05-01T18:58:06+04:00","author":{"@type":"Person","name":"Абдульманов Роман"},"publisher":{"@type":"Organization","name":"Habr","logo":{"@type":"ImageObject","url":"https:\/\/habrastorage.org\/webt\/a_\/lk\/9m\/a_lk9mjkccjox-zccjrpfolmkmq.png"}},"description":"Здравствуйте!  Те, кто занимается программированием рано или поздно сталкивается с необходимостью прохождения технического собеседования у потенциального работод...","url":"https:\/\/habr.com\/ru\/post\/117996\/#post-content-body","about":["h_cpp","f_develop"],"image":["https:\/\/habr.com\/share\/publication\/117996\/b21d8a2023e13f60ef728fff92f2df69\/"]}</script>
+  <script src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/gpt.js" async=""></script>
+  <style>.grecaptcha-badge{visibility: hidden;}</style>
+  <meta name="habr-version" content="2.88.0">
+  
+  <meta data-vue-meta="ssr" property="fb:app_id" content="444736788986613"><meta data-vue-meta="ssr" property="fb:pages" content="472597926099084"><meta data-vue-meta="ssr" name="twitter:card" content="summary_large_image"><meta data-vue-meta="ssr" name="twitter:site" content="@habr_com"><meta data-vue-meta="ssr" property="og:site_name" content="Хабр" data-vmid="og:site_name"><meta data-vue-meta="ssr" property="og:title" content="Популярные вопросы на собеседовании по C++ и ответы на них" data-vmid="og:title"><meta data-vue-meta="ssr" name="twitter:title" content="Популярные вопросы на собеседовании по C++ и ответы на них" data-vmid="twitter:title"><meta data-vue-meta="ssr" name="aiturec:title" content="Популярные вопросы на собеседовании по C++ и ответы на них" data-vmid="aiturec:title"><meta data-vue-meta="ssr" name="description" content="Здравствуйте! Те, кто занимается программированием рано или поздно сталкивается с необходимостью прохождения технического собеседования у потенциального работодателя. О том, что спрашивают на..." data-vmid="description"><meta data-vue-meta="ssr" itemprop="description" content="Здравствуйте! Те, кто занимается программированием рано или поздно сталкивается с необходимостью прохождения технического собеседования у потенциального работодателя. О том, что спрашивают на..." data-vmid="description:itemprop"><meta data-vue-meta="ssr" property="og:description" content="Здравствуйте! Те, кто занимается программированием рано или поздно сталкивается с необходимостью прохождения технического собеседования у потенциального работодателя. О том, что спрашивают на..." data-vmid="og:description"><meta data-vue-meta="ssr" name="twitter:description" content="Здравствуйте! Те, кто занимается программированием рано или поздно сталкивается с необходимостью прохождения технического собеседования у потенциального работодателя. О том, что спрашивают на..." data-vmid="twitter:description"><meta data-vue-meta="ssr" property="aiturec:description" content="Здравствуйте! Те, кто занимается программированием рано или поздно сталкивается с необходимостью прохождения технического собеседования у потенциального работодателя. О том, что спрашивают на..." data-vmid="aiturec:description"><meta data-vue-meta="ssr" itemprop="image" content="https://habr.com/share/publication/117996/b21d8a2023e13f60ef728fff92f2df69/" data-vmid="image:itemprop"><meta data-vue-meta="ssr" property="og:image" content="https://habr.com/share/publication/117996/b21d8a2023e13f60ef728fff92f2df69/" data-vmid="og:image"><meta data-vue-meta="ssr" property="og:image:width" content="1200" data-vmid="og:image:width"><meta data-vue-meta="ssr" property="og:image:height" content="630" data-vmid="og:image:height"><meta data-vue-meta="ssr" property="aiturec:image" content="https://habr.com/share/publication/117996/b21d8a2023e13f60ef728fff92f2df69/" data-vmid="aiturec:image"><meta data-vue-meta="ssr" name="twitter:image" content="https://habr.com/share/publication/117996/b21d8a2023e13f60ef728fff92f2df69/" data-vmid="twitter:image"><meta data-vue-meta="ssr" property="vk:image" content="https://habr.com/share/publication/117996/b21d8a2023e13f60ef728fff92f2df69/?format=vk" data-vmid="vk:image"><meta data-vue-meta="ssr" property="aiturec:item_id" content="117996" data-vmid="aiturec:item_id"><meta data-vue-meta="ssr" property="aiturec:datetime" content="2011-04-22T15:32:44.000Z" data-vmid="aiturec:datetime"><meta data-vue-meta="ssr" content="https://habr.com/ru/post/117996/" property="og:url" data-vmid="og:url"><meta data-vue-meta="ssr" property="og:type" content="article" data-vmid="og:type"><meta data-vue-meta="ssr" property="og:locale" content="ru_RU" data-vmid="og:locale"><meta data-vue-meta="ssr" name="keywords" content="c++, interview, question and answers">
+  <link data-vue-meta="ssr" href="https://habr.com/ru/rss/post/117996/?fl=ru" type="application/rss+xml" title="" rel="alternate" name="rss"><link data-vue-meta="ssr" href="https://habr.com/ru/post/117996/" rel="canonical" data-vmid="canonical"><link data-vue-meta="ssr" data-vmid="hreflang"><link data-vue-meta="ssr" image_src="image" href="https://habr.com/share/publication/117996/b21d8a2023e13f60ef728fff92f2df69/" data-vmid="image:href">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#303b44">
+  <meta name="msapplication-TileColor" content="#629FBC">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" type="image/png" sizes="16x16" href="https://assets.habr.com/habr-web/img/favicons/favicon-16.png">
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="https://assets.habr.com/habr-web/img/favicons/favicon-32.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-76.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-120.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-152.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-180.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="256x256" href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-256.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://assets.habr.com/habr-web/img/splashes/splash_1136x640.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://assets.habr.com/habr-web/img/splashes/splash_2436x1125.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://assets.habr.com/habr-web/img/splashes/splash_1792x828.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://assets.habr.com/habr-web/img/splashes/splash_828x1792.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://assets.habr.com/habr-web/img/splashes/splash_1334x750.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://assets.habr.com/habr-web/img/splashes/splash_1242x2668.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://assets.habr.com/habr-web/img/splashes/splash_2208x1242.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://assets.habr.com/habr-web/img/splashes/splash_1125x2436.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://assets.habr.com/habr-web/img/splashes/splash_1242x2208.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://assets.habr.com/habr-web/img/splashes/splash_2732x2048.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://assets.habr.com/habr-web/img/splashes/splash_2688x1242.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://assets.habr.com/habr-web/img/splashes/splash_2224x1668.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://assets.habr.com/habr-web/img/splashes/splash_750x1334.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://assets.habr.com/habr-web/img/splashes/splash_2048x2732.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://assets.habr.com/habr-web/img/splashes/splash_2388x1668.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://assets.habr.com/habr-web/img/splashes/splash_1668x2224.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://assets.habr.com/habr-web/img/splashes/splash_640x1136.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://assets.habr.com/habr-web/img/splashes/splash_1668x2388.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://assets.habr.com/habr-web/img/splashes/splash_2048x1536.png">
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://assets.habr.com/habr-web/img/splashes/splash_1536x2048.png">
+  <link rel="mask-icon" color="#77a2b6" href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-120.svg">
+  <link crossorigin="use-credentials" href="https://habr.com/manifest.webmanifest" rel="manifest">
+  <script>window.yaContextCb = window.yaContextCb || []</script>
+  <script src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/context.js" async=""></script>
+<script charset="utf-8" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/chunk-2d21ab85.88ea267c.js"></script><script charset="utf-8" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/hljs.7fad6c1e.js"></script><script charset="utf-8" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/chunk-2d222042.efc62e07.js"></script><script data-vue-meta="ssr" onload="window['e0044d29c024'] = true" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/index.js" data-vmid="checklogin"></script><script charset="utf-8" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/chunk-2d21042a.8609a95a.js"></script></head>
+<body>
+
+
+<div id="app" data-async-called="true"><div class="tm-layout__wrapper"><!----> <div></div> <!----> <header data-test-id="header" class="tm-header"><div class="tm-page-width"><div class="tm-header__container"><!----> <span class="tm-header__logo-wrap"><a href="https://habr.com/ru/" class="tm-header__logo tm-header__logo_ru"><svg height="16" width="16" class="tm-svg-img tm-header__icon"><title>Хабр</title> <use xlink:href="/img/habr-logo-ru.svg#logo"></use></svg></a> <span class="tm-header__beta-sign" style="display:none;">β</span></span> <div class="tm-dropdown tm-header__projects"><div class="tm-dropdown__head"><button class="tm-header__dropdown-toggle"><svg height="16" width="16" class="tm-svg-img tm-header__icon tm-header__icon_dropdown"><title>Открыть список</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#arrow-down"></use></svg></button></div> <!----></div> <a href="https://habr.com/ru/sandbox/start/" class="tm-header__become-author-btn">
+            Как стать автором
+          </a> <div class="tm-feature tm-header__feature tm-feature tm-feature_variant-inline"><a href="https://effect.habr.com/a/4-t72e6J6BQHBscVUpaXsjEEf0NMKm8gKM6mh5yIMU2YsGUQVBRtkn4zHA6cdF2zWq7Ybx4ub-i2EVc9C1xC1K9xlxXObT5cwdVvGgkjBU5JlYvNsnUwpyTsgP-l8_FrS7yJgZCHbxDecw" rel="noopener" target="_blank" class="tm-feature__link"><img alt="" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/battery_1f50b.png" class="tm-feature__icon" width="20" height="20">
+    Неделя мобильной разработки 
+  </a></div> <a href="https://effect.habr.com/a/qqgYavGg7p-o8pgac4GRh13vSelsGKxkCmvf8jhkGGJV0dHIRl_xaYN_EWIlbPEytj9EH2bM26nxkdsQ0m2EJnlhriTu5bLazvo0rKadC8Pe0xu-Awo" target="_blank" class="tm-top-link" style="color: rgb(255, 162, 153);">
+  [Подкаст] Мониторим Open Source в мониторинге
+</a> <!----></div></div></header> <div class="tm-layout"><div class="tm-page-progress-bar"></div> <div data-menu-sticky="true" class="tm-base-layout__header tm-base-layout__header_is-sticky"><div class="tm-page-width"><div class="tm-base-layout__header-wrapper"><div class="tm-main-menu"><div class="tm-main-menu__section"><nav class="tm-main-menu__section-content"><!----> <a href="https://habr.com/ru/all/" class="tm-main-menu__item">
+        Все потоки
+      </a> <a href="https://habr.com/ru/flows/develop/" class="tm-main-menu__item">
+          Разработка
+        </a><a href="https://habr.com/ru/flows/admin/" class="tm-main-menu__item">
+          Администрирование
+        </a><a href="https://habr.com/ru/flows/design/" class="tm-main-menu__item">
+          Дизайн
+        </a><a href="https://habr.com/ru/flows/management/" class="tm-main-menu__item">
+          Менеджмент
+        </a><a href="https://habr.com/ru/flows/marketing/" class="tm-main-menu__item">
+          Маркетинг
+        </a><a href="https://habr.com/ru/flows/popsci/" class="tm-main-menu__item">
+          Научпоп
+        </a></nav></div></div> <div class="tm-header-user-menu tm-base-layout__user-menu"><a href="https://habr.com/ru/search/" data-test-id="search-button" class="tm-header-user-menu__item tm-header-user-menu__search"><svg height="24" width="24" class="tm-svg-img tm-header-user-menu__icon tm-header-user-menu__icon_search tm-header-user-menu__icon_dark"><title>Поиск</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#search"></use></svg></a> <!----> <!----> <!----> <div class="tm-header-user-menu__item tm-header-user-menu__user_desktop"><div class="tm-dropdown"><div class="tm-dropdown__head"><svg height="24" width="24" data-test-id="menu-toggle-guest" class="tm-svg-img tm-header-user-menu__icon"><title>Профиль</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#header-user"></use></svg> <!----></div> <!----></div> <!----></div> <!----></div></div></div></div> <!----> <div class="tm-page-width"></div> <main class="tm-layout__container"><div hl="ru" data-async-called="true" class="tm-page"><div class="tm-page-width"><!----> <div class="tm-page__wrapper"><div class="tm-page__main tm-page__main_has-sidebar"><div class="pull-down"><div class="pull-down__header" style="height:0px;"><div class="pull-down__content" style="bottom:10px;"><svg height="24" width="24" class="tm-svg-img pull-down__arrow"><title>Обновить</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#pull-arrow"></use></svg></div></div> <div class="tm-article-presenter"> <div data-test-id="article-body" class="tm-article-presenter__body"><div class="tm-misprint-area"><div class="tm-misprint-area__wrapper"><article class="tm-article-presenter__content tm-article-presenter__content_narrow"><div class="tm-article-presenter__header"> <div class="tm-article-snippet tm-article-presenter__snippet"><div class="tm-article-snippet__meta-container"><div class="tm-article-snippet__meta"><span class="tm-user-info tm-article-snippet__author"><a href="https://habr.com/ru/users/NevRA/" data-test-id="user-info-pic" title="NevRA" class="tm-user-info__userpic"><div class="tm-entity-image"><img alt="" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/36f7d4b57ce2971d9a5d89fb8420ed94.jpg" class="tm-entity-image__pic" width="24" height="24"></div></a> <span data-test-id="user-info-description" class="tm-user-info__user"><a href="https://habr.com/ru/users/NevRA/" class="tm-user-info__username">
+      NevRA
+    </a> </span></span> <span class="tm-article-snippet__datetime-published"><time datetime="2011-04-22T15:32:44.000Z" title="2011-04-22, 18:32">22  апреля  2011 в 18:32</time></span></div> <!----></div> <h1 data-test-id="articleTitle" class="tm-article-snippet__title tm-article-snippet__title_h1" lang="ru"><span>Популярные вопросы на собеседовании по C++ и ответы на них</span></h1> <div data-test-id="articleHubsList" class="tm-article-snippet__hubs"><span class="tm-article-snippet__hubs-item"><a href="https://habr.com/ru/hub/cpp/" class="tm-article-snippet__hubs-item-link"><span>C++</span> <span title="Профильный хаб" class="tm-article-snippet__profiled-hub">*</span></a></span></div> <!----> <!----> <!----></div></div> <!----> <div data-gallery-root="" class="tm-article-body" lang="ru"><div></div> <div id="post-content-body"><div><div class="article-formatted-body article-formatted-body article-formatted-body_version-1"><div xmlns="http://www.w3.org/1999/xhtml">Здравствуйте!<br>
+<br>
+Те, кто занимается программированием рано или поздно сталкивается с 
+необходимостью прохождения технического собеседования у потенциального 
+работодателя. <br>
+<br>
+О том, что спрашивают на собеседовании у C++ программистов, а также об ответах на эти вопросы и пойдет речь в данном посте.<br>
+<a name="habracut"></a><br>
+<h4>Предисловие</h4><br>
+Небольшая вводная часть в виде вопрос-ответ, чтобы разъяснить некоторые 
+моменты и постараться ответить на возможные вопросы по этому посту.<br>
+<br>
+<b>Зачем все это?</b><br>
+Хочется собрать <b>реальные</b> вопросы и ответы на них в <b>одном</b> 
+посте. Т.к. меня не устраивают те, что я вижу в интернете, они порой 
+слишком размазанные (например, 75 страниц на геймдеве), или 
+рассматривающие всего несколько примеров, или с ошибками, которые уже 
+никто не исправит, или с ссылками на уже мертвые топики, или какие-то 
+надуманные,… список можно продолжать.<br>
+<br>
+В общем хочется иметь список с <b>самыми</b> популярными вопросами по 
+данной теме, и если, вдруг, понадобится освежить знания, чтобы не 
+приходилось лезть в какие-то записки, запускать IDE или гуглить, а можно
+ было открыть <b>одно</b> место и там все прочитать.<br>
+<br>
+Наиболее интересной данная тема должна показаться тем, кто еще только начинает свои шаги в этом безграничном море под названием <b>C++</b>.<br>
+<br>
+<b>Откуда будут вопросы?</b> <br>
+Из небольшого моего опыта, опыта людей, которых я знаю, а также, я 
+надеюсь, что много интересного предложите вы, из своего опыта или опыта 
+ваших знакомых. <br>
+<br>
+<b>Какая будет структура этих вопросов?</b><br>
+Линейный список. Вопросы будут добавляться по мере поступления, я 
+постараюсь не забрасывать данный раздел и обновлять его. В конце я буду 
+ставить дату последнего обновления, чтобы было понятно когда список 
+меняли последний раз. <br>
+<br>
+Сейчас я планирую написать первые 20 вопросов, а если эта тема будет востребована, то буду постепенно добавлять новые.<br>
+<br>
+<b>У вас ошибка в коде, как вы ее проглядели?</b><br>
+Людям свойственно ошибаться и я не считаю себя гуру способному писать 
+безошибочно. И это C++, здесь вероятность ошибиться еще больше. <br>
+<br>
+Если вы видите ошибку, напишите о ней, и я обязательно ее исправлю.<br>
+<br>
+<h4>Q &amp; A</h4><br>
+<h5>1. Зачем нужен виртуальный деструктор?</h5><br>
+<b>Ответ:</b> Чтобы избежать возможной утечки ресурсов или другого 
+неконтролируемого поведения объекта, в логику работы которого включен 
+вызов деструктора.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Base</span>
+{</span>
+<span class="hljs-keyword">public</span>:
+    <span class="hljs-keyword">virtual</span> ~Base()
+    {
+        <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Hello from ~Base()"</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+    }
+};
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Derived</span> :</span> <span class="hljs-keyword">public</span> Base
+{
+<span class="hljs-keyword">public</span>:
+    <span class="hljs-keyword">virtual</span> ~Derived()
+    {
+        <span class="hljs-comment">// Здесь могла бы быть очистка ресурсов</span>
+        <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Hello from ~Derived()"</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+    }
+};
+
+Base *obj = <span class="hljs-keyword">new</span> Derived();
+<span class="hljs-keyword">delete</span> obj;
+</code></pre><br>
+<b>Output:</b><br>
+<code>Hello from ~Derived()<br>
+Hello from ~Base()</code><br>
+<br>
+Без ключевого слова <b>virtual</b> у родительского класса <b>Base</b> деструктор порожденного класса не был бы вызван. Т.е. вызвался бы только <b>~Base()</b>:<br>
+<br>
+<b>Output:</b><br>
+<code>Hello from ~Base()</code><br>
+<br>
+Более подробно об этом написал <a href="https://habrahabr.ru/users/gooroo/" class="user_link">GooRoo</a> <a href="http://habrahabr.ru/blogs/cpp/64280/">здесь</a>. Наглядный пример возможной утечки в следующем вопросе.<br>
+<br>
+<h5>2. Что стоит помнить при использовании исключений в конструкторе объекта?</h5><br>
+<b>Ответ:</b> Если исключение не обработано, то c логической точки 
+зрения разрушается объект, который еще не создан, а с технической, так 
+как он еще не создан, то и деструктор этого объекта <b>не будет</b> вызван.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Base</span>
+{</span>
+<span class="hljs-keyword">private</span>: 
+    HANDLE m_hFile;
+
+<span class="hljs-keyword">public</span>:
+    Base()
+    {
+        <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Hello from Base()"</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+        m_hFile = ::CreateFileA(...);
+        <span class="hljs-comment">// Вызываем код, который в ходе своего выполнения бросает исключение</span>
+        SomeLib.SomeFunc(...);
+    }
+
+    <span class="hljs-keyword">virtual</span> ~Base()
+    {
+        <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Hello from ~Base()"</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+        <span class="hljs-comment">// Здесь мы планировали закрыть хэндл</span>
+        ::CloseHandle(m_hFile);
+    }
+};
+
+<span class="hljs-keyword">try</span>
+{
+    Base b;
+}
+<span class="hljs-keyword">catch</span>(<span class="hljs-keyword">const</span> <span class="hljs-built_in">std</span>::exception &amp;e)
+{
+    <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Exception message: "</span> &lt;&lt; e.what() &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+}
+</code></pre><br>
+<b>Output:</b><br>
+<code>Hello from Base()<br>
+Exception message: Something failed</code><br>
+<br>
+Я немного модифицировал предыдущий пример, чтобы проблема была наглядней. Здесь объект <b>m_hFile</b> (если был открыт) утечет т.к. до <b>CloseHandle()</b>
+ выполнение не дойдет. Т.е. имеем такие же проблемы как в первом 
+примере: возможная утечка ресурсов или другие проблемы из-за нарушения 
+логики работы класса.<br>
+<br>
+Здесь могут спросить: «Как бы вы поступили при подобной ситуации». Правильный ответ: «Воспользовался бы умными указателями». <b>Простой</b> пример умного указателя:<br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Base</span>
+{</span>
+<span class="hljs-keyword">private</span>: 
+    <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CHandle</span>
+    {</span>
+    <span class="hljs-keyword">public</span>:
+        ~CHandle()
+        {
+            ::CloseHandle(m_handle);
+        }
+    <span class="hljs-keyword">private</span>:
+        HANDLE m_handle;
+    <span class="hljs-keyword">public</span>:
+        <span class="hljs-comment">// Для полноценного smart pointer'а перегрузки одной операции</span>
+        <span class="hljs-comment">// не достаточно, но для нашего примера и понимания вполне хватит</span>
+        <span class="hljs-keyword">void</span> <span class="hljs-keyword">operator</span> = (<span class="hljs-keyword">const</span> HANDLE &amp;handle)
+        {
+            m_handle = handle;
+        }
+    };
+
+    CHandle m_hFile;
+
+<span class="hljs-keyword">public</span>:
+    Base()
+    {
+        <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Hello from Base()"</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+        m_hFile = ::CreateFileA(...);
+        <span class="hljs-comment">// Вызываем код, который в ходе своего выполнения бросает исключение</span>
+        SomeLib.SomeFunc(...);
+    }
+
+    <span class="hljs-keyword">virtual</span> ~Base()
+    {
+        <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Hello from ~Base()"</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+    }
+...
+</code></pre><br>
+Теперь и без вызова деструктора <b>Base</b> хэндл будет закрыт, т.к. при уничтожении класса <b>Base</b> будет уничтожен объект <b>m_hFile</b> класса <b>CHandle</b>, в деструкторе которого и будет закрыт хэндл. <br>
+<br>
+Изобретать велосипед, конечно, не надо, все уже написано до нас, это 
+пример который можно написать на бумажке при соответствующем вопросе. А 
+так есть <b>boost</b>, <b>Loki</b>, <b>ATL</b> и т.п., где это уже реализовано.<br>
+<br>
+<h5>3. Для каких целей применяется ключевое слово <b>const</b>?</h5><br>
+<b>Ответ:</b> <br>
+<ol>
+<li>Позволяет задать константность объекта</li>
+<li>Позволяет задать константность указателя</li>
+<li>Позволяет указать, что данный метод не модифицирует члены класса, т.е. сохраняет состояние объекта</li>
+</ol><b>Пример 1. Не можем изменить значение объекта:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>;
+i = <span class="hljs-number">2</span>; <span class="hljs-comment">// error C3892: 'i' : you cannot assign to a variable that is const</span>
+</code></pre><br>
+<b>Пример 2. Не можем изменить указатель на объект:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>;
+<span class="hljs-function"><span class="hljs-keyword">int</span>* <span class="hljs-keyword">const</span> <span class="hljs-title">j</span><span class="hljs-params">(&amp;i)</span></span>;
+<span class="hljs-keyword">int</span> k = <span class="hljs-number">2</span>;
+*j = k; <span class="hljs-comment">// Ok</span>
+j = &amp;k; <span class="hljs-comment">// error C3892: 'j' : you cannot assign to a variable that is const</span>
+</code></pre><br>
+<br>
+<b>Пример 3. Не можем изменить члены класса:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span>
+{</span>
+<span class="hljs-keyword">private</span>:
+    <span class="hljs-keyword">int</span> i;
+<span class="hljs-keyword">public</span>:
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">func</span><span class="hljs-params">()</span> <span class="hljs-keyword">const</span>
+    </span>{
+        i = <span class="hljs-number">1</span>; <span class="hljs-comment">// error C3490: 'i' cannot be modified because it is being accessed through a const object</span>
+    }
+};
+</code></pre><br>
+Дополнение: константный метод может изменять члены класса, если они объявлены как <b>mutable</b>. Подробнее про mutable можно прочитать у Алены CPP <a href="http://alenacpp.blogspot.com/2005/10/mutable-constcast.html">здесь</a>.<br>
+<br>
+<h5>4. Можете ли вы написать пример какого-нибудь алгоритма сортировки?</h5><br>
+<b>Ответ:</b> Пузырьковая сортировка, для контейнеров, без временных переменных:<br>
+<pre><code class="cpp hljs"><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T &gt;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">bubble_sort</span><span class="hljs-params">( T &amp;a )</span>
+</span>{
+    <span class="hljs-keyword">for</span>( T::size_type i = <span class="hljs-number">0</span>; a.size() &amp;&amp; i &lt; a.size() - <span class="hljs-number">1</span>; ++i )
+    {
+        <span class="hljs-keyword">for</span>( T::size_type j = i; j + <span class="hljs-number">1</span> &gt; <span class="hljs-number">0</span>; --j )
+        {
+            <span class="hljs-keyword">if</span>( a[j] &gt; a[j+<span class="hljs-number">1</span>] )
+                <span class="hljs-built_in">std</span>::swap( a[j], a[j+<span class="hljs-number">1</span>] );
+        }
+    }
+}
+
+<span class="hljs-built_in">std</span>::<span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; v;
+v.push_back( <span class="hljs-number">7</span> );
+v.push_back( <span class="hljs-number">1000</span> );
+v.push_back( <span class="hljs-number">134</span> );
+v.push_back( <span class="hljs-number">23</span> );
+v.push_back( <span class="hljs-number">1</span> );
+bubble_sort( v );
+</code></pre><br>
+<h5>5. Можете ли вы написать код для переворота строки?</h5><br>
+<b>Ответ:</b> Код переворота строки для контейнеров, без временных переменных, не осуществляющий прохода по всей строке:<br>
+<pre><code class="cpp hljs"><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T &gt;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">invert_string</span><span class="hljs-params">( T &amp;a )</span>
+</span>{
+    T::size_type length = a.size();
+    <span class="hljs-keyword">for</span>( T::size_type i = <span class="hljs-number">0</span>; i &lt; (length/<span class="hljs-number">2</span>); ++i )
+    {
+        <span class="hljs-built_in">std</span>::swap( a[i], a[length - i - <span class="hljs-number">1</span>] );
+    }
+}
+
+<span class="hljs-built_in">std</span>::<span class="hljs-built_in">string</span> str = <span class="hljs-string">"abcdefg"</span>;
+invert_string(str);
+</code></pre><br>
+<h5>6. Как защитить объект от копирования?</h5><br>
+<b>Ответ:</b> Сделать <b>private</b> конструктор копирования и оператор <b>=</b>.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">NonCopyable</span>
+{</span>
+<span class="hljs-keyword">public</span>:
+    NonCopyable(){}
+
+<span class="hljs-keyword">private</span>:
+    NonCopyable(NonCopyable&amp;){}
+    
+<span class="hljs-keyword">private</span>:
+    <span class="hljs-keyword">void</span> <span class="hljs-keyword">operator</span>=(<span class="hljs-keyword">const</span> NonCopyable&amp;){}
+};
+
+NonCopyable a; 
+NonCopyable b = a; <span class="hljs-comment">// error C2248: 'NonCopyable::NonCopyable' : cannot access private member</span>
+a = b; <span class="hljs-comment">// error C2248: 'NonCopyable::operator =' : cannot access private member</span>
+</code></pre><br>
+<h5>7. В чем разница между <b>struct</b> и <b>class</b>?</h5><br>
+<b>Ответ:</b> Практически ни в чем. В <b>struct</b> модификаторы доступа по умолчанию <b>public</b>, в <b>class</b> <b>private</b>. Также отличается и наследование по умолчанию, у <b>struct</b> — <b>public</b>, у <b>class</b> — <b>private</b>.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Foo</span>
+{</span>
+    <span class="hljs-keyword">int</span> i;
+};
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Bar</span>
+{</span>
+    <span class="hljs-keyword">int</span> i;
+};
+
+Foo a;
+a.i = <span class="hljs-number">1</span>; <span class="hljs-comment">// Ok</span>
+Bar b;
+b.i = <span class="hljs-number">1</span>; <span class="hljs-comment">// error C2248: 'Bar::i' : cannot access private member declared in class 'Bar'</span>
+</code></pre><br>
+<h5>8. Каким свойством должен обладать объект, чтобы его можно было добавить в ассоциативные контейнеры в качестве ключа?</h5><br>
+<b>Ответ:</b> Т.к. значения в ассоциативных контейнерах хранятся отсортированными, то объект должен реализовывать оператор сравнения <b>&lt;</b>, а остальные операторы сравнения могут быть выражены через него.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Foo</span>
+{</span>
+    <span class="hljs-keyword">int</span> i;
+};
+<span class="hljs-keyword">inline</span> <span class="hljs-keyword">bool</span> <span class="hljs-keyword">operator</span> &lt; (<span class="hljs-keyword">const</span> Foo &amp; lhs, <span class="hljs-keyword">const</span> Foo &amp; rhs)
+{
+    <span class="hljs-keyword">return</span> lhs.i &lt; rhs.i;
+}
+
+<span class="hljs-built_in">std</span>::<span class="hljs-built_in">set</span>&lt;Foo&gt; data;
+Foo a, b, c;
+a.i = <span class="hljs-number">7</span>;
+b.i = <span class="hljs-number">1</span>;
+c.i = <span class="hljs-number">6</span>;
+data.insert( a );
+data.insert( b );
+data.insert( c );
+<span class="hljs-comment">// Теперь в data элементы находятся в последовательности 1 6 7</span>
+</code></pre><br>
+Без реализации <b>operator &lt; </b> объект класса Foo нельзя было бы добавить в <b>set</b>, т.к. был бы не определен их порядок внутри <b>set'а</b>. <br>
+<br>
+Для нахождения элемента в контейнеры STL сам определяет недостающие 
+операторы из оператора меньше. Так например, чтобы вычислить нужный 
+элемент STL проверяет меньше ли он текущего, далее больше ли, и если оба
+ условия ложны значит элемент эквивалентен искомому.<br>
+<br>
+Помимо этого, для контейнеров может быть определен класс сравнения (<b>Comparison class</b>), в котором будет определена логика сравнения объектов, реализованная через тот же оператор меньше.<br>
+<br>
+<h5>9. Сколько в памяти занимает произвольная структура?</h5><br>
+<b>Ответ:</b> <b>sizeof</b> всех членов + остаток для выравнивания (по умолчанию выравнивание 4 байта) + <b>sizeof</b> указателя на <b>vtable</b> (если есть виртуальные функции) + указатели на классы предков, от которых было сделано <b>виртуальное</b> наследование (размер указателя * количество классов)<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Foo</span>
+{</span>
+    <span class="hljs-keyword">int</span> i;
+    <span class="hljs-keyword">char</span> a;
+};
+
+<span class="hljs-keyword">int</span> size = <span class="hljs-keyword">sizeof</span>(Foo); <span class="hljs-comment">// 8 байт, хотя int + char = 5. Все дело в дефолтном выравнивании равном 4, т.е. размер должен быть кратен блоку в 4 байта.</span>
+
+<span class="hljs-comment">// Установим выравнивание в 1 байт</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">pragma</span> pack(push, 1)</span>
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Foo</span>
+{</span>
+    <span class="hljs-keyword">int</span> i;
+    <span class="hljs-keyword">char</span> a;
+};
+<span class="hljs-meta">#<span class="hljs-meta-keyword">pragma</span> pack(pop)</span>
+
+<span class="hljs-keyword">int</span> size = <span class="hljs-keyword">sizeof</span>(Foo); <span class="hljs-comment">// 5 байт</span>
+</code></pre><br>
+<h5>10. Как сгенерировать pure virtual function call исключение?</h5><br>
+<b>Ответ:</b> Нужно вызвать чисто виртуальный метод в конструкторе 
+родительского класса т.е. до создания дочернего, в котором этот метод 
+реализован. Т.к. современный компилятор не даст это сделать напрямую, то
+ нужно будет использовать промежуточный метод.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Base</span>
+{</span>
+<span class="hljs-keyword">public</span>:
+    Base()
+    {
+        base_func();
+    }
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">base_func</span><span class="hljs-params">()</span>
+    </span>{
+        func(); <span class="hljs-comment">// pure virtual function call exception</span>
+    }
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">func</span><span class="hljs-params">()</span> </span>= <span class="hljs-number">0</span>;
+};
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Derived</span> :</span> <span class="hljs-keyword">public</span> Base
+{
+<span class="hljs-keyword">public</span>:
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">func</span><span class="hljs-params">()</span>
+    </span>{
+    }
+};
+</code></pre><br>
+<h5>11. В чем отличие vector от deque?</h5><br>
+<b>Ответ:</b> Здесь вспоминают о наличии у <b>deque</b> методов <b>push_front</b> и <b>pop_front</b>. Но основное отличие в организации памяти, у <b>vector</b> она как у обычного Си-массива, т.е. последовательный и непрерывный набор байт, а у <b>deque</b> это фрагменты с разрывами. За счет этого отличия <b>vector</b> всегда можно привести к обычному массиву или скопировать целиком участок памяти, но зато у <b>deque</b> операции вставки/удаления в начало быстрее (<b>O(1)</b> против <b>O(n)</b>), ввиду того, что не нужно перемещать остальные значения.<br>
+<br>
+<h5>12. Что дают разные модификаторы при наследовании?</h5><br>
+<b>Ответ:</b> Изменяют зону видимости членов базового класса.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Base</span>
+{</span>
+<span class="hljs-keyword">public</span>:
+    <span class="hljs-keyword">int</span> i;
+};
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Derived</span> :</span> <span class="hljs-keyword">private</span> Base
+{
+    <span class="hljs-comment">// i теперь имеет модификатор доступа private</span>
+};
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Derived2</span> :</span> <span class="hljs-keyword">private</span> Derived
+{
+<span class="hljs-keyword">public</span>:
+    Derived2()
+    {
+        i = <span class="hljs-number">2</span>; <span class="hljs-comment">// error C2247: 'Base::i' not accessible because 'Derived' uses 'private' to inherit from 'Base'</span>
+    }
+};
+
+Derived d;
+d.i; <span class="hljs-comment">// error C2247</span>
+</code></pre><br>
+При <b>private</b> наследовании <b>protected</b> и <b>public</b> члены становятся <b>private</b>. При <b>protected</b> наследовании <b>public</b> становится <b>protected</b>. А при <b>public</b> ничего не изменяется. Более подробно об этом Алена писала вот <a href="http://alenacpp.blogspot.com/2006/03/blog-post_11.html">здесь</a>.<br>
+<br>
+<h5>13. Что такое инкапсуляция?</h5><br>
+<b>Ответ (Wiki):</b> Инкапсуляция — свойство языка программирования, 
+позволяющее объединить и защитить данные и код в объектe и скрыть 
+реализацию объекта от пользователя (прикладного программиста). При этом 
+пользователю предоставляется только спецификация (интерфейс) объекта.<br>
+<br>
+Пользователь может взаимодействовать с объектом только через этот интерфейс. Реализуется с помощью ключевого слова: public.<br>
+<br>
+Пользователь не может использовать закрытые данные и методы. Реализуется с помощью ключевых слов: private, protected.<br>
+<br>
+<h5>14. Что такое полиморфизм?</h5><br>
+<b>Ответ (Wiki):</b> Возможность объектов с одинаковой спецификацией иметь различную реализацию.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Figure</span> 
+{</span>
+    ...
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Draw</span><span class="hljs-params">()</span> <span class="hljs-keyword">const</span></span>;
+    ...
+};
+ 
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Square</span> :</span> <span class="hljs-keyword">public</span> Figure 
+{
+    ...
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Draw</span><span class="hljs-params">()</span> <span class="hljs-keyword">const</span></span>;
+    ...
+};
+ 
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> :</span> <span class="hljs-keyword">public</span> Figure 
+{
+    ...
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Draw</span><span class="hljs-params">()</span> <span class="hljs-keyword">const</span></span>;
+    ...
+};
+</code></pre><br>
+<br>
+Т.е. есть базовый класс фигура, и от него унаследованы два класса квадрат и круг, имеющие <b>собственную</b> реализацию метода <b>Draw()</b>.<br>
+<br>
+<h5>15. В чем отличие malloc от new?</h5><br>
+<b>Ответ:</b> <b>malloc</b> — выделение блока памяти в стиле Си, опасное с точки зрения приведения типов (non-typesafe), т.к. возвращает <b>void *</b> и требует обязательного приведения. <b>new</b> — выделение блока памяти и последующий <b>вызов конструктора</b>, безопасное с точки зрения приведения типов (typesafe), т.к. тип возвращаемого значения определен заранее.<br>
+<br>
+<h5>16. Что такое чисто виртуальный метод и абстрактный класс?</h5><br>
+<b>Ответ:</b> Чисто виртуальный метод — это метод, у которого 
+отсутствует реализация. Абстрактный класс — это класс имеющий хотя бы 
+один чисто виртуальный метод. Как следствие, экземпляр подобного класса 
+не может быть создан т.к. отсутствует реализация виртуального метода.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-comment">// Абстрактный класс</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span>
+{</span>
+<span class="hljs-keyword">public</span>:
+    <span class="hljs-comment">// Чисто виртуальный метод</span>
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">func</span><span class="hljs-params">()</span> </span>= <span class="hljs-number">0</span>;
+};
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Bar</span> :</span> <span class="hljs-keyword">public</span> Foo
+{
+<span class="hljs-keyword">public</span>:
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">func</span><span class="hljs-params">()</span>
+    </span>{
+    }
+};
+
+Foo f; <span class="hljs-comment">// error C2259: 'Foo' : cannot instantiate abstract class	</span>
+Bar b; <span class="hljs-comment">// Ok</span>
+</code></pre><br>
+<h5>17. Для чего используется вызов throw без аргументов?</h5><br>
+<b>Ответ:</b> Для повторного возбуждения предыдущего исключения и направления его следующему обработчику.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-keyword">try</span>
+{
+    <span class="hljs-comment">//....</span>
+    <span class="hljs-keyword">try</span>
+    {
+        <span class="hljs-comment">// Call something</span>
+    }
+    <span class="hljs-keyword">catch</span>(<span class="hljs-keyword">const</span> <span class="hljs-built_in">std</span>::exception&amp; )
+    {
+        <span class="hljs-comment">// Make/Check something..</span>
+        <span class="hljs-keyword">throw</span>; <span class="hljs-comment">// Пересылаем исключение следующему обработчику</span>
+    }
+    <span class="hljs-comment">//...</span>
+}
+<span class="hljs-keyword">catch</span>(<span class="hljs-keyword">const</span> <span class="hljs-built_in">std</span>::exception&amp; e)
+{
+    <span class="hljs-built_in">std</span>::<span class="hljs-built_in">cout</span> &lt;&lt; e.what() &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+}
+</code></pre><br>
+<br>
+<h5>18. В чем различия между delete и delete[]?</h5><br>
+<b>Ответ:</b> <b>delete</b> предназначен для уничтожения объектов, память под которые выделена при помощи <b>new()</b>. <b>delete[]</b> для объектов выделенных при помощи оператора <b>new[]()</b>. <br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span>
+{</span>
+};
+
+Foo *pFoo = <span class="hljs-keyword">new</span> Foo();
+<span class="hljs-keyword">delete</span> pFoo;
+Foo *pFooArray = <span class="hljs-keyword">new</span> Foo[<span class="hljs-number">10</span>]();
+<span class="hljs-keyword">delete</span>[] pFoo;
+</code></pre><br>
+При неправильном использовании оператора <b>delete</b> (например, <b>delete</b> вместо <b>delete[]</b>) результат будет: <b>undefined behavior</b>.<br>
+<br>
+<h5>19. Что стоит учитывать при использовании auto_ptr?</h5><br>
+<b>Ответ:</b> Так как данный умный указатель реализует подход <b>разрушающего копирования</b>,
+ то при присвоении его другому умному указателю оригинальный потеряет 
+свое значение. А так же его нельзя использовать в стандартных STL 
+контейнерах.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-function"><span class="hljs-built_in">std</span>::<span class="hljs-built_in">auto_ptr</span>&lt;Foo&gt; <span class="hljs-title">a</span><span class="hljs-params">(<span class="hljs-keyword">new</span> Foo)</span></span>;
+<span class="hljs-built_in">std</span>::<span class="hljs-built_in">auto_ptr</span>&lt;Foo&gt; b;
+b = a; <span class="hljs-comment">// a больше не ссылается на Foo</span>
+
+<span class="hljs-built_in">std</span>::<span class="hljs-built_in">vector</span>&lt;<span class="hljs-built_in">std</span>::<span class="hljs-built_in">auto_ptr</span>&lt;Foo&gt;&gt; v;
+v.push_back(b); <span class="hljs-comment">// error C2558: class 'std::auto_ptr&lt;_Ty&gt;' : no copy constructor available or copy constructor is declared 'explicit'</span>
+</code></pre><br>
+Также ввиду того, что в деструкторе <b>auto_ptr</b> вызывается оператор <b>delete</b>, нельзя хранить объекты созданные при помощи <b>new[]()</b>. Именно из-за этого нюанса <b>boost</b> предоставляет умные указатели в двух вариантах, для просто объекта и их коллекции, например, <b>shared_ptr</b> и <b>shared_array</b>.<br>
+<br>
+<h5>20. Для чего используется ключевое слово volatile?</h5><br>
+<b>Ответ:</b> Для указания компилятору, что доступ к переменной может 
+осуществляться из мест, неподконтрольных ему. А как следствие, что 
+работу с данной переменной не нужно подвергать разного рода 
+оптимизациям.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-keyword">volatile</span> <span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>; <span class="hljs-comment">// Независимо от прочего кода, данная переменная не будет оптимизирована.</span>
+</code></pre><br>
+Т.е. если <b>volatile</b> присутствует в каком-то условии, которое не 
+меняется со временем, то компилятор может оптимизировать его, чтобы 
+избежать ненужных проверок, при использовании <b>volatile</b> компилятор скорее всего не будет этого делать.<br>
+<b>Пример:</b><br>
+<pre><code class="cpp hljs"><span class="hljs-keyword">while</span> (<span class="hljs-number">1</span>) 
+{
+    <span class="hljs-keyword">if</span>(i == <span class="hljs-number">1</span>)
+    {
+        <span class="hljs-comment">// Какой-то код не изменяющий i</span>
+    }
+}
+
+<span class="hljs-comment">// Если бы volatile отсутствовало, то компилятор мог бы переделать код на что-то аля:</span>
+<span class="hljs-keyword">if</span>(i == <span class="hljs-number">1</span>) <span class="hljs-comment">// Нет необходимости проверять i все время, если и так известно, что оно не изменяется</span>
+{
+    <span class="hljs-keyword">while</span> (<span class="hljs-number">1</span>) 
+    {
+        <span class="hljs-comment">// Какой-то код не изменяющий i</span>
+    }
+}
+</code></pre><br>
+<br>
+<i><b>Обновлено 24.04 в 13.35</b></i></div></div></div> <div class="v-portal" style="display:none;"></div></div> <!----> <!----></div> <div data-test-id="article-meta-links" class="tm-article-presenter__meta"><div class="tm-separated-list tm-article-presenter__meta-list"><span class="tm-separated-list__title">Теги:</span> <ul class="tm-separated-list__list"><li class="tm-separated-list__item"><a href="https://habr.com/ru/search/?target_type=posts&amp;order=relevance&amp;q=%5Bc%2B%2B%5D" class="tm-tags-list__link">c++</a></li><li class="tm-separated-list__item"><a href="https://habr.com/ru/search/?target_type=posts&amp;order=relevance&amp;q=%5Binterview%5D" class="tm-tags-list__link">interview</a></li><li class="tm-separated-list__item"><a href="https://habr.com/ru/search/?target_type=posts&amp;order=relevance&amp;q=%5Bquestion%20and%20answers%5D" class="tm-tags-list__link">question and answers</a></li></ul></div> <div class="tm-separated-list tm-article-presenter__meta-list"><span class="tm-separated-list__title">Хабы:</span> <ul class="tm-separated-list__list"><li class="tm-separated-list__item"><a href="https://habr.com/ru/hub/cpp/" class="tm-hubs-list__link">
+    C++
+  </a></li></ul></div></div></article></div> <!----></div> <div data-test-id="article-sticky-panel" class="tm-article-sticky-panel"><div data-test-id="article-stats-icons" class="tm-data-icons tm-article-sticky-panel__icons"><div class="tm-article-rating tm-data-icons__item"><div class="tm-votes-meter tm-article-rating__votes-switcher"><svg height="24" width="24" class="tm-svg-img tm-votes-meter__icon tm-votes-meter__icon tm-votes-meter__icon_appearance-article"><title>Всего голосов 199: ↑196 и ↓3</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-rating"></use></svg> <span data-test-id="votes-meter-value" title="Всего голосов 199: ↑196 и ↓3" class="tm-votes-meter__value tm-votes-meter__value tm-votes-meter__value_positive tm-votes-meter__value_appearance-article tm-votes-meter__value_rating">+193</span></div> <div class="v-portal" style="display:none;"></div></div> <!----> <span title="Количество просмотров" class="tm-icon-counter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">289K</span></span> <button title="Добавить в закладки" type="button" class="bookmarks-button tm-data-icons__item"><span title="Добавить в закладки" class="tm-svg-icon__wrapper bookmarks-button__icon"><svg height="24" width="24" class="tm-svg-img tm-svg-icon"><title>Добавить в закладки</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-favorite"></use></svg></span> <span title="Количество пользователей, добавивших публикацию в закладки" class="bookmarks-button__counter">
+    970
+  </span></button> <!----> <div title="Поделиться" class="tm-sharing tm-data-icons__item"><button type="button" class="tm-sharing__button"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="tm-sharing__icon"><path fill="currentColor" d="M13.8 13.8V18l7.2-6.6L13.8 5v3.9C5 8.9 3 18.6 3 18.6c2.5-4.4 6-4.8 10.8-4.8z"></path></svg></button> <div class="v-portal" style="display:none;"></div></div> <div class="v-portal" style="display:none;"></div></div> </div></div> <div class="v-portal" style="display:none;"></div> <div class="tm-article-presenter__footer"><div class="tm-article-blocks"><div class="tm-editoral-subscription"><span class="tm-svg-icon__wrapper tm-editoral-subscription__close"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Закрыть</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#close"></use></svg></span> <h3 class="tm-editoral-subscription__title">
+    Редакторский дайджест
+  </h3> <p class="tm-editoral-subscription__description">
+    Присылаем лучшие статьи раз&nbsp;в&nbsp;месяц
+  </p> <form method="GET" class="tm-editoral-subscription__form"><div class="tm-input-text-decorated tm-editoral-subscription__input tm-input-text-decorated_has-label-after" name="email" placeholder="Электропочта" type="email"><!----> <input name="email" placeholder="Электропочта" type="email" class="tm-input-text-decorated__input"> <div class="tm-input-text-decorated__label tm-input-text-decorated__label_after"><button type="submit" class="tm-editoral-subscription__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class=""><path fill="currentColor" clip-rule="evenodd" d="M19.707 11.293a1 1 0 010 1.414l-5.5 5.5a1 1 0 01-1.414-1.414L16.586 13H5a1 1 0 110-2h11.586l-3.793-3.793a1 1 0 011.414-1.414l5.5 5.5z"></path></svg></button></div></div> <!----></form></div> <section class="tm-block tm-block tm-block_spacing-bottom"><!----> <div class="tm-block__body tm-block__body tm-block__body_variant-balanced"><div data-test-id="article-author-info" class="tm-article-author"> <div class="tm-user-card tm-article-author__user-card tm-user-card tm-user-card_variant-article"><div class="tm-user-card__info-container"><div class="tm-user-card__header"><div class="tm-user-card__header-data"><a href="https://habr.com/ru/users/NevRA/" class="tm-user-card__userpic tm-user-card__userpic_size-40"><div class="tm-entity-image"><img alt="" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/36f7d4b57ce2971d9a5d89fb8420ed94_002.jpg" class="tm-entity-image__pic"></div></a> <div class="tm-user-card__meta"><div title=" 90 голосов " class="tm-karma tm-user-card__karma tm-karma"><div class="tm-karma__votes tm-karma__votes_positive">
+    56
+  </div> <div class="tm-karma__text">
+    Карма
+  </div></div> <div title="Рейтинг пользователя" class="tm-rating tm-user-card__rating"><div class="tm-rating__header"> <div class="tm-rating__counter tm-rating__counter">0</div></div> <div class="tm-rating__text tm-rating__text">
+    Рейтинг
+  </div></div></div></div></div> <div class="tm-user-card__info tm-user-card__info tm-user-card__info_variant-article"><div class="tm-user-card__title tm-user-card__title tm-user-card__title_variant-article"><span class="tm-user-card__name tm-user-card__name tm-user-card__name_variant-article">Абдульманов Роман</span> <a href="https://habr.com/ru/users/NevRA/" class="tm-user-card__nickname tm-user-card__nickname tm-user-card__nickname_variant-article">
+          @NevRA
+        </a> <!----></div> <p data-test-id="user-card-speciality" class="tm-user-card__short-info tm-user-card__short-info tm-user-card__short-info_variant-article">Пользователь</p></div></div> <div class="tm-user-card__buttons tm-user-card__buttons tm-user-card__buttons_variant-article"><!----> <!----> <!----> <!----> <!----></div></div> <!----></div> <div class="v-portal" style="display:none;"></div></div> <!----></section> <div class="tm-adfox-banner__container tm-page-article__banner"><!----> <div id="adfox_164725660339535756" class="tm-adfox-banner tm-adfox-banner tm-adfox-banner_variant-leaderboard"></div></div> <div class="tm-article-blocks__comments"><div class="tm-article-page-comments"><div class="tm-article-comments-counter-link tm-article-comments-counter-button"><a href="https://habr.com/ru/post/117996/comments/" data-test-id="counter-comments" class="tm-article-comments-counter-link__link tm-article-comments-counter-link__link_button-style"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon tm-article-comments-counter-link__icon_contrasted"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value tm-article-comments-counter-link__value_contrasted">
+       Комментарии 173 
+    </span></a> <!----></div></div></div>  <section class="tm-block tm-block tm-block_spacing-around"><header class="tm-block__header tm-block__header"><div class="tm-block__header-container"><h2 class="tm-block__title">Похожие публикации</h2> </div> <!----></header> <div class="tm-block__body tm-block__body"><ul class="tm-article-list-block__list"><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-block tm-article-snippet-block-block_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2022-08-31T12:20:03.000Z" title="2022-08-31, 14:20">31  августа   в 14:20</time></div></div> <h2 class="tm-article-title tm-article-title_block"><a href="https://habr.com/ru/company/pvs-studio/blog/685660/" class="tm-article-title__link"><span>Как фидбек помог улучшить наш C++ квиз</span></a></h2> <div class="tm-data-icons"><!----> <div class="tm-votes-meter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-votes-meter__icon tm-votes-meter__icon tm-votes-meter__icon_appearance-article"><title>Всего голосов 8: ↑5 и ↓3</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-rating"></use></svg> <span title="Всего голосов 8: ↑5 и ↓3" class="tm-votes-meter__value tm-votes-meter__value tm-votes-meter__value_positive tm-votes-meter__value_appearance-article tm-votes-meter__value_rating">+2</span></div> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">1.1K</span></span> <button title="Добавить в закладки" type="button" class="bookmarks-button tm-data-icons__item"><span title="Добавить в закладки" class="tm-svg-icon__wrapper bookmarks-button__icon"><svg height="24" width="24" class="tm-svg-img tm-svg-icon"><title>Добавить в закладки</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-favorite"></use></svg></span> <span title="Количество пользователей, добавивших публикацию в закладки" class="bookmarks-button__counter">
+    6
+  </span></button> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/company/pvs-studio/blog/685660/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      8
+    </span></a> <a href="https://habr.com/ru/company/pvs-studio/blog/685660/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +8
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-block tm-article-snippet-block-block_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2022-08-31T10:47:03.000Z" title="2022-08-31, 12:47">31  августа   в 12:47</time></div></div> <h2 class="tm-article-title tm-article-title_block"><a href="https://habr.com/ru/company/vk/blog/679002/" class="tm-article-title__link"><span>C++. Унарный минус и беззнаковый тип</span></a></h2> <div class="tm-data-icons"><!----> <div class="tm-votes-meter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-votes-meter__icon tm-votes-meter__icon tm-votes-meter__icon_appearance-article"><title>Всего голосов 20: ↑16 и ↓4</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-rating"></use></svg> <span title="Всего голосов 20: ↑16 и ↓4" class="tm-votes-meter__value tm-votes-meter__value tm-votes-meter__value_positive tm-votes-meter__value_appearance-article tm-votes-meter__value_rating">+12</span></div> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">2.9K</span></span> <button title="Добавить в закладки" type="button" class="bookmarks-button tm-data-icons__item"><span title="Добавить в закладки" class="tm-svg-icon__wrapper bookmarks-button__icon"><svg height="24" width="24" class="tm-svg-img tm-svg-icon"><title>Добавить в закладки</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-favorite"></use></svg></span> <span title="Количество пользователей, добавивших публикацию в закладки" class="bookmarks-button__counter">
+    20
+  </span></button> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/company/vk/blog/679002/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      17
+    </span></a> <a href="https://habr.com/ru/company/vk/blog/679002/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +17
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-block tm-article-snippet-block-block_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2021-08-12T09:15:11.000Z" title="2021-08-12, 11:15">12  августа  2021 в 11:15</time></div></div> <h2 class="tm-article-title tm-article-title_block"><a href="https://habr.com/ru/post/572542/" class="tm-article-title__link"><span>Ruby Interview Questions</span></a></h2> <div class="tm-data-icons"><!----> <div class="tm-votes-meter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-votes-meter__icon tm-votes-meter__icon tm-votes-meter__icon_appearance-article"><title>Всего голосов 3: ↑2 и ↓1</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-rating"></use></svg> <span title="Всего голосов 3: ↑2 и ↓1" class="tm-votes-meter__value tm-votes-meter__value tm-votes-meter__value_positive tm-votes-meter__value_appearance-article tm-votes-meter__value_rating">+1</span></div> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">2K</span></span> <button title="Добавить в закладки" type="button" class="bookmarks-button tm-data-icons__item"><span title="Добавить в закладки" class="tm-svg-icon__wrapper bookmarks-button__icon"><svg height="24" width="24" class="tm-svg-img tm-svg-icon"><title>Добавить в закладки</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-favorite"></use></svg></span> <span title="Количество пользователей, добавивших публикацию в закладки" class="bookmarks-button__counter">
+    10
+  </span></button> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/post/572542/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      3
+    </span></a> <a href="https://habr.com/ru/post/572542/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +3
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li> <!----></ul></div> <!----></section> <div><section class="tm-block tm-block tm-block_spacing-around"><header class="tm-block__header tm-block__header"><div class="tm-block__header-container"><h2 class="tm-block__title">Минуточку внимания</h2> </div> <div class="tm-block__header-aside"><a href="https://tmtm.ru/megapost/" target="_blank" class="tm-block-extralink">
+        Разместить
+      </a></div></header> <div class="tm-block__body tm-block__body"><div pagination="" slides-per-view="1" class="tm-promo-block__content-wrapper"><div class="tm-promo-block__item-wrapper"><a href="https://effect.habr.com/a/fVtMNN2D0K98CizYpChjXk0WG3ULM6JO4jpeJZrhHxFC3N223Buv9kDAWxPYxtYMchd0y6Af7g4BhqftAy1otzp3eYSbVEbLecCuNQclp0ypJQ" rel="nofollow " class="tm-promo-block__item tm-article-title__link"><header class="tm-promo-block__head"><div class="tm-promo-block__image-wrapper"><img alt="" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/index.png" class="tm-promo-block__image"></div> <div class="tm-promo-block__label">
+                  Турбо
+                  <!----></div></header> <div class="tm-promo-block__info"><h3 class="tm-promo-block__title">Переезжаем из одного облака в другое</h3></div></a></div><div class="tm-promo-block__item-wrapper"><a href="https://effect.habr.com/a/843MezgAWYwNRXT14gvaoEOQVIrFPicbcFfNs-NGSbuSo4fjcmKvAzoCpZES-p-VIW864VIyssGRelM_seP22dCJFeyG7gtmKRpj-_am8V-CafiC6Y_s0w" rel="nofollow sponsored" class="tm-promo-block__item tm-article-title__link"><header class="tm-promo-block__head"><div class="tm-promo-block__image-wrapper"><img alt="" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/2.jpg" class="tm-promo-block__image"></div> <div class="tm-promo-block__label">
+                  Промо
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11" class="tm-block-promo__external"><path fill="currentColor" d="M7.5 0a.5.5 0 000 1h1.793L5.146 5.146a.5.5 0 10.708.708L10 1.707V3.5a.5.5 0 001 0v-3a.5.5 0 00-.5-.5h-3zm-7 1a.5.5 0 00-.5.5v9a.5.5 0 00.5.5h9a.5.5 0 00.5-.5V6a.5.5 0 00-1 0v4H1V2h4a.5.5 0 000-1H.5z"></path></svg></div></header> <div class="tm-promo-block__info"><h3 class="tm-promo-block__title">15 самураев: Сколково ищет искусных воинов кибербеза</h3></div></a></div><div class="tm-promo-block__item-wrapper"><a href="https://effect.habr.com/a/8QgqhKkeFtha4xkjqyEcVkw3UfaoqhqTk4ppBVS-sbv_tr8xSchPuRhCgTBssm1jR7bEPROr4eUtdFq2pPiCfo8NMzf6M_d3sEPzt3ehgJV1J9VJ5gEp054kMIkZUun_qXPv4aYkk9zernqfiYc" rel="nofollow " class="tm-promo-block__item tm-article-title__link"><header class="tm-promo-block__head"><div class="tm-promo-block__image-wrapper"><img alt="" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/32.png" class="tm-promo-block__image"></div> <div class="tm-promo-block__label">
+                  Интересно
+                  <!----></div></header> <div class="tm-promo-block__info"><h3 class="tm-promo-block__title">Срез активности найма на IT-рынке за июль 2022</h3></div></a></div></div></div> <!----></section></div> <div class="tm-project-block tm-project-block tm-project-block_variant-vacancies"><div class="tm-project-block__header"><div class="tm-project-block__title"><a href="https://career.habr.com/catalog?utm_campaign=vacancies_postlist&amp;utm_content=vacancies&amp;utm_medium=habr_block&amp;utm_source=habr_mob" rel="noopener" target="_blank" class="tm-project-block__title-link"> Вакансии </a></div></div> <div class="tm-project-block__content"><ul class="tm-project-block-items"><li class="tm-project-block-items__item"><a href="https://career.habr.com/vacancies/1000108560?utm_campaign=vacancies_postlist&amp;utm_content=vacancy&amp;utm_medium=habr_block&amp;utm_source=habr_mob" rel="noopener" target="_blank" class="tm-project-block-items__detail tm-project-block-items__title"><!---->Software Engineer (C++)
+    </a> <div class="tm-project-block-items__properties"><span class="tm-project-block-items__property-item">от 4&nbsp;500 до 6&nbsp;000 €</span><span class="tm-project-block-items__property-item">Exness</span><span class="tm-project-block-items__property-item">Лимассол</span><span class="tm-project-block-items__property-item">Можно удаленно</span></div></li><li class="tm-project-block-items__item"><a href="https://career.habr.com/vacancies/1000104059?utm_campaign=vacancies_postlist&amp;utm_content=vacancy&amp;utm_medium=habr_block&amp;utm_source=habr_mob" rel="noopener" target="_blank" class="tm-project-block-items__detail tm-project-block-items__title"><!---->Senior C++ Game Developer/Ведущий программист C++
+    </a> <div class="tm-project-block-items__properties"><span class="tm-project-block-items__property-item">от 250&nbsp;000 ₽</span><span class="tm-project-block-items__property-item">Gaijin</span><span class="tm-project-block-items__property-item">Можно удаленно</span></div></li><li class="tm-project-block-items__item"><a href="https://career.habr.com/vacancies/1000104045?utm_campaign=vacancies_postlist&amp;utm_content=vacancy&amp;utm_medium=habr_block&amp;utm_source=habr_mob" rel="noopener" target="_blank" class="tm-project-block-items__detail tm-project-block-items__title"><!---->C++ Game Developer (VR)
+    </a> <div class="tm-project-block-items__properties"><span class="tm-project-block-items__property-item">от 180&nbsp;000 ₽</span><span class="tm-project-block-items__property-item">Gaijin</span><span class="tm-project-block-items__property-item">Можно удаленно</span></div></li><li class="tm-project-block-items__item"><a href="https://career.habr.com/vacancies/1000104046?utm_campaign=vacancies_postlist&amp;utm_content=vacancy&amp;utm_medium=habr_block&amp;utm_source=habr_mob" rel="noopener" target="_blank" class="tm-project-block-items__detail tm-project-block-items__title"><!---->Middle C++ Game Developer (Mobile)
+    </a> <div class="tm-project-block-items__properties"><span class="tm-project-block-items__property-item">от 180&nbsp;000 ₽</span><span class="tm-project-block-items__property-item">Gaijin</span><span class="tm-project-block-items__property-item">Можно удаленно</span></div></li><li class="tm-project-block-items__item"><a href="https://career.habr.com/vacancies/1000109230?utm_campaign=vacancies_postlist&amp;utm_content=vacancy&amp;utm_medium=habr_block&amp;utm_source=habr_mob" rel="noopener" target="_blank" class="tm-project-block-items__detail tm-project-block-items__title"><!---->C++ developer
+    </a> <div class="tm-project-block-items__properties"><span class="tm-project-block-items__property-item">от 200&nbsp;000 ₽</span><span class="tm-project-block-items__property-item">Arenadata</span><span class="tm-project-block-items__property-item">Можно удаленно</span></div></li></ul></div> <div class="tm-project-block__footer"><a href="https://career.habr.com/catalog?utm_campaign=vacancies_postlist&amp;utm_content=vacancies_all&amp;utm_medium=habr_block&amp;utm_source=habr_mob" rel="noopener" target="_blank" class="tm-project-block__link">Больше вакансий на Хабр Карьере</a></div></div> <section class="tm-block tm-block tm-block_spacing-top"><header class="tm-block__header tm-block__header"><div class="tm-block__header-container"><h2 class="tm-block__title">Лучшие публикации за сутки</h2> </div> <!----></header> <div class="tm-block__body tm-block__body"><ul class="tm-article-list-block__list"><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-block tm-article-snippet-block-block_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2022-08-31T21:28:59.000Z" title="2022-08-31, 23:28">31  августа   в 23:28</time></div></div> <h2 class="tm-article-title tm-article-title_block"><a href="https://habr.com/ru/post/685762/" class="tm-article-title__link"><span>Ещё раз о гидропонике</span></a></h2> <div class="tm-data-icons"><!----> <div class="tm-votes-meter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-votes-meter__icon tm-votes-meter__icon tm-votes-meter__icon_appearance-article"><title>Всего голосов 55: ↑55 и ↓0</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-rating"></use></svg> <span title="Всего голосов 55: ↑55 и ↓0" class="tm-votes-meter__value tm-votes-meter__value tm-votes-meter__value_positive tm-votes-meter__value_appearance-article tm-votes-meter__value_rating">+55</span></div> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">12K</span></span> <button title="Добавить в закладки" type="button" class="bookmarks-button tm-data-icons__item"><span title="Добавить в закладки" class="tm-svg-icon__wrapper bookmarks-button__icon"><svg height="24" width="24" class="tm-svg-img tm-svg-icon"><title>Добавить в закладки</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-favorite"></use></svg></span> <span title="Количество пользователей, добавивших публикацию в закладки" class="bookmarks-button__counter">
+    110
+  </span></button> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/post/685762/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      79
+    </span></a> <a href="https://habr.com/ru/post/685762/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +79
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-block tm-article-snippet-block-block_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2022-09-01T04:55:37.000Z" title="2022-09-01, 06:55">сегодня в 06:55</time></div></div> <h2 class="tm-article-title tm-article-title_block"><a href="https://habr.com/ru/post/685778/" class="tm-article-title__link"><span>«Конфискация денег без презумпции невиновности»: ужасы AML/KYC процедур в зарубежных банках</span></a></h2> <div class="tm-data-icons"><!----> <div class="tm-votes-meter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-votes-meter__icon tm-votes-meter__icon tm-votes-meter__icon_appearance-article"><title>Всего голосов 66: ↑59 и ↓7</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-rating"></use></svg> <span title="Всего голосов 66: ↑59 и ↓7" class="tm-votes-meter__value tm-votes-meter__value tm-votes-meter__value_positive tm-votes-meter__value_appearance-article tm-votes-meter__value_rating">+52</span></div> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">12K</span></span> <button title="Добавить в закладки" type="button" class="bookmarks-button tm-data-icons__item"><span title="Добавить в закладки" class="tm-svg-icon__wrapper bookmarks-button__icon"><svg height="24" width="24" class="tm-svg-img tm-svg-icon"><title>Добавить в закладки</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-favorite"></use></svg></span> <span title="Количество пользователей, добавивших публикацию в закладки" class="bookmarks-button__counter">
+    56
+  </span></button> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/post/685778/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      124
+    </span></a> <a href="https://habr.com/ru/post/685778/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +124
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-block tm-article-snippet-block-block_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2022-09-01T12:27:24.000Z" title="2022-09-01, 14:27">сегодня в 14:27</time></div></div> <h2 class="tm-article-title tm-article-title_block"><a href="https://habr.com/ru/post/685848/" class="tm-article-title__link"><span>4,2 гигабайта, или как нарисовать что угодно</span></a></h2> <div class="tm-data-icons"><!----> <div class="tm-votes-meter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-votes-meter__icon tm-votes-meter__icon tm-votes-meter__icon_appearance-article"><title>Всего голосов 52: ↑52 и ↓0</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-rating"></use></svg> <span title="Всего голосов 52: ↑52 и ↓0" class="tm-votes-meter__value tm-votes-meter__value tm-votes-meter__value_positive tm-votes-meter__value_appearance-article tm-votes-meter__value_rating">+52</span></div> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">5.1K</span></span> <button title="Добавить в закладки" type="button" class="bookmarks-button tm-data-icons__item"><span title="Добавить в закладки" class="tm-svg-icon__wrapper bookmarks-button__icon"><svg height="24" width="24" class="tm-svg-img tm-svg-icon"><title>Добавить в закладки</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-favorite"></use></svg></span> <span title="Количество пользователей, добавивших публикацию в закладки" class="bookmarks-button__counter">
+    40
+  </span></button> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/post/685848/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      16
+    </span></a> <a href="https://habr.com/ru/post/685848/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +16
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-block tm-article-snippet-block-block_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2022-09-01T15:25:48.000Z" title="2022-09-01, 17:25">сегодня в 17:25</time></div></div> <h2 class="tm-article-title tm-article-title_block"><a href="https://habr.com/ru/post/685504/" class="tm-article-title__link"><span>Чем грозит авария на Запорожской АЭС</span></a></h2> <div class="tm-data-icons"><!----> <div class="tm-votes-meter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-votes-meter__icon tm-votes-meter__icon tm-votes-meter__icon_appearance-article"><title>Всего голосов 45: ↑45 и ↓0</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-rating"></use></svg> <span title="Всего голосов 45: ↑45 и ↓0" class="tm-votes-meter__value tm-votes-meter__value tm-votes-meter__value_positive tm-votes-meter__value_appearance-article tm-votes-meter__value_rating">+45</span></div> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">3.3K</span></span> <button title="Добавить в закладки" type="button" class="bookmarks-button tm-data-icons__item"><span title="Добавить в закладки" class="tm-svg-icon__wrapper bookmarks-button__icon"><svg height="24" width="24" class="tm-svg-img tm-svg-icon"><title>Добавить в закладки</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-favorite"></use></svg></span> <span title="Количество пользователей, добавивших публикацию в закладки" class="bookmarks-button__counter">
+    8
+  </span></button> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/post/685504/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      11
+    </span></a> <a href="https://habr.com/ru/post/685504/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +11
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-block tm-article-snippet-block-block_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2022-09-01T07:00:02.000Z" title="2022-09-01, 09:00">сегодня в 09:00</time></div></div> <h2 class="tm-article-title tm-article-title_block"><a href="https://habr.com/ru/post/685756/" class="tm-article-title__link"><span>Правило 3-х часов: Сколько нужно работать в день</span></a></h2> <div class="tm-data-icons"><!----> <div class="tm-votes-meter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-votes-meter__icon tm-votes-meter__icon tm-votes-meter__icon_appearance-article"><title>Всего голосов 47: ↑45 и ↓2</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-rating"></use></svg> <span title="Всего голосов 47: ↑45 и ↓2" class="tm-votes-meter__value tm-votes-meter__value tm-votes-meter__value_positive tm-votes-meter__value_appearance-article tm-votes-meter__value_rating">+43</span></div> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">14K</span></span> <button title="Добавить в закладки" type="button" class="bookmarks-button tm-data-icons__item"><span title="Добавить в закладки" class="tm-svg-icon__wrapper bookmarks-button__icon"><svg height="24" width="24" class="tm-svg-img tm-svg-icon"><title>Добавить в закладки</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-favorite"></use></svg></span> <span title="Количество пользователей, добавивших публикацию в закладки" class="bookmarks-button__counter">
+    65
+  </span></button> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/post/685756/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      25
+    </span></a> <a href="https://habr.com/ru/post/685756/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +25
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li> <li class="tm-article-list-block__item"><div class="tm-promo-post-link tm-promo-post-link tm-promo-post-link_appearance-top-daily"><a href="https://effect.habr.com/a/GXxvXNnouXrwzYSUmQ88VsHmm1AoMozYti-SCaGlpR5vAELCmDeY58PrqzlH6EkRszcWwOl7S4Zzj7mW9cF5RpHyYqw72nYDlAOHqgpuVle6zcOH4kgs1l48dZHkGhk" class="tm-promo-post-link__link tm-promo-post-link__link tm-promo-post-link__link_appearance-top-daily">Налево пойдешь — в digital попадешь, направо покатишься — в IT вкатишься, а тут кликнешь — и в опрос залипнешь</a> <div class="tm-promo-post-link__label">
+      Опрос
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11" height="12" width="12" class="tm-promo-post-link__external"><path fill="currentColor" d="M7.5 0a.5.5 0 000 1h1.793L5.146 5.146a.5.5 0 10.708.708L10 1.707V3.5a.5.5 0 001 0v-3a.5.5 0 00-.5-.5h-3zm-7 1a.5.5 0 00-.5.5v9a.5.5 0 00.5.5h9a.5.5 0 00.5-.5V6a.5.5 0 00-1 0v4H1V2h4a.5.5 0 000-1H.5z"></path></svg></div></div></li></ul></div> <!----></section> </div></div></div></div></div> <div class="tm-page__sidebar"><div class="tm-layout-sidebar"><div class="tm-layout-sidebar__ads tm-layout-sidebar__ads_initial"><div class="tm-adfox-banner__container tm-layout-sidebar__banner tm-layout-sidebar__banner_top"><!----> <div id="adfox_164725680533065327" class="tm-adfox-banner tm-adfox-banner tm-adfox-banner_variant-half-page"></div></div></div> <div class="tm-sexy-sidebar tm-sexy-sidebar_initial" style="margin-top:0px;"><section class="tm-block tm-block tm-block_spacing-bottom"><header class="tm-block__header tm-block__header"><div class="tm-block__header-container"><h2 class="tm-block__title">Читают сейчас</h2> </div> <!----></header> <div class="tm-block__body tm-block__body"><ul class="tm-article-list-block__list"><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-sidebar tm-article-snippet-block-sidebar_preview"><!----> <h2 class="tm-article-title tm-article-title_sidebar"><a href="https://habr.com/ru/post/685504/" class="tm-article-title__link"><span>Чем грозит авария на Запорожской АЭС</span></a></h2> <div class="tm-data-icons"><!----> <!----> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">3.3K</span></span> <!----> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/post/685504/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      11
+    </span></a> <a href="https://habr.com/ru/post/685504/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +11
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-sidebar tm-article-snippet-block-sidebar_preview"><!----> <h2 class="tm-article-title tm-article-title_sidebar"><a href="https://habr.com/ru/news/t/685948/" class="tm-article-title__link"><span>Пилот самолёта пригрозил высадить пассажиров, если они не&nbsp;перестанут делиться обнажёнными фото по&nbsp;AirDrop</span></a></h2> <div class="tm-data-icons"><!----> <!----> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">2K</span></span> <!----> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/news/t/685948/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      4
+    </span></a> <a href="https://habr.com/ru/news/t/685948/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +4
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-sidebar tm-article-snippet-block-sidebar_preview"><!----> <h2 class="tm-article-title tm-article-title_sidebar"><a href="https://habr.com/ru/post/685952/" class="tm-article-title__link"><span>Golang-дайджест № 20 (1 – 31 августа&nbsp; 2022)</span></a></h2> <div class="tm-data-icons"><!----> <!----> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">1.4K</span></span> <!----> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/post/685952/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      0
+    </span></a> <!----></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-sidebar tm-article-snippet-block-sidebar_preview"><!----> <h2 class="tm-article-title tm-article-title_sidebar"><a href="https://habr.com/ru/post/685848/" class="tm-article-title__link"><span>4,2 гигабайта, или как нарисовать что угодно</span></a></h2> <div class="tm-data-icons"><!----> <!----> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">5.1K</span></span> <!----> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/post/685848/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      16
+    </span></a> <a href="https://habr.com/ru/post/685848/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +16
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-sidebar tm-article-snippet-block-sidebar_preview"><!----> <h2 class="tm-article-title tm-article-title_sidebar"><a href="https://habr.com/ru/company/getmatch/blog/685588/" class="tm-article-title__link"><span>Выгорание эволюционирует. Что такое «тихий уход» — новый тренд среди офисных сотрудников</span></a></h2> <div class="tm-data-icons"><!----> <!----> <span class="tm-icon-counter tm-data-icons__item" title="Количество просмотров"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">48K</span></span> <!----> <div class="tm-article-comments-counter-link tm-data-icons__item" title="Читать комментарии"><a href="https://habr.com/ru/company/getmatch/blog/685588/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.9b4a34a5.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      218
+    </span></a> <a href="https://habr.com/ru/company/getmatch/blog/685588/comments/" class="tm-article-comments-counter-link__link"><span title="Читать новые комментарии" class="tm-article-comments-counter-link__unread-counter">
+      +218
+    </span></a></div> <!----> <div class="v-portal" style="display: none;"></div></div></article></li> <li class="tm-article-list-block__item"><div class="tm-promo-post-link tm-promo-post-link tm-promo-post-link_appearance-most-reading"><a href="https://effect.habr.com/a/r71nQ95A74ouqMO2eKzjh2ijgQblZsKD6oF3hypdE2-VBRWWY_lCxG0UU7IVQgAmIbgcMaORoWkjBbgW-6wh8_ejTLiNcDn32vvza_y9PqsE7JgaDUWdZsU" class="tm-promo-post-link__link tm-promo-post-link__link tm-promo-post-link__link_appearance-most-reading">Под капотом «СберАвто»: IT-инфраструктура и стек</a> <div class="tm-promo-post-link__label">
+      Турбо
+      <!----></div></div></li></ul></div> <!----></section> <section data-async-called="true" class="tm-block tm-block tm-block_spacing-around"><header class="tm-block__header tm-block__header"><div class="tm-block__header-container"><h2 class="tm-block__title">Работа</h2> </div> <!----></header> <div class="tm-block__body tm-block__body"><div class="tm-vacancies-block__item"><a href="https://career.habr.com/vacancies/c_plus_plus_qt_developer" target="_blank" class="tm-vacancies-block__vacancy-title">
+        QT разработчик
+      </a> <div class="tm-vacancies-block__vacancies-count">
+        10
+    вакансий
+      </div></div><div class="tm-vacancies-block__item"><a href="https://career.habr.com/vacancies/programmist_c_plus_plus" target="_blank" class="tm-vacancies-block__vacancy-title">
+        Программист C++
+      </a> <div class="tm-vacancies-block__vacancies-count">
+        119
+    вакансий
+      </div></div></div> <footer class="tm-block__footer"><a href="https://career.habr.com/catalog" class="tm-block-extralink">
+      Все вакансии
+    </a></footer></section> <div class="tm-adfox-banner__container tm-layout-sidebar__banner tm-layout-sidebar__banner_bottom"><!----> <div id="adfox_164725691003361602" class="tm-adfox-banner tm-adfox-banner tm-adfox-banner_variant-medium-rectangle"></div></div></div></div></div></div></div></div></main> <!----></div> <div class="tm-footer-menu"><div class="tm-page-width"><div class="tm-footer-menu__container"><div class="tm-footer-menu__block"><h3 class="tm-footer-menu__block-title">
+          Ваш аккаунт
+        </h3> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="https://habr.com/kek/v1/auth/habrahabr/?back=/ru/post/117996/&amp;hl=ru" rel="nofollow" target="_self">
+                Войти
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://habr.com/kek/v1/auth/habrahabr-register/?back=/ru/post/117996/&amp;hl=ru" rel="nofollow" target="_self">
+                Регистрация
+              </a></li></ul></div></div><div class="tm-footer-menu__block"><h3 class="tm-footer-menu__block-title">
+          Разделы
+        </h3> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/" class="footer-menu__item-link router-link-active">
+                Публикации
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/news/" class="footer-menu__item-link">
+                Новости
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/hubs/" class="footer-menu__item-link">
+                Хабы
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/companies/" class="footer-menu__item-link">
+                Компании
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/users/" class="footer-menu__item-link">
+                Авторы
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/sandbox/" class="footer-menu__item-link">
+                Песочница
+              </a></li></ul></div></div><div class="tm-footer-menu__block"><h3 class="tm-footer-menu__block-title">
+          Информация
+        </h3> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/docs/help/" class="footer-menu__item-link">
+                Устройство сайта
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/docs/authors/codex/" class="footer-menu__item-link">
+                Для авторов
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/docs/companies/corpblogs/" class="footer-menu__item-link">
+                Для компаний
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/docs/docs/transparency/" class="footer-menu__item-link">
+                Документы
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://account.habr.com/info/agreement" target="_blank">
+                Соглашение
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://account.habr.com/info/confidential/" target="_blank">
+                Конфиденциальность
+              </a></li></ul></div></div><div class="tm-footer-menu__block"><h3 class="tm-footer-menu__block-title">
+          Услуги
+        </h3> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/corporate-blogs/" target="_blank">
+                Корпоративный блог
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/advertising/" target="_blank">
+                Медийная реклама
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/native-special/" target="_blank">
+                Нативные проекты
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/education-programs/" target="_blank">
+                Образовательные программы
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/hello-startup/" target="_blank">
+                Стартапам
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://habr.com/ru/megaprojects/" class="footer-menu__item-link">
+                Мегапроекты
+              </a></li></ul></div></div></div></div></div> <div class="tm-footer"><div class="tm-page-width"><div class="tm-footer__container"><!----> <div class="tm-footer__social"><a href="https://www.facebook.com/habrahabr.ru" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Facebook</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-facebook"></use></svg></a><a href="https://twitter.com/habr_com" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Twitter</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-twitter"></use></svg></a><a href="https://vk.com/habr" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>VK</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-vkontakte"></use></svg></a><a href="https://telegram.me/habr_com" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Telegram</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-telegram"></use></svg></a><a href="https://www.youtube.com/channel/UCd_sTwKqVrweTt4oAKY5y4w" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Youtube</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-youtube"></use></svg></a><a href="https://zen.yandex.ru/habr" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Яндекс Дзен</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-zen"></use></svg></a></div> <div class="v-portal" style="display:none;"></div> <button class="tm-footer__link"><!---->
+        Настройка языка
+      </button> <a href="https://habr.com/ru/feedback/" class="tm-footer__link">
+        Техническая поддержка
+      </a> <!----> <a href="https://habr.com/berserk-mode-nope" class="tm-footer__link">
+        Вернуться на старую версию
+      </a> <div class="tm-footer-copyright"><span class="tm-copyright"><span class="tm-copyright__years">© 2006–2022, </span> <span class="tm-copyright__name"><a href="https://company.habr.com/" rel="noopener" target="_blank" class="tm-copyright__link">Habr</a></span></span></div></div></div></div> <!----> <!----></div> <div class="vue-portal-target"><!----></div></div>
+
+<script src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/chunk-vendors.64bb3caa.js" defer="defer"></script><script src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/app.963a86d3.js" defer="defer"></script>
+
+
+
+    <script async="" src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+  
+  <script type="text/javascript">
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(24049213, "init", {
+      defer:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:false,
+    });
+  </script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/24049213" style="position:absolute; left:-9999px;" alt="" />
+    </div>
+  </noscript>
+  
+    <script type="text/javascript">
+      window.addEventListener('load', function () {
+        setTimeout(() => {
+          const img = new Image();
+          img.src = 'https://vk.com/rtrg?p=VK-RTRG-421343-57vKE';
+        }, 0);
+      });
+    </script>
+  
+<script src="%D0%9F%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BF%D0%BE%20C++%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B%20%D0%BD%D0%B0%20%D0%BD%D0%B8%D1%85%20_%20%D0%A5%D0%B0%D0%B1%D1%80_files/ads.js" onload="window['zhY4i4nJ9K'] = true"></script><div id="K9Jn4i4Yhz" style="display: none;"></div>
+
+
+<div><div><div class="Vue-Toastification__container top-left"></div></div><div><div class="Vue-Toastification__container top-center"></div></div><div><div class="Vue-Toastification__container top-right"></div></div><div><div class="Vue-Toastification__container bottom-left"></div></div><div><div class="Vue-Toastification__container bottom-center"></div></div><div><div class="Vue-Toastification__container bottom-right"></div></div></div></body></html>

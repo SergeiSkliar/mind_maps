@@ -1,0 +1,1 @@
+like using `fetch`, `retrieve` and `get` for the same abstract concept (equivalent methods for different classes).

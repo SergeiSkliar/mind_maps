@@ -1,0 +1,1 @@
+the weak methods from the basic methods of intelligence.

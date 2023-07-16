@@ -1,0 +1,9 @@
+{
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": ".//files",
+  "newFileLocation": "current",
+  "legacyEditor": false,
+  "livePreview": true
+}

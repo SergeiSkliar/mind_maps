@@ -1,0 +1,3 @@
+-   Start with an empty database.
+-   Add all tables and columns with automated scripts that also migrate any existing data as necessary.
+-   Sequentially number the scripts so a database at any earlier stage can be brought up to any later stage by running the scripts.

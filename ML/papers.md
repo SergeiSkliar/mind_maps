@@ -1,0 +1,1 @@
+https://arxiv.org/pdf/1206.2944.pdf - # Practical Bayesian Optimization of Machine Learning Algorithms

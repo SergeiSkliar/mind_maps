@@ -1,0 +1,1 @@
+only one thread can acces shared data or a shared resource at a time.

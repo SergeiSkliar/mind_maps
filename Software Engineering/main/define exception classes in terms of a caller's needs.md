@@ -1,0 +1,1 @@
+how exception classed are caught.

@@ -1,0 +1,1 @@
+https://arxiv.org/abs/2101.04869 - # Convolutional Neural Nets in Chemical Engineering: Foundations, Computations, and Applications

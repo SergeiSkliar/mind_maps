@@ -1,0 +1,143 @@
+{
+  "main": {
+    "id": "da1493cef6548a46",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e1c75158db89d84",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Software Engineering/main/how to design a program.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec2e63e2c4745260",
+    "type": "split",
+    "children": [
+      {
+        "id": "38abe1deddf2f046",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feed4372b19452a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "78ec28b595a55791",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "visual",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d43e1aa8be5572bb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd28cfe41c0bdc1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "01c12ea27e2b45af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b9ea524a73e2b5f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Software Engineering/main/how to design a program.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "034e87d10f5ec82d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Software Engineering/main/how to design a program.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "019fec81e6059e66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "86b544e900be5b67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Software Engineering/main/how to design a program.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 215
+  },
+  "active": "9e1c75158db89d84",
+  "lastOpenFiles": [
+    "Software Engineering/main/1 Software Engineering.md",
+    "cpp/main/Visual Studio configs.md",
+    "cpp/main/C++.md",
+    "cpp/main/weak_ptr.md",
+    "cpp/main/smart pointers.md",
+    "Computer Science/main/CS graph algorithms.md",
+    "Computer Science/main/CS graph.md",
+    "Computer Science/main/CS Algorithms.md",
+    "csharp and .NET/main/csharp links.md",
+    "csharp and .NET/main/csharp.md"
+  ]
+}

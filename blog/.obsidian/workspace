@@ -1,0 +1,118 @@
+{
+  "main": {
+    "id": "dcd0f5dfd884d4db",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d90c1cf6b6da96c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "guide.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84c4a37e3764ddb0",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b26ac1e1840f03a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8047c94eaa270860",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f5696060ce72df23",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "31f4b3dc1ea36bce",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee542624e870f0ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2eb751552f1a064",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "guide.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5e796e670cc4c45e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d4e6a25531767357",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "guide.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "7d90c1cf6b6da96c",
+  "lastOpenFiles": [
+    "guide.md",
+    "first post.md",
+    "zettelkasten.md",
+    "inner_file.md",
+    "Untitled.md"
+  ]
+}

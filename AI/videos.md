@@ -1,0 +1,1 @@
+https://www.youtube.com/watch?v=udPY5rQVoW0 - # Playing a Neural Network's version of GTA V: GAN Theft Auto

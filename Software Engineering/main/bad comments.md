@@ -1,0 +1,20 @@
+# 
+[[Software Engineering/main/mumbling]]
+[[Software Engineering/main/redundant comments]]
+[[Software Engineering/main/misleading comments]]
+[[Software Engineering/main/mandated comments]]
+[[Software Engineering/main/journal comments]]
+[[Software Engineering/main/noise comments]]
+[[Software Engineering/main/scary noise]]
+[[Software Engineering/main/don't use a comment when you can use a function or a variable]]
+[[Software Engineering/main/position markers]]
+[[Software Engineering/main/closing brace comments]]
+[[Software Engineering/main/attributions and bylines]]
+[[Software Engineering/main/commented-out code]]
+[[Software Engineering/main/HTML comments]]
+[[Software Engineering/main/nonlocal information]]
+[[Software Engineering/main/too much information]]
+[[Software Engineering/main/inobvious connection]]
+[[Software Engineering/main/function headers]]
+
+2022/03/30::12:30

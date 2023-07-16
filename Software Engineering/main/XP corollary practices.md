@@ -1,0 +1,13 @@
+try this set of practices AFTER [[Software Engineering/main/XP primary practices]]
+
+[[Software Engineering/main/XP real customer involvement]]
+[[Software Engineering/main/incremental deployment]]
+[[Software Engineering/main/XP team continuity]]
+[[Software Engineering/main/XP shrinking teams]]
+[[Software Engineering/main/XP root-cause analysis]]
+[[Software Engineering/main/XP shared code]]
+[[Software Engineering/main/XP code and tests]]
+[[Software Engineering/main/XP single code base]]
+[[Software Engineering/main/XP daily deployment]]
+[[Software Engineering/main/XP negotiated scope contract]]
+[[Software Engineering/main/XP pay per use]]

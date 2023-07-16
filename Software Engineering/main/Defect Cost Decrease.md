@@ -1,0 +1,1 @@
+the sooner you find a defect, the cheaper it is to fix.

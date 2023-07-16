@@ -1,0 +1,1 @@
+you can describe the motion of the planets around the sun by rules, but it would be hard to say that rules govern their motion.

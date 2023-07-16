@@ -1,0 +1,3 @@
+- declare a reference variable `Object object =` (tells JVM to allocate space for a reference variable)
+- create an object `= new Object();` (tells JVM to allocate space for a new object on the heap)
+- link the object and the reference `=` (assigns new object to the variable `object`)

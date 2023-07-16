@@ -1,0 +1,1 @@
+DSL (domain-specific language) - separate, small scripting languages or APIs in standard languages

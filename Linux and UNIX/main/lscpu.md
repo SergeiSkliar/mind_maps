@@ -1,0 +1,1 @@
+detailed info about cpu

@@ -1,0 +1,4 @@
+product
+price
+promotion
+placement

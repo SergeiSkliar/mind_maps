@@ -1,0 +1,143 @@
+{
+  "main": {
+    "id": "2230b71b25a478aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "f82ea451e21f57fc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "main/RL lections.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "99290b4b51c56864",
+    "type": "split",
+    "children": [
+      {
+        "id": "69096d40e7315106",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "008dc4cc06a16e9e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3970c6f6abacfbcd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2a63b1bc09f4f811",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "85304ba5d1013a4c",
+    "type": "split",
+    "children": [
+      {
+        "id": "39dcd373c9d095ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d98d287b1105b4f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "main/RL lections.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b5c3b61c6ac01b33",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ab887d34337d0ded",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "main/RL lections.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "13797f490a04f13e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "main/RL lections.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f82ea451e21f57fc",
+  "lastOpenFiles": [
+    "main/Untitled.md",
+    "templates/templ.md",
+    "names.md",
+    "cheatsheets.md",
+    "papers.md",
+    "templates/Untitled.md",
+    "Untitled.md",
+    "videos.md",
+    "tf.md",
+    "links.md"
+  ]
+}

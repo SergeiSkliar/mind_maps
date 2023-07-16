@@ -1,0 +1,1 @@
+attempt to partition data into independent subsets that can be operated on by independent threads, possibly in different processors.

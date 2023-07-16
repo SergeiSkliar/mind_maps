@@ -1,0 +1,1 @@
+don't just do your job, but think *how* you are working anf *why* you are working.

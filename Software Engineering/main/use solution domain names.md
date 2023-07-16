@@ -1,0 +1,1 @@
+like `AccountVisitor` for Visitor pattern. or `JobQueue` for actual Queue data structure.

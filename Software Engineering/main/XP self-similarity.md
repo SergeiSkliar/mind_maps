@@ -1,0 +1,1 @@
+try copying the structure of one solution into a new context.

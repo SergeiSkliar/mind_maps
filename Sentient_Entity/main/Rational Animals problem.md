@@ -1,0 +1,1 @@
+rationality - ability to generalization?
