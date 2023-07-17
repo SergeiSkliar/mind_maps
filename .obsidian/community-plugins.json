@@ -1,4 +1,6 @@
 [
   "persistent-graph",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-achievements",
+  "dataview"
 ]

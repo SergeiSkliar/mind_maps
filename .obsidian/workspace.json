@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ccd29c5fb25fcefc",
+            "id": "34ca4165d1d4b0dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/java web project structure.md",
+                "file": "Software Engineering/main/0 Computer Science.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "34ca4165d1d4b0dd",
+            "id": "eced57e3015666d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/main/pet projects.md",
+                "file": "cpp/main/CS papers.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cpp links",
+                "query": "science",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -117,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/java web project structure.md",
+                "file": "cpp/main/CS papers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/java web project structure.md",
+                "file": "cpp/main/CS papers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/java web project structure.md"
+                "file": "cpp/main/CS papers.md"
               }
             }
           }
@@ -180,8 +182,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ccd29c5fb25fcefc",
+  "active": "eced57e3015666d8",
   "lastOpenFiles": [
+    "Software Engineering/main/0 Computer Science.md",
+    "Software Engineering/main/pet projects.md",
+    "Untitled.canvas",
+    "Computer Science/main/CS Algorithms.md",
+    "Computer Science/main/cs algo search.md",
+    "Computer Science/main/cs algo binary search.md",
+    "java/java web project structure.md",
     "XCOM FtA/templates/0 template.md",
     "XCOM FtA/main/tasks.md",
     "XCOM FtA/main/super important.md",
@@ -195,7 +204,6 @@
     "cpp/main/Rust.md",
     "cpp/main/cpp tutorials.md",
     "cpp/main/C++.md",
-    "java/java web project structure.md",
     "java/Java.md",
     "java/java links.md",
     "java/java tutorials.md",
@@ -203,8 +211,6 @@
     "csharp and .NET/main/csharp links.md",
     "csharp and .NET/main/csharp.md",
     "csharp and .NET/main/csharp mind map.md",
-    "csharp and .NET/main/files/Pasted image 20220813181327.png",
-    "cpp/main/Programming Languages.md",
-    "Software Engineering/main/1 Software Engineering.md"
+    "csharp and .NET/main/files/Pasted image 20220813181327.png"
   ]
 }

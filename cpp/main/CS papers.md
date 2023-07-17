@@ -12,3 +12,7 @@ master's thesis
 
 Norbert Wiener
 "Cybernetics, or Control and Communication in the Animal and Machine"
+
+Bush
+"As we may think"
+
