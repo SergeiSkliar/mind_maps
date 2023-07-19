@@ -8,36 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "34ca4165d1d4b0dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/main/0 Computer Science.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eced57e3015666d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cpp/main/CS papers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5117d2c11f642e5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/android apps activities and layouts.md",
+                "file": "Android/Android Development.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccdc77dd3cf1b46f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/android R.java.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp/main/CS papers.md",
+                "file": "Android/android R.java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpp/main/CS papers.md",
+                "file": "Android/android R.java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp/main/CS papers.md"
+                "file": "Android/android R.java.md"
               }
             }
           }
@@ -182,9 +169,19 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "eced57e3015666d8",
+  "active": "ccdc77dd3cf1b46f",
   "lastOpenFiles": [
+    "Android/Android Development.md",
+    "Android/android R.java.md",
+    "Android/Android Paltform.md",
+    "Android/android compile, package, deploy and run.md",
+    "Android/android apps activities and layouts.md",
+    "Computer Science/main/cs algo Dijkstra algorithm.md",
     "Software Engineering/main/0 Computer Science.md",
+    "Untitled 1.canvas",
+    "Computer Science/main/CS algo selection sort.md",
+    "Software Engineering/main/horizontal alignment.md",
+    "cpp/main/CS papers.md",
     "Software Engineering/main/pet projects.md",
     "Untitled.canvas",
     "Computer Science/main/CS Algorithms.md",
@@ -202,15 +199,6 @@
     "XCOM FtA/main/classes.md",
     "cpp/main/cpp links.md",
     "cpp/main/Rust.md",
-    "cpp/main/cpp tutorials.md",
-    "cpp/main/C++.md",
-    "java/Java.md",
-    "java/java links.md",
-    "java/java tutorials.md",
-    "csharp and .NET/main/csharp tutorials.md",
-    "csharp and .NET/main/csharp links.md",
-    "csharp and .NET/main/csharp.md",
-    "csharp and .NET/main/csharp mind map.md",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
   ]
 }
