@@ -1,3 +1,4 @@
+#android 
 1) java source files compiled to bytecode
 2) Android application package is created (APK file)
 3) assuming there is not one already running, the emulator gets launched and then runs the AVD

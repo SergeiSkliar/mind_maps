@@ -1,3 +1,4 @@
+#android 
 an **activity** is a single, defined thing that your user can do. Java or Kotlin. Defines actions.
 
 
@@ -11,3 +12,5 @@ device launches the app
 -> the activity responds to that interactions by running apps code 
 -> the activity updates the display 
 -> user sees the updates inscreen
+
+[[android View class]]

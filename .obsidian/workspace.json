@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/android R.java.md",
+                "file": "Android/android View class.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/android R.java.md",
+                "file": "Android/android View class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/android R.java.md",
+                "file": "Android/android View class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/android R.java.md"
+                "file": "Android/android View class.md"
               }
             }
           }
@@ -171,11 +171,12 @@
   },
   "active": "ccdc77dd3cf1b46f",
   "lastOpenFiles": [
-    "Android/Android Development.md",
-    "Android/android R.java.md",
-    "Android/Android Paltform.md",
-    "Android/android compile, package, deploy and run.md",
     "Android/android apps activities and layouts.md",
+    "Android/android View class.md",
+    "Android/Android Development.md",
+    "Android/android compile, package, deploy and run.md",
+    "Android/Android Paltform.md",
+    "Android/android R.java.md",
     "Computer Science/main/cs algo Dijkstra algorithm.md",
     "Software Engineering/main/0 Computer Science.md",
     "Untitled 1.canvas",
@@ -198,7 +199,6 @@
     "XCOM FtA/main/energy supply.md",
     "XCOM FtA/main/classes.md",
     "cpp/main/cpp links.md",
-    "cpp/main/Rust.md",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
   ]
 }

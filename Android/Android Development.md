@@ -1,3 +1,5 @@
+#android 
+
 [[Android Paltform]]
 
 android uses domain name to uniquely identify your app.
