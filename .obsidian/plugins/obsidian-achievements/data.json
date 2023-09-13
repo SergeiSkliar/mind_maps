@@ -12,14 +12,15 @@
     "command-palette:open",
     "heading-levels:1",
     "tags-created:5",
-    "tags-created:10"
+    "tags-created:10",
+    "heading-levels:3"
   ],
-  "notesCreated": 2065,
-  "notesDeleted": 0,
-  "internalLinksCreated": 2599,
+  "notesCreated": 3100,
+  "notesDeleted": 1,
+  "internalLinksCreated": 3901,
   "commandPaletteOpened": 4,
   "quickSwitcherOpened": 0,
   "calloutsCreated": 0,
-  "headingLevelsCreated": 1,
-  "tagsCreated": 13
+  "headingLevelsCreated": 3,
+  "tagsCreated": 24
 }
