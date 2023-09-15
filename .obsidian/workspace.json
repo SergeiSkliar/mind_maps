@@ -11,8 +11,12 @@
             "id": "b8c2daf8679d9871",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "books/books.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "books/books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "books/books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "books/books.md"
+              }
             }
           }
         ]
@@ -151,6 +159,11 @@
   },
   "active": "b8c2daf8679d9871",
   "lastOpenFiles": [
+    "books/files/lu16788tsa1af.tmp",
+    "books/files/~$alpha.ods",
+    "csharp and .NET/main/csharp.md",
+    "csharp and .NET/main/создание библиотек NET.md",
+    "csharp and .NET/main/asp net endpoints.md",
     "Android/Android Development.md",
     "books/books.md",
     "books/books progress.md",
@@ -175,10 +188,6 @@
     "XCOM FtA/main/tasks.md",
     "XCOM FtA/main/super important.md",
     "XCOM FtA/main/save.md",
-    "XCOM FtA/main/hierarchy.md",
-    "XCOM FtA/main/fta Base.md",
-    "XCOM FtA/main/FtA.md",
-    "XCOM FtA/main/energy supply.md",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
   ]
 }
