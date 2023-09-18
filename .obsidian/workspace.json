@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/books.md",
+                "file": "csharp and .NET/main/csharp library.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/books.md",
+                "file": "csharp and .NET/main/csharp library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/books.md",
+                "file": "csharp and .NET/main/csharp library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/books.md"
+                "file": "csharp and .NET/main/csharp library.md"
               }
             }
           }
@@ -159,13 +159,21 @@
   },
   "active": "b8c2daf8679d9871",
   "lastOpenFiles": [
+    "books/files/lu11308xkdluo.tmp",
+    "books/files/lu11308xkdlul.tmp",
+    "csharp and .NET/main/csharp DateTime.md",
+    "csharp and .NET/main/csharp library.md",
+    "csharp and .NET/main/csharp.md",
+    "csharp and .NET/main/csharp mind map.md",
+    "csharp and .NET/main/csharp class.md",
+    "csharp and .NET/main/csharp 10.md",
+    "books/books.md",
+    "books/files/lu11308xkdlui.tmp",
     "books/files/lu16788tsa1af.tmp",
     "books/files/~$alpha.ods",
-    "csharp and .NET/main/csharp.md",
     "csharp and .NET/main/создание библиотек NET.md",
     "csharp and .NET/main/asp net endpoints.md",
     "Android/Android Development.md",
-    "books/books.md",
     "books/books progress.md",
     "Android/android View class.md",
     "Android/android apps activities and layouts.md",
@@ -183,11 +191,6 @@
     "Computer Science/main/CS Algorithms.md",
     "Computer Science/main/cs algo search.md",
     "Computer Science/main/cs algo binary search.md",
-    "java/java web project structure.md",
-    "XCOM FtA/templates/0 template.md",
-    "XCOM FtA/main/tasks.md",
-    "XCOM FtA/main/super important.md",
-    "XCOM FtA/main/save.md",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
   ]
 }

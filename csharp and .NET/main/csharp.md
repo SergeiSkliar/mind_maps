@@ -25,6 +25,7 @@
 
 [[csharp LINQ]]
 
+[[csharp library]]
 [[создание библиотек NET]]
 
 [[csharp links]]
