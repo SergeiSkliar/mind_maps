@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "csharp and .NET/main/csharp numeric constants.md",
+                "file": "books/books.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "csharp and .NET/main/csharp numeric constants.md",
+                "file": "books/books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "csharp and .NET/main/csharp numeric constants.md",
+                "file": "books/books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "csharp and .NET/main/csharp numeric constants.md"
+                "file": "books/books.md"
               }
             }
           }
@@ -159,9 +159,11 @@
   },
   "active": "b8c2daf8679d9871",
   "lastOpenFiles": [
+    "books/files/lu19362czrfa.tmp",
+    "books/files/lu19362czrf7.tmp",
+    "csharp and .NET/main/csharp numeric constants.md",
     "books/files/lu11308xkdlur.tmp",
     "csharp and .NET/main/csharp types.md",
-    "csharp and .NET/main/csharp numeric constants.md",
     "csharp and .NET/main/csharp.md",
     "csharp and .NET/main/csharp library.md",
     "books/files/lu11308xkdluo.tmp",
