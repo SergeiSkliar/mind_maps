@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/books.md",
+                "file": "csharp and .NET/main/csharp.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/books.md",
+                "file": "csharp and .NET/main/csharp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/books.md",
+                "file": "csharp and .NET/main/csharp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/books.md"
+                "file": "csharp and .NET/main/csharp.md"
               }
             }
           }
@@ -159,9 +159,14 @@
   },
   "active": "b8c2daf8679d9871",
   "lastOpenFiles": [
+    "books/files/lu27556w9afeg.tmp",
+    "csharp and .NET/main/csharp tutorials.md",
+    "csharp and .NET/main/csharp.md",
+    "csharp and .NET/main/csharp namespace.md",
+    "books/books.md",
+    "books/files/lu27556w9afed.tmp",
     "books/files/lu19996v88aa9.tmp",
     "templates/0 note.md",
-    "books/books.md",
     "Документация МК",
     "Новая папка",
     "books/files/lu224843xwp5l.tmp",
@@ -170,11 +175,8 @@
     "books/files/lu28220x0ndiu.tmp",
     "books/files/lu8952vpn5qn.tmp",
     "books/files/lu27908vonx5l.tmp",
-    "books/files/lu17212ub0lyc.tmp",
-    "books/files/lu13536bnbr3l.tmp",
     "csharp and .NET/main/csharp numeric constants.md",
     "csharp and .NET/main/csharp types.md",
-    "csharp and .NET/main/csharp.md",
     "csharp and .NET/main/csharp library.md",
     "csharp and .NET/main/csharp DateTime.md",
     "csharp and .NET/main/csharp mind map.md",
@@ -194,8 +196,6 @@
     "Untitled 1.canvas",
     "Computer Science/main/CS algo selection sort.md",
     "Software Engineering/main/horizontal alignment.md",
-    "cpp/main/CS papers.md",
-    "Software Engineering/main/pet projects.md",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
   ]
