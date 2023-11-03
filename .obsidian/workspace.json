@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "csharp and .NET/main/csharp.md",
+                "file": "books/books.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "csharp and .NET/main/csharp.md",
+                "file": "books/books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "csharp and .NET/main/csharp.md",
+                "file": "books/books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "csharp and .NET/main/csharp.md"
+                "file": "books/books.md"
               }
             }
           }
@@ -159,9 +159,10 @@
   },
   "active": "b8c2daf8679d9871",
   "lastOpenFiles": [
+    "books/files/lu9860zi53tm.tmp",
+    "csharp and .NET/main/csharp.md",
     "books/files/lu27556w9afeg.tmp",
     "csharp and .NET/main/csharp tutorials.md",
-    "csharp and .NET/main/csharp.md",
     "csharp and .NET/main/csharp namespace.md",
     "books/books.md",
     "books/files/lu27556w9afed.tmp",
@@ -174,7 +175,6 @@
     "books/files/lu28220x0ndix.tmp",
     "books/files/lu28220x0ndiu.tmp",
     "books/files/lu8952vpn5qn.tmp",
-    "books/files/lu27908vonx5l.tmp",
     "csharp and .NET/main/csharp numeric constants.md",
     "csharp and .NET/main/csharp types.md",
     "csharp and .NET/main/csharp library.md",
