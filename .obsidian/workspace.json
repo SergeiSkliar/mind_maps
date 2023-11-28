@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/books.md",
+                "file": "databases/sql working scripts.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/books.md",
+                "file": "databases/sql working scripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/books.md",
+                "file": "databases/sql working scripts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/books.md"
+                "file": "databases/sql working scripts.md"
               }
             }
           }
@@ -159,12 +159,16 @@
   },
   "active": "b8c2daf8679d9871",
   "lastOpenFiles": [
+    "databases/SQL.md",
+    "databases/sql working scripts.md",
+    "databases/databases.md",
+    "books/books.md",
+    "databases",
     "books/files/lu9860zi53tm.tmp",
     "csharp and .NET/main/csharp.md",
     "books/files/lu27556w9afeg.tmp",
     "csharp and .NET/main/csharp tutorials.md",
     "csharp and .NET/main/csharp namespace.md",
-    "books/books.md",
     "books/files/lu27556w9afed.tmp",
     "books/files/lu19996v88aa9.tmp",
     "templates/0 note.md",
@@ -173,8 +177,6 @@
     "books/files/lu224843xwp5l.tmp",
     "books/files/lu15132y773g8.tmp",
     "books/files/lu28220x0ndix.tmp",
-    "books/files/lu28220x0ndiu.tmp",
-    "books/files/lu8952vpn5qn.tmp",
     "csharp and .NET/main/csharp numeric constants.md",
     "csharp and .NET/main/csharp types.md",
     "csharp and .NET/main/csharp library.md",
@@ -194,8 +196,6 @@
     "Computer Science/main/cs algo Dijkstra algorithm.md",
     "Software Engineering/main/0 Computer Science.md",
     "Untitled 1.canvas",
-    "Computer Science/main/CS algo selection sort.md",
-    "Software Engineering/main/horizontal alignment.md",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
   ]
