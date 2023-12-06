@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "databases/sql working scripts.md",
+                "file": "books/books.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "databases/sql working scripts.md",
+                "file": "books/books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "databases/sql working scripts.md",
+                "file": "books/books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "databases/sql working scripts.md"
+                "file": "books/books.md"
               }
             }
           }
@@ -159,8 +159,9 @@
   },
   "active": "b8c2daf8679d9871",
   "lastOpenFiles": [
-    "databases/SQL.md",
+    "books/files/lu20296vmops4.tmp",
     "databases/sql working scripts.md",
+    "databases/SQL.md",
     "databases/databases.md",
     "books/books.md",
     "databases",
@@ -194,7 +195,6 @@
     "Android/Android Paltform.md",
     "Android/android R.java.md",
     "Computer Science/main/cs algo Dijkstra algorithm.md",
-    "Software Engineering/main/0 Computer Science.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
