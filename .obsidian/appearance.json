@@ -1,5 +1,6 @@
 {
   "cssTheme": "Tokyo Night",
   "baseFontSize": 18,
-  "accentColor": ""
+  "accentColor": "",
+  "theme": "obsidian"
 }
