@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/books.md",
+                "file": "cpp/Lifetime extension of temporary objects in C++ common recommendations and pitfalls.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2c82972fdd7ebf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C/main/C articles.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/books.md",
+                "file": "C/main/C articles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/books.md",
+                "file": "C/main/C articles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/books.md"
+                "file": "C/main/C articles.md"
               }
             }
           }
@@ -157,11 +170,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b8c2daf8679d9871",
+  "active": "a2c82972fdd7ebf3",
   "lastOpenFiles": [
-    "books/files/lu27348dctmer.tmp",
+    "cpp/Untitled.md",
+    "C/main/C articles.md",
+    "cpp/Lifetime extension of temporary objects in C++ common recommendations and pitfalls.md",
+    "C/main",
+    "C",
     "databases/sql working scripts.md",
     "books/books.md",
+    "books/files/lu27348dctmer.tmp",
     "books/files/lu204128teqql.tmp",
     "books/files/lu244808hy940.tmp",
     "books/files/lu136326zo76l.tmp",
@@ -174,10 +192,7 @@
     "books/files/lu27556w9afeg.tmp",
     "csharp and .NET/main/csharp tutorials.md",
     "csharp and .NET/main/csharp namespace.md",
-    "books/files/lu27556w9afed.tmp",
-    "books/files/lu19996v88aa9.tmp",
     "templates/0 note.md",
-    "Документация МК",
     "csharp and .NET/main/csharp numeric constants.md",
     "csharp and .NET/main/csharp types.md",
     "csharp and .NET/main/csharp library.md",
@@ -193,8 +208,6 @@
     "Android/android apps activities and layouts.md",
     "Android/android compile, package, deploy and run.md",
     "Android/Android Paltform.md",
-    "Android/android R.java.md",
-    "Computer Science/main/cs algo Dijkstra algorithm.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
