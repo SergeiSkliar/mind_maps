@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/main/C articles.md",
+                "file": "books/books.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/main/C articles.md",
+                "file": "books/books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/main/C articles.md",
+                "file": "books/books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/main/C articles.md"
+                "file": "books/books.md"
               }
             }
           }
@@ -172,13 +172,19 @@
   },
   "active": "a2c82972fdd7ebf3",
   "lastOpenFiles": [
-    "cpp/Untitled.md",
+    "cpp/main/CS some links.md",
+    "books/files/lu137682ddn1g.tmp",
+    "books/files/lu137682ddn1d.tmp",
+    "Software Engineering/main/0 Computer Science.md",
+    "cpp/main/CS papers.md",
+    "books/books.md",
+    "books/files/lu137682ddn19.tmp",
     "C/main/C articles.md",
+    "cpp/Untitled.md",
     "cpp/Lifetime extension of temporary objects in C++ common recommendations and pitfalls.md",
     "C/main",
     "C",
     "databases/sql working scripts.md",
-    "books/books.md",
     "books/files/lu27348dctmer.tmp",
     "books/files/lu204128teqql.tmp",
     "books/files/lu244808hy940.tmp",
@@ -186,10 +192,7 @@
     "databases/SQL.md",
     "books/files/lu20296vmops4.tmp",
     "databases/databases.md",
-    "databases",
-    "books/files/lu9860zi53tm.tmp",
     "csharp and .NET/main/csharp.md",
-    "books/files/lu27556w9afeg.tmp",
     "csharp and .NET/main/csharp tutorials.md",
     "csharp and .NET/main/csharp namespace.md",
     "templates/0 note.md",
@@ -205,9 +208,6 @@
     "Android/Android Development.md",
     "books/books progress.md",
     "Android/android View class.md",
-    "Android/android apps activities and layouts.md",
-    "Android/android compile, package, deploy and run.md",
-    "Android/Android Paltform.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
