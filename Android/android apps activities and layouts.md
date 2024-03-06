@@ -1,5 +1,5 @@
 #android 
-an **activity** is a single, defined thing that your user can do. Java or Kotlin. Defines actions.
+an [[Android Activity|activity]] is a single, defined thing that your user can do. Java or Kotlin. Defines actions.
 
 
 a **layout** describes the appearance of the screen. written as XML files. "How the user interface is presented"

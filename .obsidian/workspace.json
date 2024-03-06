@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/books.md",
+                "file": "Android/Android Intent Resolution.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/books.md",
+                "file": "Android/Android Intent Resolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/books.md",
+                "file": "Android/Android Intent Resolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/books.md"
+                "file": "Android/Android Intent Resolution.md"
               }
             }
           }
@@ -172,6 +172,19 @@
   },
   "active": "a2c82972fdd7ebf3",
   "lastOpenFiles": [
+    "books/files/lu6492v29qe8.tmp",
+    "books/files/lu6492v29qe5.tmp",
+    "Android/Android Intent.md",
+    "Android/Android Intent Resolution.md",
+    "Android/Android Action.md",
+    "Android/Android Activity.md",
+    "Android/android apps activities and layouts.md",
+    "Android/android View class.md",
+    "Android/Android Paltform.md",
+    "Android/android R.java.md",
+    "Android/Android Development.md",
+    "Android/android compile, package, deploy and run.md",
+    "books/books.md",
     "books/files/lu179328hvfdh.tmp",
     "books/files/lu179328hvfde.tmp",
     "books/files/lu179328hvfdb.tmp",
@@ -179,18 +192,15 @@
     "books/files/lu101407f51an.tmp",
     "books/files/lu248967ep95l.tmp",
     "databases/sql working scripts.md",
-    "books/books.md",
     "books/files/lu137682ddn1j.tmp",
     "cpp/main/CS some links.md",
     "books/files/lu137682ddn1g.tmp",
     "books/files/lu137682ddn1d.tmp",
     "Software Engineering/main/0 Computer Science.md",
     "cpp/main/CS papers.md",
-    "books/files/lu137682ddn19.tmp",
     "C/main/C articles.md",
     "cpp/Untitled.md",
     "cpp/Lifetime extension of temporary objects in C++ common recommendations and pitfalls.md",
-    "C/main",
     "databases/SQL.md",
     "databases/databases.md",
     "csharp and .NET/main/csharp.md",
@@ -198,16 +208,6 @@
     "csharp and .NET/main/csharp namespace.md",
     "templates/0 note.md",
     "csharp and .NET/main/csharp numeric constants.md",
-    "csharp and .NET/main/csharp types.md",
-    "csharp and .NET/main/csharp library.md",
-    "csharp and .NET/main/csharp DateTime.md",
-    "csharp and .NET/main/csharp mind map.md",
-    "csharp and .NET/main/csharp class.md",
-    "csharp and .NET/main/csharp 10.md",
-    "csharp and .NET/main/создание библиотек NET.md",
-    "csharp and .NET/main/asp net endpoints.md",
-    "Android/Android Development.md",
-    "books/books progress.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
