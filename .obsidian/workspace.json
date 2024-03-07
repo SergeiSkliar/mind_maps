@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Android Intent Resolution.md",
+                "file": "books/books.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Intent Resolution.md",
+                "file": "books/books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Android Intent Resolution.md",
+                "file": "books/books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Android Intent Resolution.md"
+                "file": "books/books.md"
               }
             }
           }
@@ -172,17 +172,20 @@
   },
   "active": "a2c82972fdd7ebf3",
   "lastOpenFiles": [
-    "books/files/lu6492v29qe8.tmp",
-    "books/files/lu6492v29qe5.tmp",
-    "Android/Android Intent.md",
-    "Android/Android Intent Resolution.md",
-    "Android/Android Action.md",
+    "books/files/lu26308www5mh.tmp",
+    "Android/Android Activity lifecycle.md",
     "Android/Android Activity.md",
     "Android/android apps activities and layouts.md",
-    "Android/android View class.md",
+    "Android/Android Handler class.md",
+    "Android/Android Intent.md",
     "Android/Android Paltform.md",
-    "Android/android R.java.md",
     "Android/Android Development.md",
+    "Android/Android Intent Resolution.md",
+    "books/files/lu6492v29qe8.tmp",
+    "books/files/lu6492v29qe5.tmp",
+    "Android/Android Action.md",
+    "Android/android View class.md",
+    "Android/android R.java.md",
     "Android/android compile, package, deploy and run.md",
     "books/books.md",
     "books/files/lu179328hvfdh.tmp",
@@ -195,7 +198,6 @@
     "books/files/lu137682ddn1j.tmp",
     "cpp/main/CS some links.md",
     "books/files/lu137682ddn1g.tmp",
-    "books/files/lu137682ddn1d.tmp",
     "Software Engineering/main/0 Computer Science.md",
     "cpp/main/CS papers.md",
     "C/main/C articles.md",
@@ -206,8 +208,6 @@
     "csharp and .NET/main/csharp.md",
     "csharp and .NET/main/csharp tutorials.md",
     "csharp and .NET/main/csharp namespace.md",
-    "templates/0 note.md",
-    "csharp and .NET/main/csharp numeric constants.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"

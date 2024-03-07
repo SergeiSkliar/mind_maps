@@ -14,3 +14,5 @@ device launches the app
 -> user sees the updates inscreen
 
 [[android View class]]
+
+[[Android Handler class]]
