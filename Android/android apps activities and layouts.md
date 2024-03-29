@@ -16,3 +16,5 @@ device launches the app
 [[android View class]]
 
 [[Android Handler class]]
+
+[[Android Adapter class]]
