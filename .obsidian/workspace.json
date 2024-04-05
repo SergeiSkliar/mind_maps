@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Android Adapter class.md",
+                "file": "databases/sql working scripts.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Adapter class.md",
+                "file": "databases/sql working scripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Android Adapter class.md",
+                "file": "databases/sql working scripts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Android Adapter class.md"
+                "file": "databases/sql working scripts.md"
               }
             }
           }
@@ -172,13 +172,17 @@
   },
   "active": "a2c82972fdd7ebf3",
   "lastOpenFiles": [
+    "books/files/lu1990821mrgf.tmp",
+    "Android/Android database.md",
+    "Android/Android Development.md",
+    "books/books.md",
+    "books/files/lu1990821mrgc.tmp",
+    "Android/Android Adapter class.md",
     "books/files/lu16532f0ggfe.tmp",
     "Android/android apps activities and layouts.md",
-    "Android/Android Adapter class.md",
     "Android/Android Handler class.md",
     "Android/Android Activity.md",
     "Android/Android Intent.md",
-    "books/books.md",
     "books/files/lu2750052dmlc.tmp",
     "books/files/lu75123mmdqt.tmp",
     "books/files/lu186688cfjod.tmp",
@@ -189,14 +193,11 @@
     "Android/android R.java.md",
     "Android/Android Paltform.md",
     "Android/Android Intent Resolution.md",
-    "Android/Android Development.md",
     "Android/android compile, package, deploy and run.md",
     "Android/Android Activity lifecycle.md",
     "books/files/lu142122cyo6d.tmp",
     "books/files/lu142122cyo6a.tmp",
     "books/files/lu142122cyo67.tmp",
-    "books/files/lu26308www5mh.tmp",
-    "books/files/lu6492v29qe8.tmp",
     "databases/sql working scripts.md",
     "cpp/main/CS some links.md",
     "Software Engineering/main/0 Computer Science.md",
@@ -207,7 +208,6 @@
     "databases/SQL.md",
     "databases/databases.md",
     "csharp and .NET/main/csharp.md",
-    "csharp and .NET/main/csharp tutorials.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
