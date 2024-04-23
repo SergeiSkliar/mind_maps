@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/books.md",
+                "file": "Android/Android links.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/books.md",
+                "file": "Android/Android links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/books.md",
+                "file": "Android/Android links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/books.md"
+                "file": "Android/Android links.md"
               }
             }
           }
@@ -172,25 +172,29 @@
   },
   "active": "a2c82972fdd7ebf3",
   "lastOpenFiles": [
+    "Android/Android Development.md",
+    "Android/Android links.md",
+    "Android/android apps activities and layouts.md",
+    "Android/Android Activity.md",
+    "Kotlin/Kotlin links.md",
+    "Kotlin/Kotlin.md",
+    "books/books.md",
+    "Kotlin/files",
+    "Kotlin",
     "books/files/lu26280d5ycts.tmp",
     "databases/sql working scripts.md",
     "databases/SQL.md",
-    "books/books.md",
     "books/files/lu1990821mrgf.tmp",
     "Android/Android database.md",
-    "Android/Android Development.md",
     "books/files/lu1990821mrgc.tmp",
     "Android/Android Adapter class.md",
     "books/files/lu16532f0ggfe.tmp",
-    "Android/android apps activities and layouts.md",
     "Android/Android Handler class.md",
-    "Android/Android Activity.md",
     "Android/Android Intent.md",
     "books/files/lu2750052dmlc.tmp",
     "books/files/lu75123mmdqt.tmp",
     "books/files/lu186688cfjod.tmp",
     "books/files/lu21680429kv3.tmp",
-    "books/files/lu261803kdz9e.tmp",
     "Android/Android Action.md",
     "Android/android View class.md",
     "Android/android R.java.md",
@@ -198,16 +202,12 @@
     "Android/Android Intent Resolution.md",
     "Android/android compile, package, deploy and run.md",
     "Android/Android Activity lifecycle.md",
-    "books/files/lu142122cyo6d.tmp",
-    "books/files/lu142122cyo6a.tmp",
     "cpp/main/CS some links.md",
     "Software Engineering/main/0 Computer Science.md",
     "cpp/main/CS papers.md",
     "C/main/C articles.md",
     "cpp/Untitled.md",
     "cpp/Lifetime extension of temporary objects in C++ common recommendations and pitfalls.md",
-    "databases/databases.md",
-    "csharp and .NET/main/csharp.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
