@@ -43,3 +43,18 @@ https://apptractor.ru/info/articles/sovremennaya-android-razrabotka-v-2023-godu.
 https://t.me/mobileproglib/3751
 
 6 апреля 2023
+
+
+# Set Up an Android Hacking Lab for $0
+https://www.trustedsec.com/blog/set-up-an-android-hacking-lab-for-0/
+
+# Tutorial: Android Network Traffic Interception
+https://github.com/LabCIF-Tutorials/Tutorial-AndroidNetworkInterception
+
+🗄 Боремся со сложностью в Android-приложениях (https://habr.com/ru/articles/708040/)
+🗄 Реализуем экраны с помощью библиотеки Decompose (https://habr.com/ru/articles/709808/)
+🗄 Организуем навигацию с помощью библиотеки Decompose (https://habr.com/ru/articles/727962/)
+
+# Как уменьшить размер Android приложения
+https://youtu.be/ZNqwXg7vDFY
+
