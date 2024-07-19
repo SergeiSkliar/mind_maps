@@ -58,3 +58,6 @@ https://github.com/LabCIF-Tutorials/Tutorial-AndroidNetworkInterception
 # Как уменьшить размер Android приложения
 https://youtu.be/ZNqwXg7vDFY
 
+# Dagger 2 для начинающих Android разработчиков — Введение
+https://habr.com/ru/articles/343248/
+
