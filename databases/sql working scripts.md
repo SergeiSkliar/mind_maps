@@ -63,3 +63,46 @@ insert into tab_abon_img (lsh, KOD_PU, ZAV_NOM, img, KOD_uch, DAT_SYNX, PR_OBNOV
 select lsh, KOD_PU, ZAV_NOM, img, KOD_uch, DAT_SYNX, PR_OBNOV,org from tab_abon_img_test;
 ```
 
+bulk collect example
+```sql
+DECLARE
+  TYPE t_rowids IS TABLE OF ROWID INDEX BY PLS_INTEGER;
+  TYPE t_row_numbers IS TABLE OF NUMBER INDEX BY PLS_INTEGER;
+
+  l_rowids t_rowids;
+  l_row_numbers t_row_numbers;
+  
+  CURSOR c_id_pok IS
+    SELECT ROW_NUMBER() OVER (ORDER BY dat_synx) AS row_number,
+           ROWID AS row_id
+    FROM wk_t$abon_pok;
+
+  l_limit CONSTANT PLS_INTEGER := 10000; -- Fetch 10 records at a time
+  
+BEGIN
+  OPEN c_id_pok;
+
+  LOOP
+    FETCH c_id_pok BULK COLLECT INTO l_row_numbers, l_rowids LIMIT l_limit;
+    
+    EXIT WHEN l_rowids.COUNT = 0; -- Exit when no more records are fetched
+
+    
+    FORALL i IN 1 .. l_rowids.COUNT 
+        UPDATE wk_t$abon_pok wap  -- Updating 10000 records at 1 go.
+        SET wap.id_pok = SS_ID_POK.NEXTVAL
+        WHERE ROWID = l_rowids(i);
+
+    COMMIT;
+    -- Clear collections for the next fetch
+    l_rowids.DELETE;
+    l_row_numbers.DELETE;
+  END LOOP;
+
+  CLOSE c_id_pok;
+  
+  DBMS_OUTPUT.PUT_LINE('Processing completed.');
+END;
+
+commit;
+```

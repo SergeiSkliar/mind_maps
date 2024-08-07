@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/books.md",
+                "file": "databases/sql working scripts.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/books.md",
+                "file": "databases/sql working scripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/books.md",
+                "file": "databases/sql working scripts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/books.md"
+                "file": "databases/sql working scripts.md"
               }
             }
           }
@@ -172,6 +172,8 @@
   },
   "active": "a2c82972fdd7ebf3",
   "lastOpenFiles": [
+    "databases/SQL.md",
+    "books/books.md",
     "books/files/lu3320cvqnjy.tmp",
     "books/files/lu16460aabwrb.tmp",
     "books/files/lu16460aabwr8.tmp",
@@ -188,7 +190,6 @@
     "General/main/ПОИСК РАБОТЫ.md",
     "General/main/историки.md",
     "databases/sql working scripts.md",
-    "books/books.md",
     "Android/Android Development.md",
     "Android/android apps activities and layouts.md",
     "Android/Android Activity.md",
@@ -196,10 +197,8 @@
     "Kotlin/files",
     "Kotlin",
     "books/files/lu26280d5ycts.tmp",
-    "databases/SQL.md",
     "books/files/lu1990821mrgf.tmp",
     "Android/Android database.md",
-    "books/files/lu1990821mrgc.tmp",
     "Android/Android Adapter class.md",
     "Android/Android Handler class.md",
     "Android/Android Intent.md",
