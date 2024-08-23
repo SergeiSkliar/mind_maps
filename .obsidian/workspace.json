@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "databases/sql working scripts.md",
+                "file": "books/books.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "databases/sql working scripts.md",
+                "file": "books/books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "databases/sql working scripts.md",
+                "file": "books/books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "databases/sql working scripts.md"
+                "file": "books/books.md"
               }
             }
           }
@@ -172,6 +172,9 @@
   },
   "active": "a2c82972fdd7ebf3",
   "lastOpenFiles": [
+    "books/files/lu185881gunzu.tmp",
+    "books/files/lu185881gunzr.tmp",
+    "databases/sql working scripts.md",
     "databases/SQL.md",
     "books/books.md",
     "books/files/lu3320cvqnjy.tmp",
@@ -189,7 +192,6 @@
     "General/main/Сохраниться не получится. Андрей Перцев.md",
     "General/main/ПОИСК РАБОТЫ.md",
     "General/main/историки.md",
-    "databases/sql working scripts.md",
     "Android/Android Development.md",
     "Android/android apps activities and layouts.md",
     "Android/Android Activity.md",
@@ -197,7 +199,6 @@
     "Kotlin/files",
     "Kotlin",
     "books/files/lu26280d5ycts.tmp",
-    "books/files/lu1990821mrgf.tmp",
     "Android/Android database.md",
     "Android/Android Adapter class.md",
     "Android/Android Handler class.md",
