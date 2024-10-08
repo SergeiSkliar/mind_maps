@@ -1,3 +1,4 @@
+[[JAVA_HOME]]
 
 [[java value and reference type]]
 
