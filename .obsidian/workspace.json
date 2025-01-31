@@ -69,6 +69,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "java/Java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java"
+            }
+          },
+          {
+            "id": "ea4d4bab06c4e3ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "books/books.md",
                 "mode": "source",
                 "source": false
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -97,7 +111,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -109,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "science",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,44 +247,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8680320393985c9c",
+  "active": "ea4d4bab06c4e3ab",
   "lastOpenFiles": [
-    "books/files/lu21432uacr31.tmp",
+    "books/files/lu17580ghxvh.tmp",
     "databases/sql working scripts.md",
-    "java/java inheritance.md",
-    "java/java oop.md",
-    "java/java List.md",
-    "java/Java.md",
-    "java/java stack.md",
-    "java/java heap.md",
-    "java/java heap and stack.md",
-    "java/java interface.md",
-    "java/java links.md",
-    "books/files/lu19948bess6p.tmp",
+    "Android/Android Handler class.md",
+    "Untitled 2.canvas",
+    "cpp/main/core.md",
+    "cpp/main/memory.md",
+    "cpp/main/Память стек и куча.md",
+    "cpp/main/вопросы для собесов.md",
+    "Software Engineering/main/1 Software Engineering.md",
+    "Software Engineering/main/what every programmer should know about memory.md",
+    "Software Engineering/main/DRAM access.md",
+    "Software Engineering/main/NUMA.md",
+    "Software Engineering/main/DMA.md",
+    "Software Engineering/main/Types of RAM.md",
+    "Software Engineering/main/dynamic RAM.md",
+    "Software Engineering/main/static RAM.md",
+    "Software Engineering/main/time management.md",
+    "Software Engineering/main/hiding structure.md",
+    "Software Engineering/main/the Law of Demeter.md",
+    "Software Engineering/main/myths and misconceptions.md",
+    "Software Engineering/main/data transfer objects.md",
+    "Software Engineering/main/active record.md",
+    "Software Engineering/main/active record (1).md",
+    "Computer Science/main/CS hash table.md",
     "books/books.md",
-    "java/JAVA_HOME.md",
+    "books/files/lu77085ml5of.tmp",
+    "books/files/lu7632yk7yfk.tmp",
+    "java/java generics.md",
+    "java/Java.md",
+    "books/files/lu21432uacr31.tmp",
+    "books/files/lu19948bess6p.tmp",
     "books/files/lu64368lcjtw.tmp",
     "books/files/lu84163wv2.tmp",
     "books/files/lu84163wuz.tmp",
     "books/files/lu84163wuw.tmp",
     "books/files/lu84163wut.tmp",
     "books/files/lu84163wuq.tmp",
-    "books/files/lu84163wun.tmp",
-    "books/files/lu185881gunzu.tmp",
-    "books/files/lu185881gunzr.tmp",
-    "databases/SQL.md",
-    "Android/Android links.md",
-    "Kotlin/Kotlin links.md",
-    "Swift/main/Links.md",
-    "General/main/диктаторы.md",
-    "General/main/Аббас Галлямов.md",
-    "General/main/drawing.md",
-    "General/main/Сохраниться не получится. Андрей Перцев.md",
-    "General/main/ПОИСК РАБОТЫ.md",
-    "General/main/историки.md",
-    "Android/Android Development.md",
-    "Android/android apps activities and layouts.md",
-    "Android/Android Activity.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"

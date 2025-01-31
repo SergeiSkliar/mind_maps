@@ -106,3 +106,12 @@ END;
 
 commit;
 ```
+
+для архивации записей в mariadb:
+```sql
+INSERT INTO tab_abon_pok_arhiv SELECT * FROM tab_abon_pok WHERE DAT_SYNX < '2024-09-01' ORDER BY DAT_SYNX;
+```
+```sql
+DELETE FROM tab_abon_pok WHERE DAT_SYNX < '2024-09-01' ORDER BY DAT_SYNX;
+```
+
