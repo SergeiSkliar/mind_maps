@@ -115,3 +115,9 @@ INSERT INTO tab_abon_pok_arhiv SELECT * FROM tab_abon_pok WHERE DAT_SYNX < '2024
 DELETE FROM tab_abon_pok WHERE DAT_SYNX < '2024-09-01' ORDER BY DAT_SYNX;
 ```
 
+sqlite
+```sql
+
+select _id, ulica, kod_ulica, dom, korpus, tek_pok, dat_pl from tab_abon where KOD_UCH =002 and KOD_ULICA =? and ORG =995 group by ULICA, KOD_ULICA, DOM, KORPUS order by ULICA, CAST(DOM as INTEGER), KORPUS
+
+```
