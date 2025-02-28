@@ -83,28 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "databases/sql working scripts.md",
+                "file": "books/books.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sql working scripts"
-            }
-          },
-          {
-            "id": "0373aa1b88d01344",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "title": "books"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -187,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "databases/sql working scripts.md",
+                "file": "books/books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +185,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for sql working scripts"
+              "title": "Backlinks for books"
             }
           },
           {
@@ -259,11 +247,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0373aa1b88d01344",
+  "active": "ea4d4bab06c4e3ab",
   "lastOpenFiles": [
+    "books/files/lu2332046rjy5.tmp",
+    "books/files/lu2332046rjy2.tmp",
+    "books/files/lu2332046rjxz.tmp",
+    "databases/sql working scripts.md",
     "books/books.md",
     "books/files/lu17580ghxvh.tmp",
-    "databases/sql working scripts.md",
     "Android/Android Handler class.md",
     "Untitled 2.canvas",
     "cpp/main/core.md",
@@ -295,8 +286,6 @@
     "books/files/lu64368lcjtw.tmp",
     "books/files/lu84163wv2.tmp",
     "books/files/lu84163wuz.tmp",
-    "books/files/lu84163wuw.tmp",
-    "books/files/lu84163wut.tmp",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
