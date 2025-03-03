@@ -62,6 +62,11 @@ https://www.youtube.com/watch?v=EztZ86G6KA4
 https://www.youtube.com/watch?v=BbsHyoAkAVI
 https://www.youtube.com/watch?v=N6YdwzAvwOA
 https://www.youtube.com/watch?v=L--rW6jB1Gk
+https://www.youtube.com/@AndroidBroadcast/videos
+https://www.youtube.com/watch?v=dgfRxzMG8ac
+https://www.youtube.com/watch?v=khGDumJGCPc
+https://www.youtube.com/watch?v=7tC5lm8yY7o
+https://www.youtube.com/watch?v=UeC9iJyZVkI
 
 android
 https://murainoyakubu.medium.com/android-system-design-architecture-on-a-real-life-senario-d35f4e203b51
@@ -76,3 +81,8 @@ https://stackoverflow.com/questions/37862277/android-app-install-script-mechanis
 https://stackoverflow.com/questions/14653306/how-do-i-install-apk-using-android-updater-script
 https://android-tools.ru/coding/vstraivaem-in-app-updates-v-prilozhenie/
 https://blog.codemagic.io/the-simple-guide-to-android-code-signing/
+
+misc
+https://www.bazhenov.me/posts/
+https://queue.acm.org/detail.cfm?id=3212479
+https://eightm.github.io/JavaBackendStartGuide/
