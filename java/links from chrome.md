@@ -66,7 +66,7 @@ https://www.youtube.com/@AndroidBroadcast/videos
 https://www.youtube.com/watch?v=dgfRxzMG8ac
 https://www.youtube.com/watch?v=khGDumJGCPc
 https://www.youtube.com/watch?v=7tC5lm8yY7o
-https://www.youtube.com/watch?v=UeC9iJyZVkI
+
 
 android
 https://murainoyakubu.medium.com/android-system-design-architecture-on-a-real-life-senario-d35f4e203b51
