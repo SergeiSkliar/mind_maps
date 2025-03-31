@@ -1,6 +1,6 @@
 искать дату oracle
 ```sql
-where to_date(dat_dml,'dd.mm.rrrr') = '24.04.2023'
+where to_date(dat_synx,'dd.mm.rrrr') = '28.03.2025'
 
 select * from wk_v$abon_pok where dat_synx > to_date('19/07/2023 09:00:00', 'DD/MM/YYYY HH24:MI:SS')
 ```

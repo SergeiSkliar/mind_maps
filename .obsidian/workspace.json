@@ -97,6 +97,34 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "databases/databases.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "databases"
+            }
+          },
+          {
+            "id": "87b79e50bdcf8385",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "databases/SQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL"
+            }
+          },
+          {
+            "id": "e8716de2a8a5521a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "databases/sql working scripts.md",
                 "mode": "source",
                 "source": false
@@ -106,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -262,15 +290,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "7d73ffb7b4fda19f",
+  "active": "e8716de2a8a5521a",
   "lastOpenFiles": [
+    "databases/SQL.md",
+    "databases/databases.md",
+    "databases/sql working scripts.md",
     "java/links from chrome.md",
     "java/java links.md",
     "books/books.md",
     "books/files/lu2332046rjy5.tmp",
     "books/files/lu2332046rjy2.tmp",
     "books/files/lu2332046rjxz.tmp",
-    "databases/sql working scripts.md",
     "books/files/lu17580ghxvh.tmp",
     "Android/Android Handler class.md",
     "Untitled 2.canvas",
@@ -293,10 +323,8 @@
     "Software Engineering/main/data transfer objects.md",
     "Software Engineering/main/active record.md",
     "Software Engineering/main/active record (1).md",
-    "Computer Science/main/CS hash table.md",
     "books/files/lu77085ml5of.tmp",
     "books/files/lu7632yk7yfk.tmp",
-    "java/java generics.md",
     "books/files/lu21432uacr31.tmp",
     "books/files/lu19948bess6p.tmp",
     "books/files/lu64368lcjtw.tmp",
