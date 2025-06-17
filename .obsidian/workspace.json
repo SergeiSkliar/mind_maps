@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/books.md",
+                "file": "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences/Readings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "books"
+              "title": "Readings"
             }
           }
         ],
@@ -231,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/books.md",
+                "file": "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences/Readings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +241,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for books"
+              "title": "Backlinks for Readings"
             }
           },
           {
@@ -306,9 +306,14 @@
   },
   "active": "012139dcd817ac25",
   "lastOpenFiles": [
-    "books/files/lu7596z1x8nh.tmp",
+    "Courses/Journey of the Universe/Readings.md",
+    "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences/Readings.md",
+    "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences",
+    "Untitled",
     "databases/sql working scripts.md",
+    "databases/SQL.md",
     "books/books.md",
+    "books/files/lu7596z1x8nh.tmp",
     "books/files/lu23604b0f1jc.tmp",
     "books/files/lu30188b0d36i.tmp",
     "books/files/lu2186481qak0.tmp",
@@ -316,12 +321,7 @@
     "books/files/lu80086ntmct.tmp",
     "books/files/lu85001k1p7r.tmp",
     "books/files/lu17920140vxi.tmp",
-    "databases/SQL.md",
-    "Courses/Journey of the Universe/Readings.md",
     "Untitled.canvas",
-    "Courses/Journey of the Universe",
-    "Untitled",
-    "Courses",
     "databases/Untitled.md",
     "databases/databases.md",
     "java/links from chrome.md",
