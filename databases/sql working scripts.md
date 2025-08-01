@@ -121,3 +121,66 @@ sqlite
 select _id, ulica, kod_ulica, dom, korpus, tek_pok, dat_pl from tab_abon where KOD_UCH =002 and KOD_ULICA =? and ORG =995 group by ULICA, KOD_ULICA, DOM, KORPUS order by ULICA, CAST(DOM as INTEGER), KORPUS
 
 ```
+
+добавить настройки для МК
+```sql
+insert into `tab_settings` (mk_setting_id, setting_selector, setting_name, ORG) VALUES ('default_spinner_photo_position', 0, 'источник по умолчанию', '021');
+```
+
+апдейт таблицы по сложной выборке
+```sql
+declare
+cursor c_a is
+SELECT L_SH,
+DAT_POK,
+DAT_SYNX,
+tek_pok
+FROM (select aa.L_SH,
+    aa.DAT_POK,
+    bb.DAT_PRIN DAT_SYNX,
+    aa.tek_pok
+    from wk_t$abon_pok aa
+    JOIN A_SEM_POK bb
+  ON (aa.l_sh = bb.l_sh
+ AND aa.tek_pok = bb.pok2
+  and trunc(aa.dat_pok) = bb.dat_pok
+ and trunc(aa.dat_synx) = bb.dat_prin)
+ and pr_obnov='1');
+begin
+    for i in c_a loop
+       update wk_t$abon_pok
+          set pr_obnov='0'
+      where trunc(dat_synx)>=i.dat_synx
+               and dat_pok>=i.dat_pok 
+               AND L_SH=i.l_sh
+               and tek_pok=i.tek_pok;
+    end loop;
+end;
+```
+другой по той же теме:
+```sql
+declare
+cursor c1 is
+SELECT L_SH,
+ADRES,
+ABON_FIO,
+zav_nom,
+DAT_POK,
+DAT_SYNX
+FROM (select aa.L_SH,
+    aa.ADRES,
+    aa.abon_FIO,
+    aa.ZAV_NOM,
+    aa.DAT_POK,
+    bb.DAT_PRIN DAT_SYNX
+    from wk_v$abon_pok_s aa
+    JOIN A_SEM_POK bb
+  ON (aa.l_sh = bb.l_sh
+ AND aa.zav_nom = bb.zav_nom
+ AND aa.adres = bb.adres
+ and aa.abon_fio = bb.fio
+ and aa.dat_pok = bb.dat_pok
+ and aa.dat_synx = bb.dat_prin));
+ begin 
+ end;
+```

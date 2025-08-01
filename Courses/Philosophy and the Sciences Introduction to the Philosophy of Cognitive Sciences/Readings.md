@@ -65,3 +65,77 @@ Here you can find some articles about limitations of perceptual awareness:
 - [Ward, D. 2012. “Enjoying the spread.” Mind 121/483: 731-51.](https://academic.oup.com/mind/article-abstract/121/483/731/1016882?redirectedFrom=fulltext)
 
 
+https://plato.stanford.edu/entries/computational-mind/
+
+https://plato.stanford.edu/entries/connectionism/
+
+https://archive.nytimes.com/opinionator.blogs.nytimes.com/2012/01/15/do-thrifty-brains-make-better-minds/
+
+https://archive.nytimes.com/opinionator.blogs.nytimes.com/2012/01/18/prediction-and-the-brain-a-response/?_php=true&_type=blogs&_r=0
+
+https://en.wikipedia.org/wiki/Motion_perception
+
+## Open Access Resources and Further Reading
+
+- [New York Times article by Andy Clark discussing the predictive mind](https://opinionator.blogs.nytimes.com/2012/01/15/do-thrifty-brains-make-better-minds/), and [responding to comments on this article](https://opinionator.blogs.nytimes.com/2012/01/18/prediction-and-the-brain-a-response/?_php=true&_type=blogs&_r=0).
+    
+- [Sprevak, M. 2017. “Turing’s model of the mind.” In _The Turing Guide: Life, Work, Legacy_ (eds. Copeland, Bowen, Sprevak, & Wilson). Oxford University Press: Oxford. [draft]](http://marksprevak.com/publications/turing-s-model-of-the-mind-2017/)
+    
+- [Sprevak, M. 2016. “Philosophy of the psychological and cognitive sciences” in the _Oxford Handbook for the Philosophy of Science_ (ed. Humphreys). Oxford University Press: Oxford. [draft]](http://marksprevak.com/publications/philosophy-of-the-psychological-and-cognitive-sciences-2016/)
+    
+
+## Additional Resources (not open access)
+
+- [Clark, A. 2013. _Mindware: An Introduction to Cognitive Science_. Oxford University Press, Oxford, 3rd edition.](https://www.amazon.co.uk/Mindware-Introduction-Philosophy-Cognitive-Science/dp/0199828156)
+    
+- Isaac, A. Forthcoming. “Embodied Cognition as Analog Computation.” _Reti, saperi, linguaggi_, _Italian Journal of Cognitive Sciences._ (no webpage)
+    
+- [Isaac, A. 2018. “Computational Thought from Descartes to Lovelace.” In Sprevak & Colombo (eds.), _The Routledge Handbook of the Computational Mind._ Abingdon: Routledge.](https://www.routledge.com/The-Routledge-Handbook-of-the-Computational-Mind/Sprevak-Colombo/p/book/9781138186682)
+    
+- Sprevak, M. Forthcoming A. _The Computational Mind_ Routledge: London.
+    
+- [Sprevak, M.& Colombo, M. 2018. _The Routledge Handbook of the Computational Mind._ Abingdon: Routledge.](https://www.routledge.com/The-Routledge-Handbook-of-the-Computational-Mind/Sprevak-Colombo/p/book/9781138186682)
+    
+- [Copeland, J, Bowen, J, Sprevak, M., & Wilson, R. (eds.) 2017. _The Turing Guide: Life, Work, Legacy_. Oxford University Press: Oxford.](https://global.oup.com/academic/product/the-turing-guide-9780198747826?cc=gb&lang=en&)
+    
+- [Sprevak, M. & Seriès, P. 2015. “From intelligent machines to the human brain.” in _Philosophy and the Sciences for Everyone_ (ed. Massimi). Routledge: London.](https://www.taylorfrancis.com/books/e/9781317664451/chapters/10.4324%2F9781315767772-10)
+    
+
+
+https://mind.ilstu.edu/curriculum/virtual_robotics_lab/index.html
+
+## Open Access Resources and Further Reading
+
+[Clark, A. 2015b. “Embodied prediction.” In Metzinger & Windt (ed.), Open MIND. Frankfurt am Main: MIND Group.](https://open-mind.net/DOI?isbn=9783958570115)
+
+[Clark, A. 2008b. “Pressing the Flesh: A Tension in the Study of the Embodied, Embedded Mind?” Philosophy and Phenomenological Research 76/1: 37-59.](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1933-1592.2007.00114.x)
+
+[Clark, A. 2006a. “Material Symbols.” Philosophical Psychology 19/3: 291:307.](https://www.era.lib.ed.ac.uk/handle/1842/1439)
+
+[Wheeler, M. & Clark, A. 2008. “Culture, embodiment and genes: unravelling the triple helix.” Philosophical Transactions of the Royal Society B: Biological Sciences 363/1509: 3563-75.](https://www.research.ed.ac.uk/portal/en/publications/culture-embodiment-and-genes-unravelling-the-triple-helix\(9986ac81-a623-4729-acef-ff1206705fe2\).html)
+
+Mark Sprevak is Co-Investigator on the [‘A History of Distributed Cognition’](http://gtr.rcuk.ac.uk/projects?ref=AH%2FL009684%2F1) AHRC Gateway to Research Project.
+
+## Additional Resources (not open access)
+
+Anderson, M., Cairns, D., & Sprevak, M. (eds). Distributed Cognition in Classical Antiquity. Edinburgh University Press: Edinburgh. (no webpage)
+
+Anderson, M., Garrett, P., & Sprevak, M. (eds). Distributed Cognition from Victorian Culture to Modernism. Edinburgh University Press: Edinburgh. (no webpage)
+
+[Clark, A. 2017. “Busting out: Predictive brains, embodied minds, and the puzzle of the evidentiary veil” Nous 51/4: 727-53.](https://onlinelibrary.wiley.com/doi/pdf/10.1111/nous.12140)
+
+[Miller, M. & Clark, A. 2017. “Happily entangled: Prediction, emotion, and the embodied mind.” Synthese, online first.](https://link.springer.com/article/10.1007%2Fs11229-017-1399-7)
+
+[Clark, A. 2015a. “Embodied Cognition and the Sciences of the Mind.” in Philosophy and the Sciences for Everyone (ed. Massimi). Routledge: London.](https://www.taylorfrancis.com/books/e/9781317664451/chapters/10.4324%2F9781315767772-12)
+
+[Clark, A. 2008a. Supersizing the Mind: Embodiment, Action, and Cognitive Extension. Oxford: OUP.](https://global.oup.com/academic/product/supersizing-the-mind-9780195333213?cc=gb&lang=en&)
+
+[Clark, A. 2006b. “Language, embodiment, and the cognitive niche.” Trends in Cognitive Science 10/8: 370-4.](http://www.cell.com/trends/cognitive-sciences/references/S1364-6613\(06\)00162-8)
+
+[Clark, A. 2005a. “Beyond the Flesh: Some Lessons from a Mole Cricket.” Artificial Life 11/1-2: 233-44.](https://www.mitpressjournals.org/doi/10.1162/1064546053279008)
+
+[Clark, A. 2005b. “Word, Niche and Super-Niche: How Language Makes Minds Matter More.” THEORIA. An International Journal for Theory, History and Foundations of Science 20/3: 255-68.](https://www.research.ed.ac.uk/portal/en/publications/word-niche-and-superniche-how-language-makes-minds-matter-more\(3264f79e-ca33-4f4f-8624-f1579277aea2\).html)
+
+Isaac, A. Forthcoming. “Embodied Cognition as Analog Computation.” Reti, saperi, linguaggi, Italian Journal of Cognitive Sciences. (no webpage)
+
+Sprevak, M., Anderson, M., & Wheeler, M. “Distributed cognition and the humanities”. In Distributed Cognition in Classical Antiquity (eds. Anderson, Cairns, & Sprevak). Edinburgh University Press: Edinburgh (no webpage)

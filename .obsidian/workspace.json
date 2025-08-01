@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences/Readings.md",
+                "file": "databases/sql working scripts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Readings"
+              "title": "sql working scripts"
             }
           }
         ],
@@ -215,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bd28cfe41c0bdc1e",
@@ -231,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences/Readings.md",
+                "file": "databases/sql working scripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +242,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Readings"
+              "title": "Backlinks for sql working scripts"
             }
           },
           {
@@ -306,13 +307,13 @@
   },
   "active": "012139dcd817ac25",
   "lastOpenFiles": [
-    "Courses/Journey of the Universe/Readings.md",
-    "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences/Readings.md",
-    "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences",
-    "Untitled",
-    "databases/sql working scripts.md",
     "databases/SQL.md",
     "books/books.md",
+    "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences/Readings.md",
+    "databases/sql working scripts.md",
+    "Courses/Journey of the Universe/Readings.md",
+    "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences",
+    "Untitled",
     "books/files/lu7596z1x8nh.tmp",
     "books/files/lu23604b0f1jc.tmp",
     "books/files/lu30188b0d36i.tmp",
