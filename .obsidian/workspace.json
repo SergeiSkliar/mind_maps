@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "databases/sql working scripts.md",
+                "file": "books/books.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sql working scripts"
+              "title": "books"
             }
           }
         ],
@@ -215,8 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bd28cfe41c0bdc1e",
@@ -232,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "databases/sql working scripts.md",
+                "file": "books/books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +241,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for sql working scripts"
+              "title": "Backlinks for books"
             }
           },
           {
@@ -283,8 +282,19 @@
               "icon": "lucide-list",
               "title": "Outline of sql working scripts"
             }
+          },
+          {
+            "id": "de1ac50db22d92d8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -307,10 +317,13 @@
   },
   "active": "012139dcd817ac25",
   "lastOpenFiles": [
+    "books/files/lu125363t1dze.tmp",
+    "databases/sql working scripts.md",
+    "Excalidraw/Drawing 2025-09-05 16.57.52.excalidraw.md",
+    "Excalidraw",
     "databases/SQL.md",
     "books/books.md",
     "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences/Readings.md",
-    "databases/sql working scripts.md",
     "Courses/Journey of the Universe/Readings.md",
     "Courses/Philosophy and the Sciences Introduction to the Philosophy of Cognitive Sciences",
     "Untitled",
@@ -321,7 +334,6 @@
     "books/files/lu2186481qajx.tmp",
     "books/files/lu80086ntmct.tmp",
     "books/files/lu85001k1p7r.tmp",
-    "books/files/lu17920140vxi.tmp",
     "Untitled.canvas",
     "databases/Untitled.md",
     "databases/databases.md",
@@ -343,8 +355,6 @@
     "Software Engineering/main/static RAM.md",
     "Software Engineering/main/time management.md",
     "Software Engineering/main/hiding structure.md",
-    "Software Engineering/main/the Law of Demeter.md",
-    "Software Engineering/main/myths and misconceptions.md",
     "Untitled 1.canvas",
     "csharp and .NET/main/files/Pasted image 20220813181327.png"
   ]
