@@ -197,8 +197,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -302,6 +302,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
@@ -317,6 +318,7 @@
   },
   "active": "012139dcd817ac25",
   "lastOpenFiles": [
+    "books/files/lu14122bqb0m.tmp",
     "books/files/lu125363t1dze.tmp",
     "databases/sql working scripts.md",
     "Excalidraw/Drawing 2025-09-05 16.57.52.excalidraw.md",
@@ -333,7 +335,6 @@
     "books/files/lu2186481qak0.tmp",
     "books/files/lu2186481qajx.tmp",
     "books/files/lu80086ntmct.tmp",
-    "books/files/lu85001k1p7r.tmp",
     "Untitled.canvas",
     "databases/Untitled.md",
     "databases/databases.md",
