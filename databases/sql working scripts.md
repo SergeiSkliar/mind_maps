@@ -184,3 +184,20 @@ FROM (select aa.L_SH,
  begin 
  end;
 ```
+
+```sql
+SELECT 
+    org,
+    ORG_NAIM,
+    androidVersion,
+    COUNT(*) AS `всего устройств по версии андроид`,
+        ROUND(
+        COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (PARTITION BY org),
+        2
+    ) AS `процент устройств`
+FROM `mk_versions_by_orgs_and_uchs`
+GROUP BY org, androidVersion
+ORDER BY org, `всего устройств по версии андроид` DESC;
+
+SELECT kod_uch as `Код участка`, org, ORG_NAIM as `Организация`, androidVersion as `Версия Андроид`, app_ver_name as `Версия МК` FROM `mk_versions_by_orgs_and_uchs` GROUP BY org, kod_uch, app_ver_name ORDER BY org, kod_uch DESC
+```
