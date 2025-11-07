@@ -107,6 +107,42 @@ END;
 commit;
 ```
 
+bulk collect 2
+```sql
+declare
+
+    cursor c_old is
+    select rowid as rid
+    from wk_t$plan_kontr
+    where dat_plan < trunc(sysdate) - 30;
+
+    type t_rowid is table of rowid;
+    v_rids t_rowid;
+
+    v_limit constant pls_integer := 10000;
+    v_total_deleted NUMBER := 0;
+
+begin
+    open c_old;
+
+    loop
+        fetch c_old bulk collect into v_rids limit v_limit;
+        exit when v_rids.count = 0;
+        
+        forall i in 1 .. v_rids.count
+            delete from wk_t$plan_kontr where rowid = v_rids(i);
+            
+        v_total_deleted := v_total_deleted + sql%rowcount;
+        commit;
+    end loop;
+    close c_old;
+    
+    DBMS_OUTPUT.PUT_LINE('Total deleted rows: ' || v_total_deleted);
+
+ end;
+ /
+```
+
 для архивации записей в mariadb:
 ```sql
 INSERT INTO tab_abon_pok_arhiv SELECT * FROM tab_abon_pok WHERE DAT_SYNX < '2024-09-01' ORDER BY DAT_SYNX;
